@@ -1,0 +1,41 @@
+diff --git a/src/com/google/javascript/jscomp/NodeUtil.java b/src/com/google/javascript/jscomp/NodeUtil.java
+index 8425cd06..62816a09 100644
+--- a/src/com/google/javascript/jscomp/NodeUtil.java
++++ b/src/com/google/javascript/jscomp/NodeUtil.java
+@@ -61,6 +61,36 @@ public final class NodeUtil {
+   // Utility class; do not instantiate.
+   private NodeUtil() {}
+ 
++    /**
++   * @return Whether the result of node evaluation is always a boolean
++   */
++  static boolean isBooleanResult(Node n) {
++    // TODO(johnlenz): Add a recursive option to recurse into
++    // AND, OR, HOOK, COMMA and ASSIGN, like "getExpressionBooleanValue".
++    switch (n.getType()) {
++      // Primitives
++      case Token.TRUE:
++      case Token.FALSE:
++      // Comparisons
++      case Token.EQ:
++      case Token.NE:
++      case Token.SHEQ:
++      case Token.SHNE:
++      case Token.LT:
++      case Token.GT:
++      case Token.LE:
++      case Token.GE:
++      // Queryies
++      case Token.IN:
++      case Token.INSTANCEOF:
++      // Inversion
++      case Token.NOT:
++        return true;
++      default:
++        return false;
++    }
++  }
++
+   /**
+    * Gets the boolean value of a node that represents a expression. This method
+    * effectively emulates the <code>Boolean()</code> JavaScript cast function.

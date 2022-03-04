@@ -1,0 +1,10 @@
+,project,bug,top_hits,top_index
+0,Chart,19,[],[]
+1,Chart,2,['DatasetUtilities#iterateRangeBounds'],[1]
+2,Chart,1,['AbstractCategoryItemRenderer#getLegendItems'],[1]
+3,Chart,4,['XYPlot#getDataRange'],[1]
+4,Chart,5,['XYSeries#addOrUpdate'],[1]
+5,Chart,8,['Week#Week'],[1]
+6,Chart,13,[],[]
+7,Chart,18,['DefaultKeyedValues#removeValue'],[4]
+8,Chart,26,['Axis#drawLabel'],[1]

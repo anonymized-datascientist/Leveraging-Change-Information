@@ -1,0 +1,11 @@
+bug,class,method,line
+53,org.apache.commons.math.complex.Complex,<clinit>,45
+53,org.apache.commons.math.complex.Complex,<clinit>,48
+53,org.apache.commons.math.complex.Complex,<clinit>,51
+53,org.apache.commons.math.complex.Complex,<clinit>,54
+53,org.apache.commons.math.complex.Complex,<init>,69
+53,org.apache.commons.math.complex.Complex,<init>,70
+53,org.apache.commons.math.complex.Complex,<init>,71
+53,org.apache.commons.math.complex.Complex,<init>,72
+53,org.apache.commons.math.complex.Complex,getImaginary,286
+53,org.apache.commons.math.complex.Complex,getReal,295

@@ -1,0 +1,10 @@
+test,test_class,test_method
+com.google.javascript.jscomp.CodePrinterTest::testPrint,com.google.javascript.jscomp.CodePrinterTest,testPrint
+com.google.javascript.jscomp.CodePrinterTest::testPrintArray,com.google.javascript.jscomp.CodePrinterTest,testPrintArray
+com.google.javascript.jscomp.CodePrinterTest::testHook,com.google.javascript.jscomp.CodePrinterTest,testHook
+com.google.javascript.jscomp.CodePrinterTest::testPrintInOperatorInForLoop,com.google.javascript.jscomp.CodePrinterTest,testPrintInOperatorInForLoop
+com.google.javascript.jscomp.CodePrinterTest::testLiteralProperty,com.google.javascript.jscomp.CodePrinterTest,testLiteralProperty
+com.google.javascript.jscomp.CodePrinterTest::testAmbiguousElseClauses,com.google.javascript.jscomp.CodePrinterTest,testAmbiguousElseClauses
+com.google.javascript.jscomp.CodePrinterTest::testLineBreak,com.google.javascript.jscomp.CodePrinterTest,testLineBreak
+com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter,com.google.javascript.jscomp.CodePrinterTest,testPrettyPrinter
+com.google.javascript.jscomp.CodePrinterTest::testPrettyPrinter2,com.google.javascript.jscomp.CodePrinterTest,testPrettyPrinter2

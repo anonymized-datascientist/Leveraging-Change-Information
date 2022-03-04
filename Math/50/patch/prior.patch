@@ -1,0 +1,15 @@
+diff --git a/src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java b/src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java
+index c89ac0e83..8df2d4edc 100644
+--- a/src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java
++++ b/src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java
+@@ -17,6 +17,10 @@
+ 
+ package org.apache.commons.math.analysis.solvers;
+ 
++import org.junit.Test;
++import org.junit.Assert;
++import org.apache.commons.math.analysis.UnivariateRealFunction;
++
+ /**
+  * Test case for {@link RegulaFalsiSolver Regula Falsi} solver.
+  *

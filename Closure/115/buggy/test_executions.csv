@@ -1,0 +1,6 @@
+test,test_class,test_method
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction1,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction1
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction2,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction2
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction3,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction3
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction4,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction4
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction5,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction5

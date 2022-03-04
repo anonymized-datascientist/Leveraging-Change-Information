@@ -1,0 +1,21 @@
+{
+    "com.google.javascript.jscomp.UnreachableCodeEliminationTest": [
+        "testIssue311",
+        "testCascadedRemovalOfUnlessUnconditonalJumps",
+        "testRemoveUnreachableCode",
+        "testRemoveUselessNameStatements",
+        "testRemoveUselessStrings",
+        "testNoRemoveUseStrict",
+        "testNoRemoveUselessNameStatements",
+        "testRemoveDo",
+        "testRemoveUselessLiteralValueStatements",
+        "testConditionalDeadCode",
+        "testSwitchCase",
+        "testTryCatchFinally",
+        "testRemovalRequiresRedeclaration",
+        "testAssignPropertyOnCreatedObject",
+        "testUnlessUnconditionalReturn",
+        "testUnlessUnconditionalContinue",
+        "testUnlessUnconditonalBreak"
+    ]
+}

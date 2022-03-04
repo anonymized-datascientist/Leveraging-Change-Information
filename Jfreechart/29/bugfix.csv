@@ -1,0 +1,7 @@
+class,method,line,bug
+src/main/java/org/jfree/chart/plot/SpiderWebPlot.java,setHeadPercent,447,Jfreechart_29
+src/main/java/org/jfree/chart/plot/SpiderWebPlot.java,setHeadPercent,448,Jfreechart_29
+src/main/java/org/jfree/chart/plot/SpiderWebPlot.java,setHeadPercent,449,Jfreechart_29
+src/main/java/org/jfree/chart/plot/SpiderWebPlot.java,setHeadPercent,450,Jfreechart_29
+src/main/java/org/jfree/data/time/Week.java,Week,132,Jfreechart_29
+src/main/java/org/jfree/data/time/Week.java,Week,148,Jfreechart_29

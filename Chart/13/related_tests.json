@@ -1,0 +1,9 @@
+{
+    "org.jfree.chart.block.junit.BorderArrangementTests": [
+        "testSizingWithWidthConstraint",
+        "testEquals",
+        "testCloning",
+        "testSerialization",
+        "testSizing"
+    ]
+}

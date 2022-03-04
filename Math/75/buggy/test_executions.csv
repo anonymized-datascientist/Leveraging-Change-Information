@@ -1,0 +1,8 @@
+test,test_class,test_method
+org.apache.commons.math.stat.FrequencyTest::testCounts,org.apache.commons.math.stat.FrequencyTest,testCounts
+org.apache.commons.math.stat.FrequencyTest::testAdd,org.apache.commons.math.stat.FrequencyTest,testAdd
+org.apache.commons.math.stat.FrequencyTest::testAddNonComparable,org.apache.commons.math.stat.FrequencyTest,testAddNonComparable
+org.apache.commons.math.stat.FrequencyTest::testEmptyTable,org.apache.commons.math.stat.FrequencyTest,testEmptyTable
+org.apache.commons.math.stat.FrequencyTest::testToString,org.apache.commons.math.stat.FrequencyTest,testToString
+org.apache.commons.math.stat.FrequencyTest::testIntegerValues,org.apache.commons.math.stat.FrequencyTest,testIntegerValues
+org.apache.commons.math.stat.FrequencyTest::testSerial,org.apache.commons.math.stat.FrequencyTest,testSerial

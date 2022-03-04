@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testPrimitiveAdd,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testPrimitiveAdd
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testTanAtan,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testTanAtan
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testSqrtDefinition,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testSqrtDefinition
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testAdd,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testAdd
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testExp,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testExp
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testLog,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testLog
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testPow,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testPow
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testWrongVariableIndex,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testWrongVariableIndex
+org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest::testSubtract,org.apache.commons.math3.analysis.differentiation.DerivativeStructureTest,testSubtract

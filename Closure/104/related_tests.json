@@ -1,0 +1,16 @@
+{
+    "com.google.javascript.rhino.jstype.UnionTypeTest": [
+        "testGreatestSubtypeUnionTypes5",
+        "testUnionType",
+        "testGreatestSubtypeUnionTypes1",
+        "testGreatestSubtypeUnionTypes2",
+        "testGreatestSubtypeUnionTypes3",
+        "testGreatestSubtypeUnionTypes4",
+        "testSubtypingUnionTypes",
+        "testSpecialUnionCanAssignTo",
+        "testCreateUnionType",
+        "testUnionWithUnknown",
+        "testGetRestrictedUnion1",
+        "testGetRestrictedUnion2"
+    ]
+}

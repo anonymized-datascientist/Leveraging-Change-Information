@@ -1,0 +1,6 @@
+{
+    "org.apache.commons.math.ode.nonstiff.AdamsMoultonIntegratorTest": [
+        "testMinStep",
+        "testIncreasingTolerance"
+    ]
+}

@@ -1,0 +1,5 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,getFieldFromCache,1217,Fastjson_42
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,getFieldFromCache,1218,Fastjson_42
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,getFieldFromCache,1220,Fastjson_42
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,getFieldFromCache,1230,Fastjson_42

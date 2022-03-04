@@ -1,0 +1,11 @@
+{
+    "org.apache.commons.math.stat.FrequencyTest": [
+        "testAddNonComparable",
+        "testCounts",
+        "testPcts",
+        "testAdd",
+        "testEmptyTable",
+        "testToString",
+        "testIntegerValues"
+    ]
+}

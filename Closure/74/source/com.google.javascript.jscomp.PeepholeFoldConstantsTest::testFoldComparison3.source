@@ -1,0 +1,21 @@
+public void testFoldComparison3() {
+    fold("x = !1 == !0", "x = false");
+    fold("x = !0 == !0", "x = true");
+    fold("x = !1 == !1", "x = true");
+    fold("x = !1 == null", "x = false");
+    fold("x = !1 == !0", "x = false");
+    fold("x = !0 == null", "x = false");
+    fold("!0 == !0", "true");
+    fold("!1 == null", "false");
+    fold("!1 == !0", "false");
+    fold("!0 == null", "false");
+    fold("x = !0 === !0", "x = true");
+    fold("x = !1 === !1", "x = true");
+    fold("x = !1 === null", "x = false");
+    fold("x = !1 === !0", "x = false");
+    fold("x = !0 === null", "x = false");
+    fold("!0 === !0", "true");
+    fold("!1 === null", "false");
+    fold("!1 === !0", "false");
+    fold("!0 === null", "false");
+}

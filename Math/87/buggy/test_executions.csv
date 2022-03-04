@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testMath272,org.apache.commons.math.optimization.linear.SimplexSolverTest,testMath272
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testSimplexSolver,org.apache.commons.math.optimization.linear.SimplexSolverTest,testSimplexSolver
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testModelWithNoArtificialVars,org.apache.commons.math.optimization.linear.SimplexSolverTest,testModelWithNoArtificialVars
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testMinimization,org.apache.commons.math.optimization.linear.SimplexSolverTest,testMinimization
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testSolutionWithNegativeDecisionVariable,org.apache.commons.math.optimization.linear.SimplexSolverTest,testSolutionWithNegativeDecisionVariable
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testInfeasibleSolution,org.apache.commons.math.optimization.linear.SimplexSolverTest,testInfeasibleSolution
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testUnboundedSolution,org.apache.commons.math.optimization.linear.SimplexSolverTest,testUnboundedSolution
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testRestrictVariablesToNonNegative,org.apache.commons.math.optimization.linear.SimplexSolverTest,testRestrictVariablesToNonNegative
+org.apache.commons.math.optimization.linear.SimplexSolverTest::testEpsilon,org.apache.commons.math.optimization.linear.SimplexSolverTest,testEpsilon

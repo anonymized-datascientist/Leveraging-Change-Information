@@ -1,0 +1,15 @@
+diff --git a/src/test/java/org/apache/commons/math3/optimization/univariate/BrentOptimizerTest.java b/src/test/java/org/apache/commons/math3/optimization/univariate/BrentOptimizerTest.java
+index bf59e02bb..ecafdce3c 100644
+--- a/src/test/java/org/apache/commons/math3/optimization/univariate/BrentOptimizerTest.java
++++ b/src/test/java/org/apache/commons/math3/optimization/univariate/BrentOptimizerTest.java
+@@ -16,7 +16,9 @@
+  */
+ package org.apache.commons.math3.optimization.univariate;
+ 
+-
++import org.apache.commons.math3.analysis.FunctionUtils;
++import org.apache.commons.math3.analysis.function.Sin;
++import org.apache.commons.math3.analysis.function.StepFunction;
+ import org.apache.commons.math3.exception.NumberIsTooLargeException;
+ import org.apache.commons.math3.exception.NumberIsTooSmallException;
+ import org.apache.commons.math3.exception.TooManyEvaluationsException;

@@ -1,0 +1,28 @@
+diff --git a/src/java/org/apache/commons/lang/text/StrBuilder.java b/src/java/org/apache/commons/lang/text/StrBuilder.java
+index 3b6f9e49..07ee0d5a 100644
+--- a/src/java/org/apache/commons/lang/text/StrBuilder.java
++++ b/src/java/org/apache/commons/lang/text/StrBuilder.java
+@@ -2277,7 +2277,7 @@ public class StrBuilder implements Cloneable {
+         }
+ 
+         /** @inheritdoc */
+-        public void write(int c) {
++        public void write(int c) throws java.io.IOException {
+             append((char) c);
+         }
+ 
+@@ -2292,12 +2292,12 @@ public class StrBuilder implements Cloneable {
+         }
+ 
+         /** @inheritdoc */
+-        public void write(String str) {
++        public void write(String str) throws java.io.IOException {
+             append(str);
+         }
+ 
+         /** @inheritdoc */
+-        public void write(String str, int off, int len) {
++        public void write(String str, int off, int len) throws java.io.IOException {
+             append(str, off, len);
+         }
+     }

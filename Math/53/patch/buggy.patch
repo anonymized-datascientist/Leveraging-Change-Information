@@ -1,0 +1,25 @@
+diff --git a/src/test/org/apache/commons/math/complex/ComplexTest.java b/src/test/org/apache/commons/math/complex/ComplexTest.java
+index d6c09af93..0368f4e58 100644
+--- a/src/test/org/apache/commons/math/complex/ComplexTest.java
++++ b/src/test/org/apache/commons/math/complex/ComplexTest.java
+@@ -16,6 +16,7 @@
+ package org.apache.commons.math.complex;
+ 
+ import junit.framework.TestCase;
++import org.junit.Assert;
+ 
+ /**
+  * @version $Revision$ $Date$
+diff --git a/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java b/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
+index 2bb3df5bf..3e0cc6161 100644
+--- a/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
++++ b/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
+@@ -34,7 +34,7 @@ public class NormalDistributionTest extends ContinuousDistributionAbstractTest
+     }
+     
+     public static void main(String[] args) {
+-        junit.swingui.TestRunner.run(NormalDistributionTest.class);
++        // junit.swingui.TestRunner.run(NormalDistributionTest.class);
+     }
+     
+     //-------------- Implementations for abstract methods -----------------------

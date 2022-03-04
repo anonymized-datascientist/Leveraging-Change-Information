@@ -1,0 +1,17 @@
+file,method,line
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,330
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,331
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,332
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,333
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,334
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,335
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,336
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,337
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,338
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,339
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,340
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,341
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,342
+src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java,getDecisionVariableValue,343
+src/test/org/apache/commons/math/optimization/linear/SimplexSolverTest.java,testTrivialModel,146
+src/test/org/apache/commons/math/optimization/linear/SimplexSolverTest.java,testLargeModel,279

@@ -1,0 +1,5 @@
+public void testIssue4177428_continue() {
+    testSame("f = function() {\n" + "  var action;\n" + "  a: do {\n" + "    var proto = null;\n" + "    try {\n" + "      proto = new Proto\n" + "    } finally {\n" + "      action = proto;\n" + // Keep this...
+    "      continue a\n" + "    }\n" + "  } while(false)\n" + // and this.
+    "  alert(action)\n" + "};");
+}

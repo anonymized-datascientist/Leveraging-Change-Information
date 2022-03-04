@@ -1,0 +1,11 @@
+test,test_class,test_method
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNamedType4,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseNamedType4
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNamedType5,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseNamedType5
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNamedType6,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseNamedType6
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNamedTypeError1,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseNamedTypeError1
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseNamedTypeError2,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseNamedTypeError2
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTypedefType1,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testTypedefType1
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTypedefType2,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testTypedefType2
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testTypedefType3,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testTypedefType3
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseStringType1,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseStringType1
+com.google.javascript.jscomp.parsing.JsDocInfoParserTest::testParseStringType2,com.google.javascript.jscomp.parsing.JsDocInfoParserTest,testParseStringType2

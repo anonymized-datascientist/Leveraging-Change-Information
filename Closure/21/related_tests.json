@@ -1,0 +1,12 @@
+{
+    "com.google.javascript.jscomp.CheckSideEffectsTest": [
+        "testUselessCode",
+        "test",
+        "test",
+        "testUselessCodeInFor",
+        "testTypeAnnotations",
+        "testJSDocComments",
+        "testIssue80",
+        "testIsue504"
+    ]
+}

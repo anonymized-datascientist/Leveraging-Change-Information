@@ -1,0 +1,16 @@
+package,class,method,parameter,line,bug
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",342,21
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",343,21
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",344,21
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",347,21
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",351,21
+org.jfree.data.general,DatasetUtils,createCategoryDataset,"java.lang.Comparable[],java.lang.Comparable[],double[][]",352,21
+org.jfree.chart.util,Args,nullNotPermitted,"java.lang.Object,java.lang.String",55,21
+org.jfree.chart.util,Args,nullNotPermitted,"java.lang.Object,java.lang.String",58,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],147,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],148,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],149,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],150,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],151,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],152,21
+org.jfree.chart.util,ArrayUtils,hasDuplicateItems,java.lang.Object[],158,21

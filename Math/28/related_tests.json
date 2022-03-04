@@ -1,0 +1,30 @@
+{
+    "org.apache.commons.math3.optimization.linear.SimplexSolverTest": [
+        "testMath828Cycle",
+        "testMath828",
+        "testMath781",
+        "testMath713NegativeVariable",
+        "testMath434NegativeVariable",
+        "testMath434UnfeasibleSolution",
+        "testMath434PivotRowSelection",
+        "testMath434PivotRowSelection2",
+        "testMath272",
+        "testMath286",
+        "testDegeneracy",
+        "testMath288",
+        "testMath290GEQ",
+        "testMath290LEQ",
+        "testMath293",
+        "testSimplexSolver",
+        "testSingleVariableAndConstraint",
+        "testModelWithNoArtificialVars",
+        "testMinimization",
+        "testSolutionWithNegativeDecisionVariable",
+        "testInfeasibleSolution",
+        "testUnboundedSolution",
+        "testRestrictVariablesToNonNegative",
+        "testEpsilon",
+        "testTrivialModel",
+        "testLargeModel"
+    ]
+}

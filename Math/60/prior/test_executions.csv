@@ -1,0 +1,9 @@
+test,test_class,test_method
+org.apache.commons.math.distribution.NormalDistributionTest::makeCumulativeTestPoints,org.apache.commons.math.distribution.NormalDistributionTest,makeCumulativeTestPoints
+org.apache.commons.math.distribution.NormalDistributionTest::makeCumulativeTestValues,org.apache.commons.math.distribution.NormalDistributionTest,makeCumulativeTestValues
+org.apache.commons.math.distribution.NormalDistributionTest::testQuantiles,org.apache.commons.math.distribution.NormalDistributionTest,testQuantiles
+org.apache.commons.math.distribution.NormalDistributionTest::testInverseCumulativeProbabilityExtremes,org.apache.commons.math.distribution.NormalDistributionTest,testInverseCumulativeProbabilityExtremes
+org.apache.commons.math.distribution.NormalDistributionTest::testGetMean,org.apache.commons.math.distribution.NormalDistributionTest,testGetMean
+org.apache.commons.math.distribution.NormalDistributionTest::testSetMean,org.apache.commons.math.distribution.NormalDistributionTest,testSetMean
+org.apache.commons.math.distribution.NormalDistributionTest::testGetStandardDeviation,org.apache.commons.math.distribution.NormalDistributionTest,testGetStandardDeviation
+org.apache.commons.math.distribution.NormalDistributionTest::testSetStandardDeviation,org.apache.commons.math.distribution.NormalDistributionTest,testSetStandardDeviation

@@ -1,0 +1,32 @@
+{
+    "org.jfree.data.general.junit.DatasetUtilitiesTests": [
+        "testBug2849731_3",
+        "testBug2849731_2",
+        "testCalculatePieDatasetTotal",
+        "testFindDomainBounds",
+        "testIterateDomainBounds",
+        "testFindRangeBounds1",
+        "testFindRangeBounds2",
+        "testIterateCategoryRangeBounds",
+        "testIterateXYRangeBounds",
+        "testIterateXYRangeBounds2",
+        "testFindMinimumDomainValue",
+        "testFindMaximumDomainValue",
+        "testFindMinimumRangeValue",
+        "testFindMaximumRangeValue",
+        "testMinMaxRange",
+        "test803660",
+        "testCumulativeRange1",
+        "testCumulativeRange2",
+        "testCreateCategoryDataset1",
+        "testCreateCategoryDataset2",
+        "testMaximumStackedRangeValue",
+        "testFindStackedRangeBoundsForCategoryDataset1",
+        "testFindStackedRangeBoundsForCategoryDataset2",
+        "testFindStackedRangeBoundsForTableXYDataset1",
+        "testFindStackedRangeBoundsForTableXYDataset2",
+        "testStackedRangeWithMap",
+        "testIsEmptyOrNullXYDataset",
+        "testLimitPieDataset"
+    ]
+}

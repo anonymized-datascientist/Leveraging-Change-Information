@@ -1,0 +1,45 @@
+diff --git a/build.xml b/build.xml
+index 7ea0ad10..88c7c4bd 100644
+--- a/build.xml
++++ b/build.xml
+@@ -43,7 +43,7 @@
+   <property name="jodaprevious.jar"        value="${lib}/joda-time-${previous.version}.jar"/>
+ 
+   <!-- The directory of source files -->
+-  <property name="source"                  value="src"/>
++  <property name="source"                  value="JodaTime/src"/>
+   <property name="source.home"             value="${source}/main/java"/>
+   <property name="source.tz"               value="${source.home}/org/joda/time/tz/src"/>
+   <property name="conf.home"               value="${source}/conf"/>
+diff --git a/JodaTime/src/main/java/org/joda/time/format/DateTimeFormatter.java b/JodaTime/src/main/java/org/joda/time/format/DateTimeFormatter.java
+index bbb1e5ce..c7700c01 100644
+--- a/JodaTime/src/main/java/org/joda/time/format/DateTimeFormatter.java
++++ b/JodaTime/src/main/java/org/joda/time/format/DateTimeFormatter.java
+@@ -884,4 +884,27 @@ public class DateTimeFormatter {
+         return chrono;
+     }
+ 
++    //-----------------------------------------------------------------------
++    /**
++     * Returns a new formatter that will use the specified default year.
++     * <p>
++     * The default year is used when parsing in the case where there is a
++     * month or a day but not a year. Specifically, it is used if there is
++     * a field parsed with a duration between the length of a month and the
++     * length of a day inclusive.
++     * <p>
++     * This value is typically used to move the year from 1970 to a leap year
++     * to enable February 29th to be parsed.
++     * Unless customised, the year 2000 is used.
++     * <p>
++     * This setting has no effect when printing.
++     *
++     * @param defaultYear  the default year to use
++     * @return the new formatter, not null
++     * @since 2.0
++     */
++    public DateTimeFormatter withDefaultYear(int defaultYear) {
++        return new DateTimeFormatter(iPrinter, iParser, iLocale,
++                iOffsetParsed, iChrono, iZone, iPivotYear, defaultYear);
++    }
+ }

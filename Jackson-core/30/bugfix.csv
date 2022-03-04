@@ -1,0 +1,3 @@
+class,method,line,bug
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,199,Jackson-core_30
+src/test/java/com/fasterxml/jackson/core/sym/TestJsonParserSymbols.java,byteSymbolCount,24,Jackson-core_30

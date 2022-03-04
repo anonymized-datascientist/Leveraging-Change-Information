@@ -1,0 +1,9 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java,parseObject,529,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java,parseObject,530,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java,parseObject,531,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java,parseObject,532,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/DefaultJSONParser.java,parseObject,533,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/deserializer/MapDeserializer.java,deserialze,32,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/deserializer/MapDeserializer.java,deserialze,33,Fastjson_66
+src/main/java/com/alibaba/fastjson/parser/deserializer/MapDeserializer.java,deserialze,34,Fastjson_66

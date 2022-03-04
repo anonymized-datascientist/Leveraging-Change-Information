@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.lang.time.DateUtilsTest::testAddMinutes,org.apache.commons.lang.time.DateUtilsTest,testAddMinutes
+org.apache.commons.lang.time.DateUtilsTest::testMonthIterator,org.apache.commons.lang.time.DateUtilsTest,testMonthIterator
+org.apache.commons.lang.time.DateUtilsTest::testTruncate,org.apache.commons.lang.time.DateUtilsTest,testTruncate
+org.apache.commons.lang.time.DateUtilsTest::testIsSameLocalTime_Cal,org.apache.commons.lang.time.DateUtilsTest,testIsSameLocalTime_Cal
+org.apache.commons.lang.time.DateUtilsTest::testAddDays,org.apache.commons.lang.time.DateUtilsTest,testAddDays
+org.apache.commons.lang.time.DateUtilsTest::testRound,org.apache.commons.lang.time.DateUtilsTest,testRound
+org.apache.commons.lang.time.DateUtilsTest::testParseDate,org.apache.commons.lang.time.DateUtilsTest,testParseDate
+org.apache.commons.lang.time.DateUtilsTest::testAddSeconds,org.apache.commons.lang.time.DateUtilsTest,testAddSeconds
+org.apache.commons.lang.time.DateUtilsTest::testAddHours,org.apache.commons.lang.time.DateUtilsTest,testAddHours

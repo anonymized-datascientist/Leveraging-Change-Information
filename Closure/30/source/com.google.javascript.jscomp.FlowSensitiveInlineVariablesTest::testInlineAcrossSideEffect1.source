@@ -1,0 +1,8 @@
+public void testInlineAcrossSideEffect1() {
+    // This can't be inlined because print() has side-effects and might change
+    // the definition of noSFX.
+    // 
+    // noSFX must be both const and pure in order to inline it.
+    noInline("var y; var x = noSFX(y); print(x)");
+// inline("var y; var x = noSFX(y); print(x)", "var y;var x;print(noSFX(y))");
+}

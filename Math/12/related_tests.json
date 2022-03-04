@@ -1,0 +1,17 @@
+{
+    "org.apache.commons.math3.distribution.NormalDistributionTest": [
+        "testDistributionClone",
+        "makeCumulativeTestPoints",
+        "makeCumulativeTestValues",
+        "makeDensityTestValues",
+        "testQuantiles",
+        "testInverseCumulativeProbabilityExtremes",
+        "testGetMean",
+        "testGetStandardDeviation",
+        "testPreconditions",
+        "testDensity",
+        "testExtremeValues",
+        "testMath280",
+        "testMoments"
+    ]
+}

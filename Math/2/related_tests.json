@@ -1,0 +1,19 @@
+{
+    "org.apache.commons.math.distribution.HypergeometricDistributionTest": [
+        "testMath1021",
+        "testLargeValues",
+        "testDegenerateNoFailures",
+        "testAccessors",
+        "testPreconditions",
+        "testDegenerateNoSuccesses",
+        "testDegenerateFullSample",
+        "testMoments",
+        "testMoreLargeValues",
+        "testDensities",
+        "testInverseCumulativeProbabilities",
+        "testSampling",
+        "testCumulativeProbabilities",
+        "testIllegalArguments",
+        "testConsistencyAtSupportBounds"
+    ]
+}

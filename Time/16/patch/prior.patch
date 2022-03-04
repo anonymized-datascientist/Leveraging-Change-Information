@@ -1,0 +1,13 @@
+diff --git a/build.xml b/build.xml
+index 7ea0ad10..88c7c4bd 100644
+--- a/build.xml
++++ b/build.xml
+@@ -43,7 +43,7 @@
+   <property name="jodaprevious.jar"        value="${lib}/joda-time-${previous.version}.jar"/>
+ 
+   <!-- The directory of source files -->
+-  <property name="source"                  value="src"/>
++  <property name="source"                  value="JodaTime/src"/>
+   <property name="source.home"             value="${source}/main/java"/>
+   <property name="source.tz"               value="${source.home}/org/joda/time/tz/src"/>
+   <property name="conf.home"               value="${source}/conf"/>

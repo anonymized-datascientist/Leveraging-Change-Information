@@ -1,0 +1,1240 @@
+bug,class,method,line,path,line_source
+11,org.joda.time.Chronology,<init>,63,/JodaTime/src/main/java/org/joda/time/Chronology.java,public abstract class Chronology {
+11,org.joda.time.DateTimeField,<init>,33,/JodaTime/src/main/java/org/joda/time/DateTimeField.java,public abstract class DateTimeField {
+11,org.joda.time.DateTimeFieldType,<clinit>,72,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType ERA_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,75,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType YEAR_OF_ERA_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,78,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType CENTURY_OF_ERA_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,81,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType YEAR_OF_CENTURY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,84,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType YEAR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,87,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType DAY_OF_YEAR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,90,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType MONTH_OF_YEAR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,93,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType DAY_OF_MONTH_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,96,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType WEEKYEAR_OF_CENTURY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,99,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType WEEKYEAR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,102,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType WEEK_OF_WEEKYEAR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,105,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType DAY_OF_WEEK_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,109,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType HALFDAY_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,112,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType HOUR_OF_HALFDAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,115,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType CLOCKHOUR_OF_HALFDAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,118,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType CLOCKHOUR_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,121,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType HOUR_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,124,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType MINUTE_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,127,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType MINUTE_OF_HOUR_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,130,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType SECOND_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,133,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType SECOND_OF_MINUTE_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,136,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType MILLIS_OF_DAY_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<clinit>,139,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,private static final DateTimeFieldType MILLIS_OF_SECOND_TYPE = new StandardDateTimeFieldType(
+11,org.joda.time.DateTimeFieldType,<init>,152,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,super();
+11,org.joda.time.DateTimeFieldType,<init>,153,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,iName = name;
+11,org.joda.time.DateTimeFieldType,<init>,154,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,}
+11,org.joda.time.DateTimeFieldType,centuryOfEra,353,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return CENTURY_OF_ERA_TYPE;
+11,org.joda.time.DateTimeFieldType,clockhourOfDay,226,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return CLOCKHOUR_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,clockhourOfHalfday,244,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return CLOCKHOUR_OF_HALFDAY_TYPE;
+11,org.joda.time.DateTimeFieldType,dayOfMonth,272,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return DAY_OF_MONTH_TYPE;
+11,org.joda.time.DateTimeFieldType,dayOfWeek,263,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return DAY_OF_WEEK_TYPE;
+11,org.joda.time.DateTimeFieldType,dayOfYear,281,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return DAY_OF_YEAR_TYPE;
+11,org.joda.time.DateTimeFieldType,era,362,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return ERA_TYPE;
+11,org.joda.time.DateTimeFieldType,halfdayOfDay,253,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return HALFDAY_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,hourOfDay,217,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return HOUR_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,hourOfHalfday,235,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return HOUR_OF_HALFDAY_TYPE;
+11,org.joda.time.DateTimeFieldType,millisOfDay,172,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return MILLIS_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,millisOfSecond,163,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return MILLIS_OF_SECOND_TYPE;
+11,org.joda.time.DateTimeFieldType,minuteOfDay,208,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return MINUTE_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,minuteOfHour,199,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return MINUTE_OF_HOUR_TYPE;
+11,org.joda.time.DateTimeFieldType,monthOfYear,317,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return MONTH_OF_YEAR_TYPE;
+11,org.joda.time.DateTimeFieldType,secondOfDay,190,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return SECOND_OF_DAY_TYPE;
+11,org.joda.time.DateTimeFieldType,secondOfMinute,181,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return SECOND_OF_MINUTE_TYPE;
+11,org.joda.time.DateTimeFieldType,weekOfWeekyear,290,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return WEEK_OF_WEEKYEAR_TYPE;
+11,org.joda.time.DateTimeFieldType,weekyear,299,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return WEEKYEAR_TYPE;
+11,org.joda.time.DateTimeFieldType,weekyearOfCentury,308,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return WEEKYEAR_OF_CENTURY_TYPE;
+11,org.joda.time.DateTimeFieldType,year,326,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return YEAR_TYPE;
+11,org.joda.time.DateTimeFieldType,yearOfCentury,344,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return YEAR_OF_CENTURY_TYPE;
+11,org.joda.time.DateTimeFieldType,yearOfEra,335,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return YEAR_OF_ERA_TYPE;
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,<init>,443,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,super(name);
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,<init>,444,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,iOrdinal = ordinal;
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,<init>,445,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,iUnitType = unitType;
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,<init>,446,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,iRangeType = rangeType;
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,<init>,447,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,}
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,getDurationType,451,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return iUnitType;
+11,org.joda.time.DateTimeFieldType$StandardDateTimeFieldType,getRangeDurationType,456,/JodaTime/src/main/java/org/joda/time/DateTimeFieldType.java,return iRangeType;
+11,org.joda.time.DateTimeUtils,<clinit>,35,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,private static final SystemMillisProvider SYSTEM_MILLIS_PROVIDER = new SystemMillisProvider();
+11,org.joda.time.DateTimeUtils,<clinit>,37,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,private static volatile MillisProvider cMillisProvider = SYSTEM_MILLIS_PROVIDER;
+11,org.joda.time.DateTimeUtils,currentTimeMillis,56,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return cMillisProvider.getMillis();
+11,org.joda.time.DateTimeUtils,getChronology,252,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,if (chrono == null) {
+11,org.joda.time.DateTimeUtils,getChronology,253,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return ISOChronology.getInstance();
+11,org.joda.time.DateTimeUtils,getChronology,255,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return chrono;
+11,org.joda.time.DateTimeUtils,getPeriodType,286,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,if (type == null) {
+11,org.joda.time.DateTimeUtils,getPeriodType,287,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return PeriodType.standard();
+11,org.joda.time.DateTimeUtils,getPeriodType,289,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return type;
+11,org.joda.time.DateTimeUtils$SystemMillisProvider,<init>,393,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,static class SystemMillisProvider implements MillisProvider {
+11,org.joda.time.DateTimeUtils$SystemMillisProvider,getMillis,399,/JodaTime/src/main/java/org/joda/time/DateTimeUtils.java,return System.currentTimeMillis();
+11,org.joda.time.DateTimeZone,<clinit>,93,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"public static final DateTimeZone UTC = new FixedDateTimeZone(""UTC"", ""UTC"", 0, 0);"
+11,org.joda.time.DateTimeZone,<clinit>,113,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,setProvider0(null);
+11,org.joda.time.DateTimeZone,<clinit>,114,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,setNameProvider0(null);
+11,org.joda.time.DateTimeZone,<clinit>,115,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,<init>,673,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,<init>,674,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,// Instance fields and methods
+11,org.joda.time.DateTimeZone,<init>,677,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,private final String iID;
+11,org.joda.time.DateTimeZone,<init>,678,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,forID,189,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"* Short ids, as accepted by {@link java.util.TimeZone}, are not accepted."
+11,org.joda.time.DateTimeZone,forID,192,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* <p>
+11,org.joda.time.DateTimeZone,forID,195,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,*
+11,org.joda.time.DateTimeZone,forID,196,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"* @param id  the ID of the datetime zone, null means default"
+11,org.joda.time.DateTimeZone,forID,197,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* @return the DateTimeZone object for the ID
+11,org.joda.time.DateTimeZone,getDefault,124,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* <p>
+11,org.joda.time.DateTimeZone,getDefault,125,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* NOTE: If the {@code java.util.TimeZone} default is updated <i>after</i> calling this
+11,org.joda.time.DateTimeZone,getDefault,126,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"* method, then the change will not be picked up here."
+11,org.joda.time.DateTimeZone,getDefault,127,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,*
+11,org.joda.time.DateTimeZone,getDefault,128,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* @return the default datetime zone object
+11,org.joda.time.DateTimeZone,getDefault,129,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,*/
+11,org.joda.time.DateTimeZone,getDefault,132,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,if (zone == null) {
+11,org.joda.time.DateTimeZone,getDefault,135,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,if (zone == null) {
+11,org.joda.time.DateTimeZone,getDefault,136,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,DateTimeZone temp = null;
+11,org.joda.time.DateTimeZone,getDefault,141,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,temp = forID(id);
+11,org.joda.time.DateTimeZone,getDefault,142,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,getDefault,145,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,getDefault,147,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,temp = forTimeZone(TimeZone.getDefault());
+11,org.joda.time.DateTimeZone,getDefault,149,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,} catch (IllegalArgumentException ex) {
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,514,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,cNameProvider = nameProvider;
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,516,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,517,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,/**
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,527,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,try {
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,529,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,if (providerClass != null) {
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,530,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,try {
+11,org.joda.time.DateTimeZone,getDefaultNameProvider,533,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,Thread thread = Thread.currentThread();
+11,org.joda.time.DateTimeZone,getDefaultProvider,428,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,getDefaultProvider,431,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* Gets the default zone provider.
+11,org.joda.time.DateTimeZone,getDefaultProvider,433,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* Tries the system property <code>org.joda.time.DateTimeZone.Provider</code>.
+11,org.joda.time.DateTimeZone,getDefaultProvider,443,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,String providerClass =
+11,org.joda.time.DateTimeZone,getDefaultProvider,445,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,if (providerClass != null) {
+11,org.joda.time.DateTimeZone,getDefaultProvider,447,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,provider = (Provider) Class.forName(providerClass).newInstance();
+11,org.joda.time.DateTimeZone,getDefaultProvider,451,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,getDefaultProvider,454,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,// ignored
+11,org.joda.time.DateTimeZone,getDefaultProvider,458,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,try {
+11,org.joda.time.DateTimeZone,getID,689,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,iID = id;
+11,org.joda.time.DateTimeZone,setDefault,160,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setDefault,161,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,setDefault,164,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* <p>
+11,org.joda.time.DateTimeZone,setDefault,167,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"* @param zone  the default datetime zone object, must not be null"
+11,org.joda.time.DateTimeZone,setDefault,168,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* @throws IllegalArgumentException if the zone is null
+11,org.joda.time.DateTimeZone,setDefault,169,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,* @throws SecurityException if the application has insufficient security rights
+11,org.joda.time.DateTimeZone,setDefault,170,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,*/
+11,org.joda.time.DateTimeZone,setNameProvider0,499,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"sm.checkPermission(new JodaTimePermission(""DateTimeZone.setNameProvider""));"
+11,org.joda.time.DateTimeZone,setNameProvider0,500,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setNameProvider0,502,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setNameProvider0,503,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,setProvider0,400,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"sm.checkPermission(new JodaTimePermission(""DateTimeZone.setProvider""));"
+11,org.joda.time.DateTimeZone,setProvider0,401,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setProvider0,403,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setProvider0,404,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,
+11,org.joda.time.DateTimeZone,setProvider0,408,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,"* @param provider  provider to use, or null for default"
+11,org.joda.time.DateTimeZone,setProvider0,411,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,private static void setProvider0(Provider provider) {
+11,org.joda.time.DateTimeZone,setProvider0,414,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,}
+11,org.joda.time.DateTimeZone,setProvider0,415,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,Set<String> ids = provider.getAvailableIDs();
+11,org.joda.time.DateTimeZone,setProvider0,416,/JodaTime/src/main/java/org/joda/time/DateTimeZone.java,if (ids == null || ids.size() == 0) {
+11,org.joda.time.DurationField,<init>,30,/JodaTime/src/main/java/org/joda/time/DurationField.java,public abstract class DurationField implements Comparable<DurationField> {
+11,org.joda.time.DurationFieldType,<clinit>,60,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType ERAS_TYPE = new StandardDurationFieldType(""eras"", ERAS);"
+11,org.joda.time.DurationFieldType,<clinit>,62,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType CENTURIES_TYPE = new StandardDurationFieldType(""centuries"", CENTURIES);"
+11,org.joda.time.DurationFieldType,<clinit>,64,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType WEEKYEARS_TYPE = new StandardDurationFieldType(""weekyears"", WEEKYEARS);"
+11,org.joda.time.DurationFieldType,<clinit>,66,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType YEARS_TYPE = new StandardDurationFieldType(""years"", YEARS);"
+11,org.joda.time.DurationFieldType,<clinit>,68,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType MONTHS_TYPE = new StandardDurationFieldType(""months"", MONTHS);"
+11,org.joda.time.DurationFieldType,<clinit>,70,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType WEEKS_TYPE = new StandardDurationFieldType(""weeks"", WEEKS);"
+11,org.joda.time.DurationFieldType,<clinit>,72,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType DAYS_TYPE = new StandardDurationFieldType(""days"", DAYS);"
+11,org.joda.time.DurationFieldType,<clinit>,74,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType HALFDAYS_TYPE = new StandardDurationFieldType(""halfdays"", HALFDAYS);"
+11,org.joda.time.DurationFieldType,<clinit>,76,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType HOURS_TYPE = new StandardDurationFieldType(""hours"", HOURS);"
+11,org.joda.time.DurationFieldType,<clinit>,78,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType MINUTES_TYPE = new StandardDurationFieldType(""minutes"", MINUTES);"
+11,org.joda.time.DurationFieldType,<clinit>,80,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType SECONDS_TYPE = new StandardDurationFieldType(""seconds"", SECONDS);"
+11,org.joda.time.DurationFieldType,<clinit>,82,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,"static final DurationFieldType MILLIS_TYPE = new StandardDurationFieldType(""millis"", MILLIS);"
+11,org.joda.time.DurationFieldType,<init>,94,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,super();
+11,org.joda.time.DurationFieldType,<init>,95,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,iName = name;
+11,org.joda.time.DurationFieldType,<init>,96,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,}
+11,org.joda.time.DurationFieldType,centuries,196,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return CENTURIES_TYPE;
+11,org.joda.time.DurationFieldType,days,151,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return DAYS_TYPE;
+11,org.joda.time.DurationFieldType,eras,205,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return ERAS_TYPE;
+11,org.joda.time.DurationFieldType,halfdays,141,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return HALFDAYS_TYPE;
+11,org.joda.time.DurationFieldType,hours,132,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return HOURS_TYPE;
+11,org.joda.time.DurationFieldType,millis,105,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return MILLIS_TYPE;
+11,org.joda.time.DurationFieldType,minutes,123,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return MINUTES_TYPE;
+11,org.joda.time.DurationFieldType,months,178,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return MONTHS_TYPE;
+11,org.joda.time.DurationFieldType,seconds,114,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return SECONDS_TYPE;
+11,org.joda.time.DurationFieldType,weeks,160,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return WEEKS_TYPE;
+11,org.joda.time.DurationFieldType,weekyears,169,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return WEEKYEARS_TYPE;
+11,org.joda.time.DurationFieldType,years,187,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return YEARS_TYPE;
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,<init>,259,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,super(name);
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,<init>,260,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,iOrdinal = ordinal;
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,<init>,261,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,}
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,getField,264,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,chronology = DateTimeUtils.getChronology(chronology);
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,getField,266,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,switch (iOrdinal) {
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,getField,274,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return chronology.years();
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,getField,276,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return chronology.months();
+11,org.joda.time.DurationFieldType$StandardDurationFieldType,getField,280,/JodaTime/src/main/java/org/joda/time/DurationFieldType.java,return chronology.days();
+11,org.joda.time.Period,<clinit>,63,/JodaTime/src/main/java/org/joda/time/Period.java,public static final Period ZERO = new Period();
+11,org.joda.time.Period,<init>,271,/JodaTime/src/main/java/org/joda/time/Period.java,"super(0L, null, null);"
+11,org.joda.time.Period,<init>,272,/JodaTime/src/main/java/org/joda/time/Period.java,}
+11,org.joda.time.Period,<init>,463,/JodaTime/src/main/java/org/joda/time/Period.java,"super(startInstant, endInstant, type, chrono);"
+11,org.joda.time.Period,<init>,464,/JodaTime/src/main/java/org/joda/time/Period.java,}
+11,org.joda.time.Period,getMonths,686,/JodaTime/src/main/java/org/joda/time/Period.java,"return getPeriodType().getIndexedField(this, PeriodType.MONTH_INDEX);"
+11,org.joda.time.Period,getYears,677,/JodaTime/src/main/java/org/joda/time/Period.java,"return getPeriodType().getIndexedField(this, PeriodType.YEAR_INDEX);"
+11,org.joda.time.PeriodType,<clinit>,56,/JodaTime/src/main/java/org/joda/time/PeriodType.java,"private static final Map<PeriodType, Object> cTypes = new HashMap<PeriodType, Object>(32);"
+11,org.joda.time.PeriodType,<clinit>,58,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int YEAR_INDEX = 0;
+11,org.joda.time.PeriodType,<clinit>,59,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int MONTH_INDEX = 1;
+11,org.joda.time.PeriodType,<clinit>,60,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int WEEK_INDEX = 2;
+11,org.joda.time.PeriodType,<clinit>,61,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int DAY_INDEX = 3;
+11,org.joda.time.PeriodType,<clinit>,62,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int HOUR_INDEX = 4;
+11,org.joda.time.PeriodType,<clinit>,63,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int MINUTE_INDEX = 5;
+11,org.joda.time.PeriodType,<clinit>,64,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int SECOND_INDEX = 6;
+11,org.joda.time.PeriodType,<clinit>,65,/JodaTime/src/main/java/org/joda/time/PeriodType.java,static int MILLI_INDEX = 7;
+11,org.joda.time.PeriodType,<init>,595,/JodaTime/src/main/java/org/joda/time/PeriodType.java,super();
+11,org.joda.time.PeriodType,<init>,596,/JodaTime/src/main/java/org/joda/time/PeriodType.java,iName = name;
+11,org.joda.time.PeriodType,<init>,597,/JodaTime/src/main/java/org/joda/time/PeriodType.java,iTypes = types;
+11,org.joda.time.PeriodType,<init>,598,/JodaTime/src/main/java/org/joda/time/PeriodType.java,iIndices = indices;
+11,org.joda.time.PeriodType,<init>,599,/JodaTime/src/main/java/org/joda/time/PeriodType.java,}
+11,org.joda.time.PeriodType,getFieldType,628,/JodaTime/src/main/java/org/joda/time/PeriodType.java,return iTypes[index];
+11,org.joda.time.PeriodType,getIndexedField,674,/JodaTime/src/main/java/org/joda/time/PeriodType.java,int realIndex = iIndices[index];
+11,org.joda.time.PeriodType,getIndexedField,675,/JodaTime/src/main/java/org/joda/time/PeriodType.java,return (realIndex == -1 ? 0 : period.getValue(realIndex));
+11,org.joda.time.PeriodType,size,617,/JodaTime/src/main/java/org/joda/time/PeriodType.java,return iTypes.length;
+11,org.joda.time.PeriodType,standard,102,/JodaTime/src/main/java/org/joda/time/PeriodType.java,PeriodType type = cStandard;
+11,org.joda.time.PeriodType,standard,103,/JodaTime/src/main/java/org/joda/time/PeriodType.java,if (type == null) {
+11,org.joda.time.PeriodType,standard,104,/JodaTime/src/main/java/org/joda/time/PeriodType.java,type = new PeriodType(
+11,org.joda.time.PeriodType,standard,114,/JodaTime/src/main/java/org/joda/time/PeriodType.java,cStandard = type;
+11,org.joda.time.PeriodType,standard,116,/JodaTime/src/main/java/org/joda/time/PeriodType.java,return type;
+11,org.joda.time.PeriodType,yearMonthDay,163,/JodaTime/src/main/java/org/joda/time/PeriodType.java,PeriodType type = cYMD;
+11,org.joda.time.PeriodType,yearMonthDay,164,/JodaTime/src/main/java/org/joda/time/PeriodType.java,if (type == null) {
+11,org.joda.time.PeriodType,yearMonthDay,165,/JodaTime/src/main/java/org/joda/time/PeriodType.java,type = new PeriodType(
+11,org.joda.time.PeriodType,yearMonthDay,173,/JodaTime/src/main/java/org/joda/time/PeriodType.java,cYMD = type;
+11,org.joda.time.PeriodType,yearMonthDay,175,/JodaTime/src/main/java/org/joda/time/PeriodType.java,return type;
+11,org.joda.time.base.AbstractPeriod,<init>,44,/JodaTime/src/main/java/org/joda/time/base/AbstractPeriod.java,super();
+11,org.joda.time.base.AbstractPeriod,<init>,45,/JodaTime/src/main/java/org/joda/time/base/AbstractPeriod.java,}
+11,org.joda.time.base.BasePeriod,<init>,96,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,super();
+11,org.joda.time.base.BasePeriod,<init>,97,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,type = checkPeriodType(type);
+11,org.joda.time.base.BasePeriod,<init>,98,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,chrono = DateTimeUtils.getChronology(chrono);
+11,org.joda.time.base.BasePeriod,<init>,99,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,iType = type;
+11,org.joda.time.base.BasePeriod,<init>,100,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,"iValues = chrono.get(this, startInstant, endInstant);"
+11,org.joda.time.base.BasePeriod,<init>,101,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,}
+11,org.joda.time.base.BasePeriod,<init>,225,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,super();
+11,org.joda.time.base.BasePeriod,<init>,226,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,type = checkPeriodType(type);
+11,org.joda.time.base.BasePeriod,<init>,227,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,chrono = DateTimeUtils.getChronology(chrono);
+11,org.joda.time.base.BasePeriod,<init>,228,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,iType = type;
+11,org.joda.time.base.BasePeriod,<init>,229,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,"iValues = chrono.get(this, duration);"
+11,org.joda.time.base.BasePeriod,<init>,230,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,}
+11,org.joda.time.base.BasePeriod,checkPeriodType,279,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,return DateTimeUtils.getPeriodType(type);
+11,org.joda.time.base.BasePeriod,getFieldType,310,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,return iType.getFieldType(index);
+11,org.joda.time.base.BasePeriod,getPeriodType,289,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,return iType;
+11,org.joda.time.base.BasePeriod,getValue,321,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,return iValues[index];
+11,org.joda.time.base.BasePeriod,size,299,/JodaTime/src/main/java/org/joda/time/base/BasePeriod.java,return iType.size();
+11,org.joda.time.chrono.AssembledChronology,<init>,99,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,"protected AssembledChronology(Chronology base, Object param) {"
+11,org.joda.time.chrono.AssembledChronology,<init>,100,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iBase = base;
+11,org.joda.time.chrono.AssembledChronology,<init>,101,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iParam = param;
+11,org.joda.time.chrono.AssembledChronology,<init>,102,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,setFields();
+11,org.joda.time.chrono.AssembledChronology,<init>,103,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,}
+11,org.joda.time.chrono.AssembledChronology,centuries,280,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iCenturies;
+11,org.joda.time.chrono.AssembledChronology,centuryOfEra,284,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iCenturyOfEra;
+11,org.joda.time.chrono.AssembledChronology,clockhourOfDay,200,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iClockhourOfDay;
+11,org.joda.time.chrono.AssembledChronology,clockhourOfHalfday,212,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iClockhourOfHalfday;
+11,org.joda.time.chrono.AssembledChronology,dayOfMonth,228,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iDayOfMonth;
+11,org.joda.time.chrono.AssembledChronology,dayOfWeek,224,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iDayOfWeek;
+11,org.joda.time.chrono.AssembledChronology,dayOfYear,232,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iDayOfYear;
+11,org.joda.time.chrono.AssembledChronology,days,220,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iDays;
+11,org.joda.time.chrono.AssembledChronology,era,292,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iEra;
+11,org.joda.time.chrono.AssembledChronology,eras,288,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iEras;
+11,org.joda.time.chrono.AssembledChronology,getBase,308,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iBase;
+11,org.joda.time.chrono.AssembledChronology,halfdayOfDay,216,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iHalfdayOfDay;
+11,org.joda.time.chrono.AssembledChronology,halfdays,204,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iHalfdays;
+11,org.joda.time.chrono.AssembledChronology,hourOfDay,196,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iHourOfDay;
+11,org.joda.time.chrono.AssembledChronology,hourOfHalfday,208,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iHourOfHalfday;
+11,org.joda.time.chrono.AssembledChronology,hours,192,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iHours;
+11,org.joda.time.chrono.AssembledChronology,millis,156,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMillis;
+11,org.joda.time.chrono.AssembledChronology,millisOfDay,164,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMillisOfDay;
+11,org.joda.time.chrono.AssembledChronology,millisOfSecond,160,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMillisOfSecond;
+11,org.joda.time.chrono.AssembledChronology,minuteOfDay,188,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMinuteOfDay;
+11,org.joda.time.chrono.AssembledChronology,minuteOfHour,184,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMinuteOfHour;
+11,org.joda.time.chrono.AssembledChronology,minutes,180,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMinutes;
+11,org.joda.time.chrono.AssembledChronology,monthOfYear,260,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMonthOfYear;
+11,org.joda.time.chrono.AssembledChronology,months,256,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iMonths;
+11,org.joda.time.chrono.AssembledChronology,secondOfDay,176,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iSecondOfDay;
+11,org.joda.time.chrono.AssembledChronology,secondOfMinute,172,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iSecondOfMinute;
+11,org.joda.time.chrono.AssembledChronology,seconds,168,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iSeconds;
+11,org.joda.time.chrono.AssembledChronology,setFields,319,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,Fields fields = new Fields();
+11,org.joda.time.chrono.AssembledChronology,setFields,320,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (iBase != null) {
+11,org.joda.time.chrono.AssembledChronology,setFields,321,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,fields.copyFieldsFrom(iBase);
+11,org.joda.time.chrono.AssembledChronology,setFields,323,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,assemble(fields);
+11,org.joda.time.chrono.AssembledChronology,setFields,327,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMillis    = (f = fields.millis)    != null ? f : super.millis();
+11,org.joda.time.chrono.AssembledChronology,setFields,328,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iSeconds   = (f = fields.seconds)   != null ? f : super.seconds();
+11,org.joda.time.chrono.AssembledChronology,setFields,329,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMinutes   = (f = fields.minutes)   != null ? f : super.minutes();
+11,org.joda.time.chrono.AssembledChronology,setFields,330,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iHours     = (f = fields.hours)     != null ? f : super.hours();
+11,org.joda.time.chrono.AssembledChronology,setFields,331,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iHalfdays  = (f = fields.halfdays)  != null ? f : super.halfdays();
+11,org.joda.time.chrono.AssembledChronology,setFields,332,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iDays      = (f = fields.days)      != null ? f : super.days();
+11,org.joda.time.chrono.AssembledChronology,setFields,333,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iWeeks     = (f = fields.weeks)     != null ? f : super.weeks();
+11,org.joda.time.chrono.AssembledChronology,setFields,334,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iWeekyears = (f = fields.weekyears) != null ? f : super.weekyears();
+11,org.joda.time.chrono.AssembledChronology,setFields,335,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMonths    = (f = fields.months)    != null ? f : super.months();
+11,org.joda.time.chrono.AssembledChronology,setFields,336,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iYears     = (f = fields.years)     != null ? f : super.years();
+11,org.joda.time.chrono.AssembledChronology,setFields,337,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iCenturies = (f = fields.centuries) != null ? f : super.centuries();
+11,org.joda.time.chrono.AssembledChronology,setFields,338,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iEras      = (f = fields.eras)      != null ? f : super.eras();
+11,org.joda.time.chrono.AssembledChronology,setFields,343,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMillisOfSecond     = (f = fields.millisOfSecond)     != null ? f : super.millisOfSecond();
+11,org.joda.time.chrono.AssembledChronology,setFields,344,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMillisOfDay        = (f = fields.millisOfDay)        != null ? f : super.millisOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,345,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iSecondOfMinute     = (f = fields.secondOfMinute)     != null ? f : super.secondOfMinute();
+11,org.joda.time.chrono.AssembledChronology,setFields,346,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iSecondOfDay        = (f = fields.secondOfDay)        != null ? f : super.secondOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,347,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMinuteOfHour       = (f = fields.minuteOfHour)       != null ? f : super.minuteOfHour();
+11,org.joda.time.chrono.AssembledChronology,setFields,348,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMinuteOfDay        = (f = fields.minuteOfDay)        != null ? f : super.minuteOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,349,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iHourOfDay          = (f = fields.hourOfDay)          != null ? f : super.hourOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,350,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iClockhourOfDay     = (f = fields.clockhourOfDay)     != null ? f : super.clockhourOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,351,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iHourOfHalfday      = (f = fields.hourOfHalfday)      != null ? f : super.hourOfHalfday();
+11,org.joda.time.chrono.AssembledChronology,setFields,352,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iClockhourOfHalfday = (f = fields.clockhourOfHalfday) != null ? f : super.clockhourOfHalfday();
+11,org.joda.time.chrono.AssembledChronology,setFields,353,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iHalfdayOfDay       = (f = fields.halfdayOfDay)       != null ? f : super.halfdayOfDay();
+11,org.joda.time.chrono.AssembledChronology,setFields,354,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iDayOfWeek          = (f = fields.dayOfWeek)          != null ? f : super.dayOfWeek();
+11,org.joda.time.chrono.AssembledChronology,setFields,355,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iDayOfMonth         = (f = fields.dayOfMonth)         != null ? f : super.dayOfMonth();
+11,org.joda.time.chrono.AssembledChronology,setFields,356,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iDayOfYear          = (f = fields.dayOfYear)          != null ? f : super.dayOfYear();
+11,org.joda.time.chrono.AssembledChronology,setFields,357,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iWeekOfWeekyear     = (f = fields.weekOfWeekyear)     != null ? f : super.weekOfWeekyear();
+11,org.joda.time.chrono.AssembledChronology,setFields,358,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iWeekyear           = (f = fields.weekyear)           != null ? f : super.weekyear();
+11,org.joda.time.chrono.AssembledChronology,setFields,359,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iWeekyearOfCentury  = (f = fields.weekyearOfCentury)  != null ? f : super.weekyearOfCentury();
+11,org.joda.time.chrono.AssembledChronology,setFields,360,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iMonthOfYear        = (f = fields.monthOfYear)        != null ? f : super.monthOfYear();
+11,org.joda.time.chrono.AssembledChronology,setFields,361,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iYear               = (f = fields.year)               != null ? f : super.year();
+11,org.joda.time.chrono.AssembledChronology,setFields,362,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iYearOfEra          = (f = fields.yearOfEra)          != null ? f : super.yearOfEra();
+11,org.joda.time.chrono.AssembledChronology,setFields,363,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iYearOfCentury      = (f = fields.yearOfCentury)      != null ? f : super.yearOfCentury();
+11,org.joda.time.chrono.AssembledChronology,setFields,364,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iCenturyOfEra       = (f = fields.centuryOfEra)       != null ? f : super.centuryOfEra();
+11,org.joda.time.chrono.AssembledChronology,setFields,365,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iEra                = (f = fields.era)                != null ? f : super.era();
+11,org.joda.time.chrono.AssembledChronology,setFields,369,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (iBase == null) {
+11,org.joda.time.chrono.AssembledChronology,setFields,370,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,flags = 0;
+11,org.joda.time.chrono.AssembledChronology,setFields,372,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,flags =
+11,org.joda.time.chrono.AssembledChronology,setFields,385,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,iBaseFlags = flags;
+11,org.joda.time.chrono.AssembledChronology,setFields,386,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,}
+11,org.joda.time.chrono.AssembledChronology,weekOfWeekyear,240,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iWeekOfWeekyear;
+11,org.joda.time.chrono.AssembledChronology,weeks,236,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iWeeks;
+11,org.joda.time.chrono.AssembledChronology,weekyear,248,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iWeekyear;
+11,org.joda.time.chrono.AssembledChronology,weekyearOfCentury,252,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iWeekyearOfCentury;
+11,org.joda.time.chrono.AssembledChronology,weekyears,244,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iWeekyears;
+11,org.joda.time.chrono.AssembledChronology,year,268,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iYear;
+11,org.joda.time.chrono.AssembledChronology,yearOfCentury,276,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iYearOfCentury;
+11,org.joda.time.chrono.AssembledChronology,yearOfEra,272,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iYearOfEra;
+11,org.joda.time.chrono.AssembledChronology,years,264,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return iYears;
+11,org.joda.time.chrono.AssembledChronology$Fields,<init>,436,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,Fields() {
+11,org.joda.time.chrono.AssembledChronology$Fields,<init>,437,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,}
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,445,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.millis())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,446,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,millis = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,448,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.seconds())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,449,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,seconds = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,451,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.minutes())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,452,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,minutes = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,454,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.hours())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,455,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,hours = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,457,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.halfdays())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,458,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,halfdays = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,460,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.days())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,461,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,days = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,463,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.weeks())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,464,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,weeks = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,466,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.weekyears())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,467,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,weekyears = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,469,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.months())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,470,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,months = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,472,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.years())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,473,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,years = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,475,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.centuries())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,476,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,centuries = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,478,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.eras())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,485,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.millisOfSecond())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,486,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,millisOfSecond = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,488,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.millisOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,489,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,millisOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,491,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.secondOfMinute())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,492,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,secondOfMinute = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,494,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.secondOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,495,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,secondOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,497,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.minuteOfHour())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,498,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,minuteOfHour = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,500,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.minuteOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,501,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,minuteOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,503,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.hourOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,504,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,hourOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,506,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.clockhourOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,507,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,clockhourOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,509,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.hourOfHalfday())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,510,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,hourOfHalfday = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,512,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.clockhourOfHalfday())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,513,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,clockhourOfHalfday = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,515,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.halfdayOfDay())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,516,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,halfdayOfDay = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,518,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.dayOfWeek())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,519,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,dayOfWeek = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,521,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.dayOfMonth())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,522,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,dayOfMonth = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,524,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.dayOfYear())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,525,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,dayOfYear = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,527,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.weekOfWeekyear())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,528,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,weekOfWeekyear = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,530,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.weekyear())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,531,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,weekyear = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,533,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.weekyearOfCentury())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,534,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,weekyearOfCentury = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,536,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.monthOfYear())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,537,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,monthOfYear = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,539,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.year())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,540,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,year = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,542,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.yearOfEra())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,543,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,yearOfEra = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,545,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.yearOfCentury())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,546,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,yearOfCentury = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,548,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.centuryOfEra())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,549,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,centuryOfEra = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,551,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,if (isSupported(f = chrono.era())) {
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,552,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,era = f;
+11,org.joda.time.chrono.AssembledChronology$Fields,copyFieldsFrom,555,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,}
+11,org.joda.time.chrono.AssembledChronology$Fields,isSupported,562,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return field == null ? false : field.isSupported();
+11,org.joda.time.chrono.AssembledChronology$Fields,isSupported,558,/JodaTime/src/main/java/org/joda/time/chrono/AssembledChronology.java,return field == null ? false : field.isSupported();
+11,org.joda.time.chrono.BaseChronology,<init>,54,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,super();
+11,org.joda.time.chrono.BaseChronology,<init>,55,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,}
+11,org.joda.time.chrono.BaseChronology,eras,660,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,return UnsupportedDurationField.getInstance(DurationFieldType.eras());
+11,org.joda.time.chrono.BaseChronology,get,276,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,int size = period.size();
+11,org.joda.time.chrono.BaseChronology,get,277,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,int[] values = new int[size];
+11,org.joda.time.chrono.BaseChronology,get,278,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,if (duration != 0) {
+11,org.joda.time.chrono.BaseChronology,get,289,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,return values;
+11,org.joda.time.chrono.BaseChronology,get,255,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,int size = period.size();
+11,org.joda.time.chrono.BaseChronology,get,256,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,int[] values = new int[size];
+11,org.joda.time.chrono.BaseChronology,get,257,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,if (startInstant != endInstant) {
+11,org.joda.time.chrono.BaseChronology,get,258,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,for (int i = 0; i < size; i++) {
+11,org.joda.time.chrono.BaseChronology,get,259,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,DurationField field = period.getFieldType(i).getField(this);
+11,org.joda.time.chrono.BaseChronology,get,260,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,"int value = field.getDifference(endInstant, startInstant);"
+11,org.joda.time.chrono.BaseChronology,get,261,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,"startInstant = field.add(startInstant, value);"
+11,org.joda.time.chrono.BaseChronology,get,262,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,values[i] = value;
+11,org.joda.time.chrono.BaseChronology,get,265,/JodaTime/src/main/java/org/joda/time/chrono/BaseChronology.java,return values;
+11,org.joda.time.chrono.BasicChronology,<clinit>,76,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMillisField = MillisDurationField.INSTANCE;
+11,org.joda.time.chrono.BasicChronology,<clinit>,77,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cSecondsField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,79,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMinutesField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,81,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cHoursField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,83,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cHalfdaysField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,85,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cDaysField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,87,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cWeeksField = new PreciseDurationField
+11,org.joda.time.chrono.BasicChronology,<clinit>,90,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMillisOfSecondField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,93,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMillisOfDayField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,96,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cSecondOfMinuteField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,99,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cSecondOfDayField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,102,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMinuteOfHourField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,105,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cMinuteOfDayField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,108,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cHourOfDayField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,111,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cHourOfHalfdayField = new PreciseDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,114,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cClockhourOfDayField = new ZeroIsMaxDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,117,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cClockhourOfHalfdayField = new ZeroIsMaxDateTimeField
+11,org.joda.time.chrono.BasicChronology,<clinit>,120,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,cHalfdayOfDayField = new HalfdayField();
+11,org.joda.time.chrono.BasicChronology,<clinit>,121,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,}
+11,org.joda.time.chrono.BasicChronology,<init>,126,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,private transient final YearInfo[] iYearInfoCache = new YearInfo[CACHE_SIZE];
+11,org.joda.time.chrono.BasicChronology,<init>,131,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"super(base, param);"
+11,org.joda.time.chrono.BasicChronology,<init>,133,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (minDaysInFirstWeek < 1 || minDaysInFirstWeek > 7) {
+11,org.joda.time.chrono.BasicChronology,<init>,138,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,iMinDaysInFirstWeek = minDaysInFirstWeek;
+11,org.joda.time.chrono.BasicChronology,<init>,139,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,}
+11,org.joda.time.chrono.BasicChronology,access$100,50,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,abstract class BasicChronology extends AssembledChronology {
+11,org.joda.time.chrono.BasicChronology,assemble,241,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.millis = cMillisField;
+11,org.joda.time.chrono.BasicChronology,assemble,242,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.seconds = cSecondsField;
+11,org.joda.time.chrono.BasicChronology,assemble,243,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.minutes = cMinutesField;
+11,org.joda.time.chrono.BasicChronology,assemble,244,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.hours = cHoursField;
+11,org.joda.time.chrono.BasicChronology,assemble,245,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.halfdays = cHalfdaysField;
+11,org.joda.time.chrono.BasicChronology,assemble,246,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.days = cDaysField;
+11,org.joda.time.chrono.BasicChronology,assemble,247,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.weeks = cWeeksField;
+11,org.joda.time.chrono.BasicChronology,assemble,249,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.millisOfSecond = cMillisOfSecondField;
+11,org.joda.time.chrono.BasicChronology,assemble,250,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.millisOfDay = cMillisOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,251,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.secondOfMinute = cSecondOfMinuteField;
+11,org.joda.time.chrono.BasicChronology,assemble,252,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.secondOfDay = cSecondOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,253,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.minuteOfHour = cMinuteOfHourField;
+11,org.joda.time.chrono.BasicChronology,assemble,254,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.minuteOfDay = cMinuteOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,255,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.hourOfDay = cHourOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,256,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.hourOfHalfday = cHourOfHalfdayField;
+11,org.joda.time.chrono.BasicChronology,assemble,257,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.clockhourOfDay = cClockhourOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,258,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.clockhourOfHalfday = cClockhourOfHalfdayField;
+11,org.joda.time.chrono.BasicChronology,assemble,259,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.halfdayOfDay = cHalfdayOfDayField;
+11,org.joda.time.chrono.BasicChronology,assemble,264,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.year = new BasicYearDateTimeField(this);
+11,org.joda.time.chrono.BasicChronology,assemble,265,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"fields.yearOfEra = new GJYearOfEraDateTimeField(fields.year, this);"
+11,org.joda.time.chrono.BasicChronology,assemble,268,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,DateTimeField field = new OffsetDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,270,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.centuryOfEra = new DividedDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,273,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,field = new RemainderDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,275,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.yearOfCentury = new OffsetDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,278,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.era = new GJEraDateTimeField(this);
+11,org.joda.time.chrono.BasicChronology,assemble,279,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"fields.dayOfWeek = new GJDayOfWeekDateTimeField(this, fields.days);"
+11,org.joda.time.chrono.BasicChronology,assemble,280,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"fields.dayOfMonth = new BasicDayOfMonthDateTimeField(this, fields.days);"
+11,org.joda.time.chrono.BasicChronology,assemble,281,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"fields.dayOfYear = new BasicDayOfYearDateTimeField(this, fields.days);"
+11,org.joda.time.chrono.BasicChronology,assemble,282,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.monthOfYear = new GJMonthOfYearDateTimeField(this);
+11,org.joda.time.chrono.BasicChronology,assemble,283,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.weekyear = new BasicWeekyearDateTimeField(this);
+11,org.joda.time.chrono.BasicChronology,assemble,284,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"fields.weekOfWeekyear = new BasicWeekOfWeekyearDateTimeField(this, fields.weeks);"
+11,org.joda.time.chrono.BasicChronology,assemble,286,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,field = new RemainderDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,288,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.weekyearOfCentury = new OffsetDateTimeField(
+11,org.joda.time.chrono.BasicChronology,assemble,294,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.years = fields.year.getDurationField();
+11,org.joda.time.chrono.BasicChronology,assemble,295,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.centuries = fields.centuryOfEra.getDurationField();
+11,org.joda.time.chrono.BasicChronology,assemble,296,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.months = fields.monthOfYear.getDurationField();
+11,org.joda.time.chrono.BasicChronology,assemble,297,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,fields.weekyears = fields.weekyear.getDurationField();
+11,org.joda.time.chrono.BasicChronology,assemble,298,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,}
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,448,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,int year = getYear(millis);
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,449,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"int month = getMonthOfYear(millis, year);"
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,450,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"return getDayOfMonth(millis, year, month);"
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,458,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"int month = getMonthOfYear(millis, year);"
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,459,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"return getDayOfMonth(millis, year, month);"
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,468,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long dateMillis = getYearMillis(year);
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,469,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"dateMillis += getTotalMillisByYearMonth(year, month);"
+11,org.joda.time.chrono.BasicChronology,getDayOfMonth,470,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return (int) ((millis - dateMillis) / DateTimeConstants.MILLIS_PER_DAY) + 1;
+11,org.joda.time.chrono.BasicChronology,getDayOfWeek,534,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (instant >= 0) {
+11,org.joda.time.chrono.BasicChronology,getDayOfWeek,537,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,daysSince19700101 = (instant - (DateTimeConstants.MILLIS_PER_DAY - 1))
+11,org.joda.time.chrono.BasicChronology,getDayOfWeek,539,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (daysSince19700101 < -3) {
+11,org.joda.time.chrono.BasicChronology,getDayOfWeek,540,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return 7 + (int) ((daysSince19700101 + 4) % 7);
+11,org.joda.time.chrono.BasicChronology,getDayOfYear,485,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long yearStart = getYearMillis(year);
+11,org.joda.time.chrono.BasicChronology,getDayOfYear,486,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return (int) ((instant - yearStart) / DateTimeConstants.MILLIS_PER_DAY) + 1;
+11,org.joda.time.chrono.BasicChronology,getMaxMonth,691,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return 12;
+11,org.joda.time.chrono.BasicChronology,getMillisOfDay,551,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (instant >= 0) {
+11,org.joda.time.chrono.BasicChronology,getMillisOfDay,552,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return (int) (instant % DateTimeConstants.MILLIS_PER_DAY);
+11,org.joda.time.chrono.BasicChronology,getMillisOfDay,554,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return (DateTimeConstants.MILLIS_PER_DAY - 1)
+11,org.joda.time.chrono.BasicChronology,getYear,399,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long unitMillis = getAverageMillisPerYearDividedByTwo();
+11,org.joda.time.chrono.BasicChronology,getYear,400,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long i2 = (instant >> 1) + getApproxMillisAtEpochDividedByTwo();
+11,org.joda.time.chrono.BasicChronology,getYear,401,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (i2 < 0) {
+11,org.joda.time.chrono.BasicChronology,getYear,402,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,i2 = i2 - unitMillis + 1;
+11,org.joda.time.chrono.BasicChronology,getYear,404,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,int year = (int) (i2 / unitMillis);
+11,org.joda.time.chrono.BasicChronology,getYear,406,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long yearStart = getYearMillis(year);
+11,org.joda.time.chrono.BasicChronology,getYear,407,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long diff = instant - yearStart;
+11,org.joda.time.chrono.BasicChronology,getYear,409,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (diff < 0) {
+11,org.joda.time.chrono.BasicChronology,getYear,410,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,year--;
+11,org.joda.time.chrono.BasicChronology,getYear,411,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,} else if (diff >= DateTimeConstants.MILLIS_PER_DAY * 365L) {
+11,org.joda.time.chrono.BasicChronology,getYear,428,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return year;
+11,org.joda.time.chrono.BasicChronology,getYearInfo,738,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,YearInfo info = iYearInfoCache[year & CACHE_MASK];
+11,org.joda.time.chrono.BasicChronology,getYearInfo,739,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if (info == null || info.iYear != year) {
+11,org.joda.time.chrono.BasicChronology,getYearInfo,740,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"info = new YearInfo(year, calculateFirstDayOfYearMillis(year));"
+11,org.joda.time.chrono.BasicChronology,getYearInfo,741,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,iYearInfoCache[year & CACHE_MASK] = info;
+11,org.joda.time.chrono.BasicChronology,getYearInfo,743,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return info;
+11,org.joda.time.chrono.BasicChronology,getYearMillis,360,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return getYearInfo(year).iFirstDayMillis;
+11,org.joda.time.chrono.BasicChronology,getYearMonthDayMillis,385,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long millis = getYearMillis(year);
+11,org.joda.time.chrono.BasicChronology,getYearMonthDayMillis,386,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"millis += getTotalMillisByYearMonth(year, month);"
+11,org.joda.time.chrono.BasicChronology,getYearMonthDayMillis,387,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return millis + (dayOfMonth - 1) * (long)DateTimeConstants.MILLIS_PER_DAY;
+11,org.joda.time.chrono.BasicChronology,getYearMonthMillis,371,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,long millis = getYearMillis(year);
+11,org.joda.time.chrono.BasicChronology,getYearMonthMillis,372,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"millis += getTotalMillisByYearMonth(year, month);"
+11,org.joda.time.chrono.BasicChronology,getYearMonthMillis,373,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return millis;
+11,org.joda.time.chrono.BasicChronology,getZone,143,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,if ((base = getBase()) != null) {
+11,org.joda.time.chrono.BasicChronology,getZone,146,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,return DateTimeZone.UTC;
+11,org.joda.time.chrono.BasicChronology$HalfdayField,<init>,750,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"super(DateTimeFieldType.halfdayOfDay(), cHalfdaysField, cDaysField);"
+11,org.joda.time.chrono.BasicChronology$HalfdayField,<init>,751,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,}
+11,org.joda.time.chrono.BasicChronology$YearInfo,<init>,770,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,"YearInfo(int year, long firstDayMillis) {"
+11,org.joda.time.chrono.BasicChronology$YearInfo,<init>,771,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,iYear = year;
+11,org.joda.time.chrono.BasicChronology$YearInfo,<init>,772,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,iFirstDayMillis = firstDayMillis;
+11,org.joda.time.chrono.BasicChronology$YearInfo,<init>,773,/JodaTime/src/main/java/org/joda/time/chrono/BasicChronology.java,}
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,<init>,41,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,"super(DateTimeFieldType.dayOfMonth(), days);"
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,<init>,42,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,<init>,43,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,}
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,get,47,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,return iChronology.getDayOfMonth(instant);
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,getMaximumValueForSet,96,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,"return iChronology.getDaysInMonthMaxForSet(instant, value);"
+11,org.joda.time.chrono.BasicDayOfMonthDateTimeField,getMinimumValue,55,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfMonthDateTimeField.java,return 1;
+11,org.joda.time.chrono.BasicDayOfYearDateTimeField,<init>,41,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfYearDateTimeField.java,"super(DateTimeFieldType.dayOfYear(), days);"
+11,org.joda.time.chrono.BasicDayOfYearDateTimeField,<init>,42,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfYearDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicDayOfYearDateTimeField,<init>,43,/JodaTime/src/main/java/org/joda/time/chrono/BasicDayOfYearDateTimeField.java,}
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,42,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,private static final int[] MIN_DAYS_PER_MONTH_ARRAY = {
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,45,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,private static final int[] MAX_DAYS_PER_MONTH_ARRAY = {
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,53,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,MIN_TOTAL_MILLIS_BY_MONTH_ARRAY = new long[12];
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,54,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,MAX_TOTAL_MILLIS_BY_MONTH_ARRAY = new long[12];
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,56,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,long minSum = 0;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,57,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,long maxSum = 0;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,58,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,for (int i = 0; i < 11; i++) {
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,59,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,long millis = MIN_DAYS_PER_MONTH_ARRAY[i]
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,61,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,minSum += millis;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,62,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,MIN_TOTAL_MILLIS_BY_MONTH_ARRAY[i + 1] = minSum;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,64,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,millis = MAX_DAYS_PER_MONTH_ARRAY[i]
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,66,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,maxSum += millis;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,67,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,MAX_TOTAL_MILLIS_BY_MONTH_ARRAY[i + 1] = maxSum;
+11,org.joda.time.chrono.BasicGJChronology,<clinit>,69,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,}
+11,org.joda.time.chrono.BasicGJChronology,<init>,75,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,"super(base, param, minDaysInFirstWeek);"
+11,org.joda.time.chrono.BasicGJChronology,<init>,76,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,}
+11,org.joda.time.chrono.BasicGJChronology,getDaysInMonthMaxForSet,134,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return (value > 28 ? getDaysInMonthMax(instant) : 28);
+11,org.joda.time.chrono.BasicGJChronology,getDaysInYearMonth,120,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (isLeapYear(year)) {
+11,org.joda.time.chrono.BasicGJChronology,getDaysInYearMonth,121,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return MAX_DAYS_PER_MONTH_ARRAY[month - 1];
+11,org.joda.time.chrono.BasicGJChronology,getDaysInYearMonth,123,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return MIN_DAYS_PER_MONTH_ARRAY[month - 1];
+11,org.joda.time.chrono.BasicGJChronology,getMonthOfYear,88,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int i = (int)((millis - getYearMillis(year)) >> 10);
+11,org.joda.time.chrono.BasicGJChronology,getMonthOfYear,93,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return
+11,org.joda.time.chrono.BasicGJChronology,getTotalMillisByYearMonth,139,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (isLeapYear(year)) {
+11,org.joda.time.chrono.BasicGJChronology,getTotalMillisByYearMonth,140,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return MAX_TOTAL_MILLIS_BY_MONTH_ARRAY[month - 1];
+11,org.joda.time.chrono.BasicGJChronology,getTotalMillisByYearMonth,142,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return MIN_TOTAL_MILLIS_BY_MONTH_ARRAY[month - 1];
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,148,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int minuendYear = getYear(minuendInstant);
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,149,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int subtrahendYear = getYear(subtrahendInstant);
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,152,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,long minuendRem = minuendInstant - getYearMillis(minuendYear);
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,153,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,long subtrahendRem = subtrahendInstant - getYearMillis(subtrahendYear);
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,156,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (subtrahendRem >= FEB_29) {
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,157,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (isLeapYear(subtrahendYear)) {
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,161,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,} else if (minuendRem >= FEB_29 && isLeapYear(minuendYear)) {
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,166,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int difference = minuendYear - subtrahendYear;
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,167,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (minuendRem < subtrahendRem) {
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,168,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,difference--;
+11,org.joda.time.chrono.BasicGJChronology,getYearDifference,170,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return difference;
+11,org.joda.time.chrono.BasicGJChronology,setYear,175,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int thisYear = getYear(instant);
+11,org.joda.time.chrono.BasicGJChronology,setYear,176,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,"int dayOfYear = getDayOfYear(instant, thisYear);"
+11,org.joda.time.chrono.BasicGJChronology,setYear,177,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,int millisOfDay = getMillisOfDay(instant);
+11,org.joda.time.chrono.BasicGJChronology,setYear,179,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (dayOfYear > (31 + 28)) { // after Feb 28
+11,org.joda.time.chrono.BasicGJChronology,setYear,180,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (isLeapYear(thisYear)) {
+11,org.joda.time.chrono.BasicGJChronology,setYear,182,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (!isLeapYear(year)) {
+11,org.joda.time.chrono.BasicGJChronology,setYear,184,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,dayOfYear--;
+11,org.joda.time.chrono.BasicGJChronology,setYear,188,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,if (isLeapYear(year)) {
+11,org.joda.time.chrono.BasicGJChronology,setYear,190,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,dayOfYear++;
+11,org.joda.time.chrono.BasicGJChronology,setYear,195,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,"instant = getYearMonthDayMillis(year, 1, dayOfYear);"
+11,org.joda.time.chrono.BasicGJChronology,setYear,196,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,instant += millisOfDay;
+11,org.joda.time.chrono.BasicGJChronology,setYear,198,/JodaTime/src/main/java/org/joda/time/chrono/BasicGJChronology.java,return instant;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,<init>,51,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"super(DateTimeFieldType.monthOfYear(), chronology.getAverageMillisPerMonth());"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,<init>,52,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,<init>,53,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,iMax = iChronology.getMaxMonth();
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,<init>,54,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,iLeapMonth = leapMonth;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,<init>,55,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,}
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,92,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (months == 0) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,98,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,long timePart = iChronology.getMillisOfDay(instant);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,103,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int thisYear = iChronology.getYear(instant);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,104,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int thisMonth = iChronology.getMonthOfYear(instant, thisYear);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,112,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int monthToUse = thisMonth - 1 + months;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,113,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (monthToUse >= 0) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,114,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,yearToUse = thisYear + (monthToUse / iMax);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,115,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,monthToUse = (monthToUse % iMax) + 1;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,136,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int dayToUse = iChronology.getDayOfMonth(instant, thisYear, thisMonth);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,137,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int maxDay = iChronology.getDaysInYearMonth(yearToUse, monthToUse);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,138,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (dayToUse > maxDay) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,144,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,long datePart =
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,add,146,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,return datePart + timePart;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,237,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (minuendInstant < subtrahendInstant) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,241,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int minuendYear = iChronology.getYear(minuendInstant);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,242,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int minuendMonth = iChronology.getMonthOfYear(minuendInstant, minuendYear);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,243,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int subtrahendYear = iChronology.getYear(subtrahendInstant);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,244,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int subtrahendMonth = iChronology.getMonthOfYear(subtrahendInstant, subtrahendYear);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,246,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,long difference = (minuendYear - subtrahendYear) * ((long) iMax) + minuendMonth - subtrahendMonth;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,250,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int minuendDom = iChronology.getDayOfMonth
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,252,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"if (minuendDom == iChronology.getDaysInYearMonth(minuendYear, minuendMonth)) {"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,265,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,long minuendRem = minuendInstant
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,267,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,long subtrahendRem = subtrahendInstant
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,270,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (minuendRem < subtrahendRem) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,getDifferenceAsLong,274,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,return difference;
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,292,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"FieldUtils.verifyValueBounds(this, month, MIN, iMax);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,294,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,int thisYear = iChronology.getYear(instant);
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,296,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int thisDom = iChronology.getDayOfMonth(instant, thisYear);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,297,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"int maxDom = iChronology.getDaysInYearMonth(thisYear, month);"
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,298,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,if (thisDom > maxDom) {
+11,org.joda.time.chrono.BasicMonthOfYearDateTimeField,set,303,/JodaTime/src/main/java/org/joda/time/chrono/BasicMonthOfYearDateTimeField.java,"return iChronology.getYearMonthDayMillis(thisYear, month, thisDom) +"
+11,org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField,<init>,42,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,"super(DateTimeFieldType.weekOfWeekyear(), weeks);"
+11,org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField,<init>,43,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField,<init>,44,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekOfWeekyearDateTimeField.java,}
+11,org.joda.time.chrono.BasicWeekyearDateTimeField,<init>,44,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekyearDateTimeField.java,"super(DateTimeFieldType.weekyear(), chronology.getAverageMillisPerYear());"
+11,org.joda.time.chrono.BasicWeekyearDateTimeField,<init>,45,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekyearDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicWeekyearDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/chrono/BasicWeekyearDateTimeField.java,}
+11,org.joda.time.chrono.BasicYearDateTimeField,<init>,45,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,"super(DateTimeFieldType.year(), chronology.getAverageMillisPerYear());"
+11,org.joda.time.chrono.BasicYearDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.BasicYearDateTimeField,<init>,47,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,}
+11,org.joda.time.chrono.BasicYearDateTimeField,add,58,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,if (years == 0) {
+11,org.joda.time.chrono.BasicYearDateTimeField,add,59,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,return instant;
+11,org.joda.time.chrono.BasicYearDateTimeField,add,61,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,int thisYear = get(instant);
+11,org.joda.time.chrono.BasicYearDateTimeField,add,62,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,"int newYear = FieldUtils.safeAdd(thisYear, years);"
+11,org.joda.time.chrono.BasicYearDateTimeField,add,63,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,"return set(instant, newYear);"
+11,org.joda.time.chrono.BasicYearDateTimeField,get,54,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,return iChronology.getYear(instant);
+11,org.joda.time.chrono.BasicYearDateTimeField,getDifferenceAsLong,88,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,if (minuendInstant < subtrahendInstant) {
+11,org.joda.time.chrono.BasicYearDateTimeField,getDifferenceAsLong,91,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,"return iChronology.getYearDifference(minuendInstant, subtrahendInstant);"
+11,org.joda.time.chrono.BasicYearDateTimeField,getMaximumValue,119,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,return iChronology.getMaxYear();
+11,org.joda.time.chrono.BasicYearDateTimeField,set,82,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,FieldUtils.verifyValueBounds
+11,org.joda.time.chrono.BasicYearDateTimeField,set,84,/JodaTime/src/main/java/org/joda/time/chrono/BasicYearDateTimeField.java,"return iChronology.setYear(instant, year);"
+11,org.joda.time.chrono.GJDayOfWeekDateTimeField,<init>,45,/JodaTime/src/main/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java,"super(DateTimeFieldType.dayOfWeek(), days);"
+11,org.joda.time.chrono.GJDayOfWeekDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.GJDayOfWeekDateTimeField,<init>,47,/JodaTime/src/main/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java,}
+11,org.joda.time.chrono.GJDayOfWeekDateTimeField,get,56,/JodaTime/src/main/java/org/joda/time/chrono/GJDayOfWeekDateTimeField.java,return iChronology.getDayOfWeek(instant);
+11,org.joda.time.chrono.GJEraDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/chrono/GJEraDateTimeField.java,super(DateTimeFieldType.era());
+11,org.joda.time.chrono.GJEraDateTimeField,<init>,47,/JodaTime/src/main/java/org/joda/time/chrono/GJEraDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.GJEraDateTimeField,<init>,48,/JodaTime/src/main/java/org/joda/time/chrono/GJEraDateTimeField.java,}
+11,org.joda.time.chrono.GJMonthOfYearDateTimeField,<init>,37,/JodaTime/src/main/java/org/joda/time/chrono/GJMonthOfYearDateTimeField.java,"super(chronology, 2);"
+11,org.joda.time.chrono.GJMonthOfYearDateTimeField,<init>,38,/JodaTime/src/main/java/org/joda/time/chrono/GJMonthOfYearDateTimeField.java,}
+11,org.joda.time.chrono.GJYearOfEraDateTimeField,<init>,40,/JodaTime/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java,"super(yearField, DateTimeFieldType.yearOfEra());"
+11,org.joda.time.chrono.GJYearOfEraDateTimeField,<init>,41,/JodaTime/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java,iChronology = chronology;
+11,org.joda.time.chrono.GJYearOfEraDateTimeField,<init>,42,/JodaTime/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java,}
+11,org.joda.time.chrono.GJYearOfEraDateTimeField,getMaximumValue,97,/JodaTime/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java,return getWrappedField().getMaximumValue();
+11,org.joda.time.chrono.GJYearOfEraDateTimeField,getMinimumValue,93,/JodaTime/src/main/java/org/joda/time/chrono/GJYearOfEraDateTimeField.java,return 1;
+11,org.joda.time.chrono.GregorianChronology,<clinit>,68,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,"private static final Map<DateTimeZone, GregorianChronology[]> cCache = new HashMap<DateTimeZone, GregorianChronology[]>();"
+11,org.joda.time.chrono.GregorianChronology,<clinit>,71,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,INSTANCE_UTC = getInstance(DateTimeZone.UTC);
+11,org.joda.time.chrono.GregorianChronology,<clinit>,72,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,}
+11,org.joda.time.chrono.GregorianChronology,<init>,148,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,"super(base, param, minDaysInFirstWeek);"
+11,org.joda.time.chrono.GregorianChronology,<init>,149,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,}
+11,org.joda.time.chrono.GregorianChronology,assemble,191,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (getBase() == null) {
+11,org.joda.time.chrono.GregorianChronology,assemble,192,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,super.assemble(fields);
+11,org.joda.time.chrono.GregorianChronology,assemble,194,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,}
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,202,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,int leapYears = year / 100;
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,203,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (year < 0) {
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,209,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,leapYears = ((year + 3) >> 2) - leapYears + ((leapYears + 3) >> 2) - 1;
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,211,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,leapYears = (year >> 2) - leapYears + (leapYears >> 2);
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,212,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (isLeapYear(year)) {
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,213,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,leapYears--;
+11,org.joda.time.chrono.GregorianChronology,calculateFirstDayOfYearMillis,217,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return (year * 365L + (leapYears - DAYS_0000_TO_1970)) * DateTimeConstants.MILLIS_PER_DAY;
+11,org.joda.time.chrono.GregorianChronology,getApproxMillisAtEpochDividedByTwo,241,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return (1970L * MILLIS_PER_YEAR) / 2;
+11,org.joda.time.chrono.GregorianChronology,getAverageMillisPerMonth,237,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return MILLIS_PER_MONTH;
+11,org.joda.time.chrono.GregorianChronology,getAverageMillisPerYear,229,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return MILLIS_PER_YEAR;
+11,org.joda.time.chrono.GregorianChronology,getAverageMillisPerYearDividedByTwo,233,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return MILLIS_PER_YEAR / 2;
+11,org.joda.time.chrono.GregorianChronology,getInstance,100,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,"return getInstance(zone, 4);"
+11,org.joda.time.chrono.GregorianChronology,getInstance,111,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (zone == null) {
+11,org.joda.time.chrono.GregorianChronology,getInstance,115,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,synchronized (cCache) {
+11,org.joda.time.chrono.GregorianChronology,getInstance,116,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,GregorianChronology[] chronos = cCache.get(zone);
+11,org.joda.time.chrono.GregorianChronology,getInstance,117,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (chronos == null) {
+11,org.joda.time.chrono.GregorianChronology,getInstance,118,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,chronos = new GregorianChronology[7];
+11,org.joda.time.chrono.GregorianChronology,getInstance,119,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,"cCache.put(zone, chronos);"
+11,org.joda.time.chrono.GregorianChronology,getInstance,122,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,chrono = chronos[minDaysInFirstWeek - 1];
+11,org.joda.time.chrono.GregorianChronology,getInstance,126,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,}
+11,org.joda.time.chrono.GregorianChronology,getInstance,127,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (chrono == null) {
+11,org.joda.time.chrono.GregorianChronology,getInstance,128,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,if (zone == DateTimeZone.UTC) {
+11,org.joda.time.chrono.GregorianChronology,getInstance,129,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,"chrono = new GregorianChronology(null, null, minDaysInFirstWeek);"
+11,org.joda.time.chrono.GregorianChronology,getInstance,135,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,chronos[minDaysInFirstWeek - 1] = chrono;
+11,org.joda.time.chrono.GregorianChronology,getInstance,137,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,}
+11,org.joda.time.chrono.GregorianChronology,getInstance,138,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return chrono;
+11,org.joda.time.chrono.GregorianChronology,getInstanceUTC,81,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return INSTANCE_UTC;
+11,org.joda.time.chrono.GregorianChronology,getMaxYear,225,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return MAX_YEAR;
+11,org.joda.time.chrono.GregorianChronology,getMinYear,221,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return MIN_YEAR;
+11,org.joda.time.chrono.GregorianChronology,getZone,45,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,public final class GregorianChronology extends BasicGJChronology {
+11,org.joda.time.chrono.GregorianChronology,isLeapYear,197,/JodaTime/src/main/java/org/joda/time/chrono/GregorianChronology.java,return ((year & 3) == 0) && ((year % 100) != 0 || (year % 400) == 0);
+11,org.joda.time.chrono.ISOChronology,<clinit>,63,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,"private static final Map<DateTimeZone, ISOChronology> cCache = new HashMap<DateTimeZone, ISOChronology>();"
+11,org.joda.time.chrono.ISOChronology,<clinit>,65,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,cFastCache = new ISOChronology[FAST_CACHE_SIZE];
+11,org.joda.time.chrono.ISOChronology,<clinit>,66,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,INSTANCE_UTC = new ISOChronology(GregorianChronology.getInstanceUTC());
+11,org.joda.time.chrono.ISOChronology,<clinit>,67,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,"cCache.put(DateTimeZone.UTC, INSTANCE_UTC);"
+11,org.joda.time.chrono.ISOChronology,<clinit>,68,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,}
+11,org.joda.time.chrono.ISOChronology,<init>,122,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,"super(base, null);"
+11,org.joda.time.chrono.ISOChronology,<init>,123,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,}
+11,org.joda.time.chrono.ISOChronology,assemble,169,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,if (getBase().getZone() == DateTimeZone.UTC) {
+11,org.joda.time.chrono.ISOChronology,assemble,171,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,fields.centuryOfEra = new DividedDateTimeField(
+11,org.joda.time.chrono.ISOChronology,assemble,173,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,fields.yearOfCentury = new RemainderDateTimeField(
+11,org.joda.time.chrono.ISOChronology,assemble,175,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,fields.weekyearOfCentury = new RemainderDateTimeField(
+11,org.joda.time.chrono.ISOChronology,assemble,178,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,fields.centuries = fields.centuryOfEra.getDurationField();
+11,org.joda.time.chrono.ISOChronology,assemble,180,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,}
+11,org.joda.time.chrono.ISOChronology,getInstance,86,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,return getInstance(DateTimeZone.getDefault());
+11,org.joda.time.chrono.ISOChronology,getInstance,96,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,if (zone == null) {
+11,org.joda.time.chrono.ISOChronology,getInstance,99,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,int index = System.identityHashCode(zone) & (FAST_CACHE_SIZE - 1);
+11,org.joda.time.chrono.ISOChronology,getInstance,100,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,ISOChronology chrono = cFastCache[index];
+11,org.joda.time.chrono.ISOChronology,getInstance,101,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,if (chrono != null && chrono.getZone() == zone) {
+11,org.joda.time.chrono.ISOChronology,getInstance,104,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,synchronized (cCache) {
+11,org.joda.time.chrono.ISOChronology,getInstance,105,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,chrono = cCache.get(zone);
+11,org.joda.time.chrono.ISOChronology,getInstance,106,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,if (chrono == null) {
+11,org.joda.time.chrono.ISOChronology,getInstance,110,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,}
+11,org.joda.time.chrono.ISOChronology,getInstance,111,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,cFastCache[index] = chrono;
+11,org.joda.time.chrono.ISOChronology,getInstance,112,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,return chrono;
+11,org.joda.time.chrono.ISOChronology,getInstanceUTC,77,/JodaTime/src/main/java/org/joda/time/chrono/ISOChronology.java,return INSTANCE_UTC;
+11,org.joda.time.chrono.ISOYearOfEraDateTimeField,<clinit>,40,/JodaTime/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,static final DateTimeField INSTANCE = new ISOYearOfEraDateTimeField();
+11,org.joda.time.chrono.ISOYearOfEraDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,"super(GregorianChronology.getInstanceUTC().year(), DateTimeFieldType.yearOfEra());"
+11,org.joda.time.chrono.ISOYearOfEraDateTimeField,<init>,47,/JodaTime/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,}
+11,org.joda.time.chrono.ISOYearOfEraDateTimeField,getMaximumValue,91,/JodaTime/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,return getWrappedField().getMaximumValue();
+11,org.joda.time.chrono.ISOYearOfEraDateTimeField,getMinimumValue,87,/JodaTime/src/main/java/org/joda/time/chrono/ISOYearOfEraDateTimeField.java,return 0;
+11,org.joda.time.field.BaseDateTimeField,<init>,50,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,super();
+11,org.joda.time.field.BaseDateTimeField,<init>,51,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,if (type == null) {
+11,org.joda.time.field.BaseDateTimeField,<init>,54,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,iType = type;
+11,org.joda.time.field.BaseDateTimeField,<init>,55,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,}
+11,org.joda.time.field.BaseDateTimeField,add,253,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,"return getDurationField().add(instant, value);"
+11,org.joda.time.field.BaseDateTimeField,getType,58,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,return iType;
+11,org.joda.time.field.BaseDateTimeField,isSupported,69,/JodaTime/src/main/java/org/joda/time/field/BaseDateTimeField.java,return true;
+11,org.joda.time.field.BaseDurationField,<init>,47,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,super();
+11,org.joda.time.field.BaseDurationField,<init>,48,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,if (type == null) {
+11,org.joda.time.field.BaseDurationField,<init>,51,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,iType = type;
+11,org.joda.time.field.BaseDurationField,<init>,52,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,}
+11,org.joda.time.field.BaseDurationField,getDifference,141,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,"return FieldUtils.safeToInt(getDifferenceAsLong(minuendInstant, subtrahendInstant));"
+11,org.joda.time.field.BaseDurationField,isSupported,66,/JodaTime/src/main/java/org/joda/time/field/BaseDurationField.java,return true;
+11,org.joda.time.field.DecoratedDateTimeField,<init>,54,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,super(type);
+11,org.joda.time.field.DecoratedDateTimeField,<init>,55,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,if (field == null) {
+11,org.joda.time.field.DecoratedDateTimeField,<init>,58,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,if (!field.isSupported()) {
+11,org.joda.time.field.DecoratedDateTimeField,<init>,61,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,iField = field;
+11,org.joda.time.field.DecoratedDateTimeField,<init>,62,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,}
+11,org.joda.time.field.DecoratedDateTimeField,getDurationField,86,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,return iField.getDurationField();
+11,org.joda.time.field.DecoratedDateTimeField,getWrappedField,70,/JodaTime/src/main/java/org/joda/time/field/DecoratedDateTimeField.java,return iField;
+11,org.joda.time.field.DecoratedDurationField,<init>,52,/JodaTime/src/main/java/org/joda/time/field/DecoratedDurationField.java,super(type);
+11,org.joda.time.field.DecoratedDurationField,<init>,53,/JodaTime/src/main/java/org/joda/time/field/DecoratedDurationField.java,if (field == null) {
+11,org.joda.time.field.DecoratedDurationField,<init>,56,/JodaTime/src/main/java/org/joda/time/field/DecoratedDurationField.java,if (!field.isSupported()) {
+11,org.joda.time.field.DecoratedDurationField,<init>,59,/JodaTime/src/main/java/org/joda/time/field/DecoratedDurationField.java,iField = field;
+11,org.joda.time.field.DecoratedDurationField,<init>,60,/JodaTime/src/main/java/org/joda/time/field/DecoratedDurationField.java,}
+11,org.joda.time.field.DividedDateTimeField,<init>,56,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,"super(field, type);"
+11,org.joda.time.field.DividedDateTimeField,<init>,58,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,if (divisor < 2) {
+11,org.joda.time.field.DividedDateTimeField,<init>,62,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,DurationField unitField = field.getDurationField();
+11,org.joda.time.field.DividedDateTimeField,<init>,63,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,if (unitField == null) {
+11,org.joda.time.field.DividedDateTimeField,<init>,66,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,iDurationField = new ScaledDurationField(
+11,org.joda.time.field.DividedDateTimeField,<init>,70,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,iDivisor = divisor;
+11,org.joda.time.field.DividedDateTimeField,<init>,72,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,int i = field.getMinimumValue();
+11,org.joda.time.field.DividedDateTimeField,<init>,73,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,int min = (i >= 0) ? i / divisor : ((i + 1) / divisor - 1);
+11,org.joda.time.field.DividedDateTimeField,<init>,75,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,int j = field.getMaximumValue();
+11,org.joda.time.field.DividedDateTimeField,<init>,76,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,int max = (j >= 0) ? j / divisor : ((j + 1) / divisor - 1);
+11,org.joda.time.field.DividedDateTimeField,<init>,78,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,iMin = min;
+11,org.joda.time.field.DividedDateTimeField,<init>,79,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,iMax = max;
+11,org.joda.time.field.DividedDateTimeField,<init>,80,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,}
+11,org.joda.time.field.DividedDateTimeField,getDurationField,182,/JodaTime/src/main/java/org/joda/time/field/DividedDateTimeField.java,return iDurationField;
+11,org.joda.time.field.FieldUtils,safeAdd,64,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,int sum = val1 + val2;
+11,org.joda.time.field.FieldUtils,safeAdd,66,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,if ((val1 ^ sum) < 0 && (val1 ^ val2) >= 0) {
+11,org.joda.time.field.FieldUtils,safeAdd,70,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,return sum;
+11,org.joda.time.field.FieldUtils,safeAdd,82,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,long sum = val1 + val2;
+11,org.joda.time.field.FieldUtils,safeAdd,84,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,if ((val1 ^ sum) < 0 && (val1 ^ val2) >= 0) {
+11,org.joda.time.field.FieldUtils,safeAdd,88,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,return sum;
+11,org.joda.time.field.FieldUtils,safeSubtract,100,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,long diff = val1 - val2;
+11,org.joda.time.field.FieldUtils,safeSubtract,102,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,if ((val1 ^ diff) < 0 && (val1 ^ val2) < 0) {
+11,org.joda.time.field.FieldUtils,safeSubtract,106,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,return diff;
+11,org.joda.time.field.FieldUtils,safeToInt,184,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,if (Integer.MIN_VALUE <= value && value <= Integer.MAX_VALUE) {
+11,org.joda.time.field.FieldUtils,safeToInt,185,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,return (int) value;
+11,org.joda.time.field.FieldUtils,verifyValueBounds,214,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,if ((value < lowerBound) || (value > upperBound)) {
+11,org.joda.time.field.FieldUtils,verifyValueBounds,219,/JodaTime/src/main/java/org/joda/time/field/FieldUtils.java,}
+11,org.joda.time.field.ImpreciseDateTimeField,<init>,55,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,super(type);
+11,org.joda.time.field.ImpreciseDateTimeField,<init>,56,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,iUnitMillis = unitMillis;
+11,org.joda.time.field.ImpreciseDateTimeField,<init>,57,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,iDurationField = new LinkedDurationField(type.getDurationType());
+11,org.joda.time.field.ImpreciseDateTimeField,<init>,58,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,}
+11,org.joda.time.field.ImpreciseDateTimeField,getDifference,91,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,"return FieldUtils.safeToInt(getDifferenceAsLong(minuendInstant, subtrahendInstant));"
+11,org.joda.time.field.ImpreciseDateTimeField,getDurationField,137,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,return iDurationField;
+11,org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField,<init>,151,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,LinkedDurationField(DurationFieldType type) {
+11,org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField,<init>,152,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,super(type);
+11,org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField,<init>,153,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,}
+11,org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField,add,182,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,"return ImpreciseDateTimeField.this.add(instant, value);"
+11,org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField,getDifference,190,/JodaTime/src/main/java/org/joda/time/field/ImpreciseDateTimeField.java,return ImpreciseDateTimeField.this
+11,org.joda.time.field.MillisDurationField,<clinit>,38,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,public static final DurationField INSTANCE = new MillisDurationField();
+11,org.joda.time.field.MillisDurationField,<init>,44,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,super();
+11,org.joda.time.field.MillisDurationField,<init>,45,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,}
+11,org.joda.time.field.MillisDurationField,add,117,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,"return FieldUtils.safeAdd(instant, value);"
+11,org.joda.time.field.MillisDurationField,getUnitMillis,80,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,return 1;
+11,org.joda.time.field.MillisDurationField,isPrecise,71,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,return true;
+11,org.joda.time.field.MillisDurationField,isSupported,62,/JodaTime/src/main/java/org/joda/time/field/MillisDurationField.java,return true;
+11,org.joda.time.field.OffsetDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,"this(field, (field == null ? null : field.getType()), offset, Integer.MIN_VALUE, Integer.MAX_VALUE);"
+11,org.joda.time.field.OffsetDateTimeField,<init>,47,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,}
+11,org.joda.time.field.OffsetDateTimeField,<init>,58,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,"this(field, type, offset, Integer.MIN_VALUE, Integer.MAX_VALUE);"
+11,org.joda.time.field.OffsetDateTimeField,<init>,59,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,}
+11,org.joda.time.field.OffsetDateTimeField,<init>,73,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,"super(field, type);"
+11,org.joda.time.field.OffsetDateTimeField,<init>,75,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,if (offset == 0) {
+11,org.joda.time.field.OffsetDateTimeField,<init>,79,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,iOffset = offset;
+11,org.joda.time.field.OffsetDateTimeField,<init>,81,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,if (minValue < (field.getMinimumValue() + offset)) {
+11,org.joda.time.field.OffsetDateTimeField,<init>,82,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,iMin = field.getMinimumValue() + offset;
+11,org.joda.time.field.OffsetDateTimeField,<init>,86,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,if (maxValue > (field.getMaximumValue() + offset)) {
+11,org.joda.time.field.OffsetDateTimeField,<init>,87,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,iMax = field.getMaximumValue() + offset;
+11,org.joda.time.field.OffsetDateTimeField,<init>,91,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,}
+11,org.joda.time.field.OffsetDateTimeField,getMaximumValue,183,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,return iMax;
+11,org.joda.time.field.OffsetDateTimeField,getMinimumValue,174,/JodaTime/src/main/java/org/joda/time/field/OffsetDateTimeField.java,return iMin;
+11,org.joda.time.field.PreciseDateTimeField,<init>,57,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,"super(type, unit);"
+11,org.joda.time.field.PreciseDateTimeField,<init>,59,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,if (!range.isPrecise()) {
+11,org.joda.time.field.PreciseDateTimeField,<init>,63,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,long rangeMillis = range.getUnitMillis();
+11,org.joda.time.field.PreciseDateTimeField,<init>,64,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,iRange = (int)(rangeMillis / getUnitMillis());
+11,org.joda.time.field.PreciseDateTimeField,<init>,65,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,if (iRange < 2) {
+11,org.joda.time.field.PreciseDateTimeField,<init>,69,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,iRangeField = range;
+11,org.joda.time.field.PreciseDateTimeField,<init>,70,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,}
+11,org.joda.time.field.PreciseDateTimeField,get,79,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,if (instant >= 0) {
+11,org.joda.time.field.PreciseDateTimeField,get,82,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,return iRange - 1 + (int) (((instant + 1) / getUnitMillis()) % iRange);
+11,org.joda.time.field.PreciseDateTimeField,getMaximumValue,131,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,return iRange - 1;
+11,org.joda.time.field.PreciseDateTimeField,set,111,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,"FieldUtils.verifyValueBounds(this, value, getMinimumValue(), getMaximumValue());"
+11,org.joda.time.field.PreciseDateTimeField,set,112,/JodaTime/src/main/java/org/joda/time/field/PreciseDateTimeField.java,return instant + (value - get(instant)) * iUnitMillis;
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,48,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,super(type);
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,50,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,if (!unit.isPrecise()) {
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,54,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,iUnitMillis = unit.getUnitMillis();
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,55,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,if (iUnitMillis < 1) {
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,59,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,iUnitField = unit;
+11,org.joda.time.field.PreciseDurationDateTimeField,<init>,60,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,}
+11,org.joda.time.field.PreciseDurationDateTimeField,getDurationField,141,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,return iUnitField;
+11,org.joda.time.field.PreciseDurationDateTimeField,getMinimumValue,150,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,return 0;
+11,org.joda.time.field.PreciseDurationDateTimeField,getUnitMillis,154,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,return iUnitMillis;
+11,org.joda.time.field.PreciseDurationDateTimeField,set,78,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,"FieldUtils.verifyValueBounds(this, value, getMinimumValue(),"
+11,org.joda.time.field.PreciseDurationDateTimeField,set,80,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationDateTimeField.java,return instant + (value - get(instant)) * iUnitMillis;
+11,org.joda.time.field.PreciseDurationField,<init>,43,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,super(type);
+11,org.joda.time.field.PreciseDurationField,<init>,44,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,iUnitMillis = unitMillis;
+11,org.joda.time.field.PreciseDurationField,<init>,45,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,}
+11,org.joda.time.field.PreciseDurationField,add,104,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,long addition = value * iUnitMillis;  // safe
+11,org.joda.time.field.PreciseDurationField,add,105,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,"return FieldUtils.safeAdd(instant, addition);"
+11,org.joda.time.field.PreciseDurationField,getDifferenceAsLong,114,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,"long difference = FieldUtils.safeSubtract(minuendInstant, subtrahendInstant);"
+11,org.joda.time.field.PreciseDurationField,getDifferenceAsLong,115,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,return difference / iUnitMillis;
+11,org.joda.time.field.PreciseDurationField,getUnitMillis,63,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,return iUnitMillis;
+11,org.joda.time.field.PreciseDurationField,isPrecise,54,/JodaTime/src/main/java/org/joda/time/field/PreciseDurationField.java,return true;
+11,org.joda.time.field.RemainderDateTimeField,<init>,52,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,"super(field, type);"
+11,org.joda.time.field.RemainderDateTimeField,<init>,54,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,if (divisor < 2) {
+11,org.joda.time.field.RemainderDateTimeField,<init>,58,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,DurationField rangeField = field.getDurationField();
+11,org.joda.time.field.RemainderDateTimeField,<init>,59,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,if (rangeField == null) {
+11,org.joda.time.field.RemainderDateTimeField,<init>,62,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,iRangeField = new ScaledDurationField(
+11,org.joda.time.field.RemainderDateTimeField,<init>,66,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,iDivisor = divisor;
+11,org.joda.time.field.RemainderDateTimeField,<init>,67,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,}
+11,org.joda.time.field.RemainderDateTimeField,<init>,76,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,"this(dividedField, dividedField.getType());"
+11,org.joda.time.field.RemainderDateTimeField,<init>,77,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,}
+11,org.joda.time.field.RemainderDateTimeField,<init>,87,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,"super(dividedField.getWrappedField(), type);"
+11,org.joda.time.field.RemainderDateTimeField,<init>,88,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,iDivisor = dividedField.iDivisor;
+11,org.joda.time.field.RemainderDateTimeField,<init>,89,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,iRangeField = dividedField.iDurationField;
+11,org.joda.time.field.RemainderDateTimeField,<init>,90,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,}
+11,org.joda.time.field.RemainderDateTimeField,getMaximumValue,158,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,return iDivisor - 1;
+11,org.joda.time.field.RemainderDateTimeField,getMinimumValue,148,/JodaTime/src/main/java/org/joda/time/field/RemainderDateTimeField.java,return 0;
+11,org.joda.time.field.ScaledDurationField,<init>,47,/JodaTime/src/main/java/org/joda/time/field/ScaledDurationField.java,"super(field, type);"
+11,org.joda.time.field.ScaledDurationField,<init>,48,/JodaTime/src/main/java/org/joda/time/field/ScaledDurationField.java,if (scalar == 0 || scalar == 1) {
+11,org.joda.time.field.ScaledDurationField,<init>,51,/JodaTime/src/main/java/org/joda/time/field/ScaledDurationField.java,iScalar = scalar;
+11,org.joda.time.field.ScaledDurationField,<init>,52,/JodaTime/src/main/java/org/joda/time/field/ScaledDurationField.java,}
+11,org.joda.time.field.UnsupportedDurationField,<init>,70,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,private UnsupportedDurationField(DurationFieldType type) {
+11,org.joda.time.field.UnsupportedDurationField,<init>,71,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,iType = type;
+11,org.joda.time.field.UnsupportedDurationField,<init>,72,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,}
+11,org.joda.time.field.UnsupportedDurationField,getInstance,49,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,if (cCache == null) {
+11,org.joda.time.field.UnsupportedDurationField,getInstance,50,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,"cCache = new HashMap<DurationFieldType, UnsupportedDurationField>(7);"
+11,org.joda.time.field.UnsupportedDurationField,getInstance,51,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,field = null;
+11,org.joda.time.field.UnsupportedDurationField,getInstance,53,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,field = cCache.get(type);
+11,org.joda.time.field.UnsupportedDurationField,getInstance,55,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,if (field == null) {
+11,org.joda.time.field.UnsupportedDurationField,getInstance,56,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,field = new UnsupportedDurationField(type);
+11,org.joda.time.field.UnsupportedDurationField,getInstance,57,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,"cCache.put(type, field);"
+11,org.joda.time.field.UnsupportedDurationField,getInstance,59,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,return field;
+11,org.joda.time.field.UnsupportedDurationField,isSupported,92,/JodaTime/src/main/java/org/joda/time/field/UnsupportedDurationField.java,return false;
+11,org.joda.time.field.ZeroIsMaxDateTimeField,<init>,45,/JodaTime/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,"super(field, type);"
+11,org.joda.time.field.ZeroIsMaxDateTimeField,<init>,46,/JodaTime/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,if (field.getMinimumValue() != 0) {
+11,org.joda.time.field.ZeroIsMaxDateTimeField,<init>,49,/JodaTime/src/main/java/org/joda/time/field/ZeroIsMaxDateTimeField.java,}
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,39,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,"i = Integer.getInteger(""org.joda.time.tz.CachedDateTimeZone.size"");"
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,42,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,}
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,45,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,if (i == null) {
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,48,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,cacheSize = 512; // (1 << 9)
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,61,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,cInfoCacheMask = cacheSize - 1;
+11,org.joda.time.tz.CachedDateTimeZone,<clinit>,62,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,}
+11,org.joda.time.tz.CachedDateTimeZone,<init>,87,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,super(zone.getID());
+11,org.joda.time.tz.CachedDateTimeZone,<init>,88,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,iZone = zone;
+11,org.joda.time.tz.CachedDateTimeZone,<init>,89,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,iInfoCache = new Info[cInfoCacheMask + 1];
+11,org.joda.time.tz.CachedDateTimeZone,<init>,90,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,}
+11,org.joda.time.tz.CachedDateTimeZone,forZone,68,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,if (zone instanceof CachedDateTimeZone) {
+11,org.joda.time.tz.CachedDateTimeZone,forZone,71,/JodaTime/src/main/java/org/joda/time/tz/CachedDateTimeZone.java,return new CachedDateTimeZone(zone);
+11,org.joda.time.tz.DateTimeZoneBuilder,<init>,225,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,public DateTimeZoneBuilder() {
+11,org.joda.time.tz.DateTimeZoneBuilder,<init>,226,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRuleSets = new ArrayList<RuleSet>(10);
+11,org.joda.time.tz.DateTimeZoneBuilder,<init>,227,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder,addCutover,252,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,OfYear ofYear = new OfYear
+11,org.joda.time.tz.DateTimeZoneBuilder,addCutover,254,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iRuleSets.size() > 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addCutover,258,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRuleSets.add(new RuleSet());
+11,org.joda.time.tz.DateTimeZoneBuilder,addCutover,259,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return this;
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,309,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (fromYear <= toYear) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,310,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,OfYear ofYear = new OfYear
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,312,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Recurrence recurrence = new Recurrence(ofYear, nameKey, saveMillis);"
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,313,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Rule rule = new Rule(recurrence, fromYear, toYear);"
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,314,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,getLastRuleSet().addRule(rule);
+11,org.joda.time.tz.DateTimeZoneBuilder,addRecurringSavings,316,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return this;
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,404,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int size = transitions.size();
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,405,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (size == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,406,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,transitions.add(tr);
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,407,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return true;
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,410,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Transition last = transitions.get(size - 1);
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,411,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (!tr.isTransitionFrom(last)) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,417,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int offsetForLast = 0;
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,418,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (size >= 2) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,419,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,offsetForLast = transitions.get(size - 2).getWallOffset();
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,421,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int offsetForNew = last.getWallOffset();
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,423,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long lastLocal = last.getMillis() + offsetForLast;
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,424,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long newLocal = tr.getMillis() + offsetForNew;
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,426,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (newLocal != lastLocal) {
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,427,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,transitions.add(tr);
+11,org.joda.time.tz.DateTimeZoneBuilder,addTransition,428,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return true;
+11,org.joda.time.tz.DateTimeZoneBuilder,getLastRuleSet,320,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iRuleSets.size() == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder,getLastRuleSet,323,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iRuleSets.get(iRuleSets.size() - 1);
+11,org.joda.time.tz.DateTimeZoneBuilder,readFrom,110,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,switch (in.readUnsignedByte()) {
+11,org.joda.time.tz.DateTimeZoneBuilder,readFrom,119,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return CachedDateTimeZone.forZone(PrecalculatedZone.readFrom(in, id));"
+11,org.joda.time.tz.DateTimeZoneBuilder,readFrom,95,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (in instanceof DataInput) {
+11,org.joda.time.tz.DateTimeZoneBuilder,readFrom,98,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return readFrom((DataInput)new DataInputStream(in), id);"
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,183,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int v = in.readUnsignedByte();
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,184,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,switch (v >> 6) {
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,187,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,v = (v << (32 - 6)) >> (32 - 6);
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,188,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return v * (30 * 60000L);
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,192,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,v = (v << (32 - 6)) >> (32 - 30);
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,193,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,v |= (in.readUnsignedByte()) << 16;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,194,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,v |= (in.readUnsignedByte()) << 8;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,195,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,v |= (in.readUnsignedByte());
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,196,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return v * 60000L;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,200,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long w = (((long)v) << (64 - 6)) >> (64 - 38);
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,201,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,w |= (in.readUnsignedByte()) << 24;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,202,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,w |= (in.readUnsignedByte()) << 16;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,203,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,w |= (in.readUnsignedByte()) << 8;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,204,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,w |= (in.readUnsignedByte());
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,205,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return w * 1000L;
+11,org.joda.time.tz.DateTimeZoneBuilder,readMillis,209,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return in.readLong();
+11,org.joda.time.tz.DateTimeZoneBuilder,setStandardOffset,268,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,getLastRuleSet().setStandardOffset(standardOffset);
+11,org.joda.time.tz.DateTimeZoneBuilder,setStandardOffset,269,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return this;
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,333,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (id == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,339,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,ArrayList<Transition> transitions = new ArrayList<Transition>();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,343,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,DSTZone tailZone = null;
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,345,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long millis = Long.MIN_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,346,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int saveMillis = 0;
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,348,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int ruleSetCount = iRuleSets.size();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,349,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int i=0; i<ruleSetCount; i++) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,350,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,RuleSet rs = iRuleSets.get(i);
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,351,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Transition next = rs.firstTransition(millis);
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,352,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (next == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,355,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"addTransition(transitions, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,356,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,millis = next.getMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,357,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,saveMillis = next.getSaveMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,360,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,rs = new RuleSet(rs);
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,362,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"while ((next = rs.nextTransition(millis, saveMillis)) != null) {"
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,363,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"if (addTransition(transitions, next)) {"
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,364,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (tailZone != null) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,366,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,break;
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,369,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,millis = next.getMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,370,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,saveMillis = next.getSaveMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,371,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (tailZone == null && i == ruleSetCount - 1) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,372,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,tailZone = rs.buildTailZone(id);
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,379,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,millis = rs.getUpperLimit(saveMillis);
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,383,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (transitions.size() == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,390,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (transitions.size() == 1 && tailZone == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,396,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"PrecalculatedZone zone = PrecalculatedZone.create(id, outputID, transitions, tailZone);"
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,397,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (zone.isCachable()) {
+11,org.joda.time.tz.DateTimeZoneBuilder,toDateTimeZone,398,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return CachedDateTimeZone.forZone(zone);
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,<init>,1176,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,super(id);
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,<init>,1177,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStandardOffset = standardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,<init>,1178,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStartRecurrence = startRecurrence;
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,<init>,1179,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iEndRecurrence = endRecurrence;
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,<init>,1180,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$DSTZone,readFrom,1166,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new DSTZone(id, (int)readMillis(in),"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,504,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,{
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,505,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (mode != 'u' && mode != 'w' && mode != 's') {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,509,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iMode = mode;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,510,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iMonthOfYear = monthOfYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,511,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iDayOfMonth = dayOfMonth;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,512,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iDayOfWeek = dayOfWeek;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,513,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iAdvance = advanceDayOfWeek;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,514,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iMillisOfDay = millisOfDay;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,<init>,515,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,549,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iMode == 'w') {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,550,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,offset = standardOffset + saveMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,558,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,instant += offset;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,560,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Chronology chrono = ISOChronology.getInstanceUTC();
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,561,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"long next = chrono.monthOfYear().set(instant, iMonthOfYear);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,563,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = chrono.millisOfDay().set(next, 0);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,564,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = chrono.millisOfDay().add(next, iMillisOfDay);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,565,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = setDayOfMonthNext(chrono, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,567,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iDayOfWeek == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,573,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = setDayOfWeek(chrono, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,574,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (next <= instant) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,575,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = chrono.year().add(next, 1);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,576,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = chrono.monthOfYear().set(next, iMonthOfYear);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,577,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = setDayOfMonthNext(chrono, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,578,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = setDayOfWeek(chrono, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,next,583,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return next - offset;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,readFrom,482,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new OfYear((char)in.readUnsignedByte(),"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonth,706,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iDayOfMonth >= 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonth,709,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"instant = chrono.dayOfMonth().set(instant, 1);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonth,710,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"instant = chrono.monthOfYear().add(instant, 1);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonth,711,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"instant = chrono.dayOfMonth().add(instant, iDayOfMonth);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonth,713,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return instant;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonthNext,672,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"next = setDayOfMonth(chrono, next);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonthNext,682,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfMonthNext,683,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return next;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,717,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int dayOfWeek = chrono.dayOfWeek().get(instant);
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,718,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int daysToAdd = iDayOfWeek - dayOfWeek;
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,719,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (daysToAdd != 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,720,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iAdvance) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,725,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (daysToAdd > 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,729,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"instant = chrono.dayOfWeek().add(instant, daysToAdd);"
+11,org.joda.time.tz.DateTimeZoneBuilder$OfYear,setDayOfWeek,731,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return instant;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1500,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,super(id);
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1501,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iTransitions = transitions;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1502,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iWallOffsets = wallOffsets;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1503,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStandardOffsets = standardOffsets;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1504,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iNameKeys = nameKeys;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1505,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iTailZone = tailZone;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,<init>,1506,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1389,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int size = transitions.size();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1390,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (size == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1394,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long[] trans = new long[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1395,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int[] wallOffsets = new int[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1396,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int[] standardOffsets = new int[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1397,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[] nameKeys = new String[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1399,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Transition last = null;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1400,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int i=0; i<size; i++) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1401,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Transition tr = transitions.get(i);
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1403,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (!tr.isTransitionFrom(last)) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1407,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,trans[i] = tr.getMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1408,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,wallOffsets[i] = tr.getWallOffset();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1409,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,standardOffsets[i] = tr.getStandardOffset();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1410,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,nameKeys[i] = tr.getNameKey();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1412,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,last = tr;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1417,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[] zoneNameData = new String[5];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1418,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[][] zoneStrings = new DateFormatSymbols(Locale.ENGLISH).getZoneStrings();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1419,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int j = 0; j < zoneStrings.length; j++) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1420,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[] set = zoneStrings[j];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1421,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (set != null && set.length == 5 && id.equals(set[0])) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1426,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Chronology chrono = ISOChronology.getInstanceUTC();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1428,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int i = 0; i < nameKeys.length - 1; i++) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1429,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String curNameKey = nameKeys[i];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1430,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String nextNameKey = nameKeys[i + 1];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1431,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long curOffset = wallOffsets[i];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1432,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long nextOffset = wallOffsets[i + 1];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1433,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long curStdOffset = standardOffsets[i];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1434,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long nextStdOffset = standardOffsets[i + 1];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1435,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Period p = new Period(trans[i], trans[i + 1], PeriodType.yearMonthDay(), chrono);"
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1436,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (curOffset != nextOffset &&
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1457,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (tailZone != null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1458,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (tailZone.iStartRecurrence.getNameKey()
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1460,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (ZoneInfoCompiler.verbose()) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1464,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (tailZone.iStartRecurrence.getSaveMillis() > 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1465,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,tailZone = new DSTZone(
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,create,1480,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return new PrecalculatedZone
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,isCachable,1690,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iTailZone != null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,isCachable,1691,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return true;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1341,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int poolSize = in.readUnsignedShort();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1342,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[] pool = new String[poolSize];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1343,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int i=0; i<poolSize; i++) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1344,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,pool[i] = in.readUTF();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1347,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int size = in.readInt();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1348,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long[] transitions = new long[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1349,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int[] wallOffsets = new int[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1350,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int[] standardOffsets = new int[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1351,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,String[] nameKeys = new String[size];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1353,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (int i=0; i<size; i++) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1354,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,transitions[i] = readMillis(in);
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1355,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,wallOffsets[i] = (int)readMillis(in);
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1356,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,standardOffsets[i] = (int)readMillis(in);
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1359,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (poolSize < 256) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1360,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,index = in.readUnsignedByte();
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1364,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,nameKeys[i] = pool[index];
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1367,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1370,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,DSTZone tailZone = null;
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1371,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (in.readBoolean()) {
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1372,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"tailZone = DSTZone.readFrom(in, id);"
+11,org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone,readFrom,1375,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return new PrecalculatedZone
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,<init>,747,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Recurrence(OfYear ofYear, String nameKey, int saveMillis) {"
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,<init>,748,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iOfYear = ofYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,<init>,749,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iNameKey = nameKey;
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,<init>,750,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iSaveMillis = saveMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,<init>,751,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,getNameKey,772,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iNameKey;
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,getSaveMillis,776,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iSaveMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,next,761,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return iOfYear.next(instant, standardOffset, saveMillis);"
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,readFrom,740,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new Recurrence(OfYear.readFrom(in), in.readUTF(), (int)readMillis(in));"
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,rename,800,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new Recurrence(iOfYear, nameKey, iSaveMillis);"
+11,org.joda.time.tz.DateTimeZoneBuilder$Recurrence,renameAppend,804,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return rename((iNameKey + appendNameKey).intern());
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,<init>,816,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Rule(Recurrence recurrence, int fromYear, int toYear) {"
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,<init>,817,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRecurrence = recurrence;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,<init>,818,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iFromYear = fromYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,<init>,819,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iToYear = toYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,<init>,820,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,getNameKey,835,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iRecurrence.getNameKey();
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,getSaveMillis,839,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iRecurrence.getSaveMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,getToYear,827,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iToYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,843,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Chronology chrono = ISOChronology.getInstanceUTC();
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,845,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,final int wallOffset = standardOffset + saveMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,846,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long testInstant = instant;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,849,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (instant == Long.MIN_VALUE) {
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,850,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,year = Integer.MIN_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,852,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,year = chrono.year().get(instant + wallOffset);
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,855,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (year < iFromYear) {
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,857,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"testInstant = chrono.year().set(0, iFromYear) - wallOffset;"
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,860,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,testInstant -= 1;
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,863,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"long next = iRecurrence.next(testInstant, standardOffset, saveMillis);"
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,865,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (next > instant) {
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,866,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,year = chrono.year().get(next + wallOffset);
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,867,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (year > iToYear) {
+11,org.joda.time.tz.DateTimeZoneBuilder$Rule,next,873,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return next;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<clinit>,948,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long now = DateTimeUtils.currentTimeMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<clinit>,949,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,YEAR_LIMIT = ISOChronology.getInstanceUTC().year().get(now) + 100;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<clinit>,950,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,963,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,RuleSet() {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,964,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRules = new ArrayList<Rule>(10);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,965,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iUpperYear = Integer.MAX_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,966,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,971,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,RuleSet(RuleSet rs) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,972,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStandardOffset = rs.iStandardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,973,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRules = new ArrayList<Rule>(rs.iRules);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,974,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iInitialNameKey = rs.iInitialNameKey;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,975,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iInitialSaveMillis = rs.iInitialSaveMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,976,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iUpperYear = rs.iUpperYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,977,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iUpperOfYear = rs.iUpperOfYear;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,<init>,978,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,addRule,994,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (!iRules.contains(rule)) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,addRule,995,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRules.add(rule);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,addRule,997,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,buildTailZone,1141,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iRules.size() == 2) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,buildTailZone,1142,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Rule startRule = iRules.get(0);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,buildTailZone,1143,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Rule endRule = iRules.get(1);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,buildTailZone,1144,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (startRule.getToYear() == Integer.MAX_VALUE &&
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,buildTailZone,1154,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new DSTZone(id, iStandardOffset,"
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1011,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iInitialNameKey != null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1018,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,ArrayList<Rule> copy = new ArrayList<Rule>(iRules);
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1024,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long millis = Long.MIN_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1025,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,int saveMillis = 0;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1026,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Transition first = null;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1029,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"while ((next = nextTransition(millis, saveMillis)) != null) {"
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1030,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,millis = next.getMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1032,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (millis == firstMillis) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1037,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (millis > firstMillis) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1038,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (first == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1042,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,for (Rule rule : copy) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1043,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (rule.getSaveMillis() == 0) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1044,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"first = new Transition(firstMillis, rule, iStandardOffset);"
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1045,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,break;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1047,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1049,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (first == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1066,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iRules = copy;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,firstTransition,1067,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return first;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,getUpperLimit,1131,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iUpperYear == Integer.MAX_VALUE) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,getUpperLimit,1132,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return Long.MAX_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1082,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Chronology chrono = ISOChronology.getInstanceUTC();
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1085,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Rule nextRule = null;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1086,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,long nextMillis = Long.MAX_VALUE;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1088,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Iterator<Rule> it = iRules.iterator();
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1089,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,while (it.hasNext()) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1090,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,Rule rule = it.next();
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1091,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"long next = rule.next(instant, iStandardOffset, saveMillis);"
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1092,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (next <= instant) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1098,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (next <= nextMillis) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1100,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,nextRule = rule;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1101,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,nextMillis = next;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1103,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1105,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (nextRule == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1110,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (chrono.year().get(nextMillis) >= YEAR_LIMIT) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1115,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (iUpperYear < Integer.MAX_VALUE) {
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,nextTransition,1124,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"return new Transition(nextMillis, nextRule, iStandardOffset);"
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,setStandardOffset,985,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStandardOffset = standardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$RuleSet,setStandardOffset,986,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,890,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,"Transition(long millis, Rule rule, int standardOffset) {"
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,891,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iMillis = millis;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,892,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iNameKey = rule.getNameKey();
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,893,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iWallOffset = standardOffset + rule.getSaveMillis();
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,894,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,iStandardOffset = standardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,<init>,895,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,}
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,getMillis,906,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iMillis;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,getNameKey,910,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iNameKey;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,getSaveMillis,922,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iWallOffset - iStandardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,getStandardOffset,918,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iStandardOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,getWallOffset,914,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iWallOffset;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,isTransitionFrom,929,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,if (other == null) {
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,isTransitionFrom,930,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return true;
+11,org.joda.time.tz.DateTimeZoneBuilder$Transition,isTransitionFrom,932,/JodaTime/src/main/java/org/joda/time/tz/DateTimeZoneBuilder.java,return iMillis > other.iMillis &&
+11,org.joda.time.tz.DefaultNameProvider,<init>,37,/JodaTime/src/main/java/org/joda/time/tz/DefaultNameProvider.java,"private HashMap<Locale, Map<String, Map<String, Object>>> iByLocaleCache = createCache();"
+11,org.joda.time.tz.DefaultNameProvider,<init>,39,/JodaTime/src/main/java/org/joda/time/tz/DefaultNameProvider.java,public DefaultNameProvider() {
+11,org.joda.time.tz.DefaultNameProvider,<init>,40,/JodaTime/src/main/java/org/joda/time/tz/DefaultNameProvider.java,}
+11,org.joda.time.tz.DefaultNameProvider,createCache,87,/JodaTime/src/main/java/org/joda/time/tz/DefaultNameProvider.java,return new HashMap(7);
+11,org.joda.time.tz.FixedDateTimeZone,<init>,38,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,super(id);
+11,org.joda.time.tz.FixedDateTimeZone,<init>,39,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,iNameKey = nameKey;
+11,org.joda.time.tz.FixedDateTimeZone,<init>,40,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,iWallOffset = wallOffset;
+11,org.joda.time.tz.FixedDateTimeZone,<init>,41,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,iStandardOffset = standardOffset;
+11,org.joda.time.tz.FixedDateTimeZone,<init>,42,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,}
+11,org.joda.time.tz.FixedDateTimeZone,equals,88,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,if (this == obj) {
+11,org.joda.time.tz.FixedDateTimeZone,equals,89,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,return true;
+11,org.joda.time.tz.FixedDateTimeZone,hashCode,102,/JodaTime/src/main/java/org/joda/time/tz/FixedDateTimeZone.java,return getID().hashCode() + 37 * iStandardOffset + 31 * iWallOffset;
+11,org.joda.time.tz.ZoneInfoCompiler,<clinit>,68,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java,static ThreadLocal<Boolean> cVerbose = new ThreadLocal<Boolean>();
+11,org.joda.time.tz.ZoneInfoCompiler,<clinit>,70,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java,cVerbose.set(Boolean.FALSE);
+11,org.joda.time.tz.ZoneInfoCompiler,<clinit>,71,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java,}
+11,org.joda.time.tz.ZoneInfoCompiler,verbose,78,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoCompiler.java,return cVerbose.get();
+11,org.joda.time.tz.ZoneInfoProvider,<init>,82,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"this(resourcePath, null, false);"
+11,org.joda.time.tz.ZoneInfoProvider,<init>,83,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}
+11,org.joda.time.tz.ZoneInfoProvider,<init>,106,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,{
+11,org.joda.time.tz.ZoneInfoProvider,<init>,107,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (resourcePath == null) {
+11,org.joda.time.tz.ZoneInfoProvider,<init>,110,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"if (!resourcePath.endsWith(""/"")) {"
+11,org.joda.time.tz.ZoneInfoProvider,<init>,111,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,resourcePath += '/';
+11,org.joda.time.tz.ZoneInfoProvider,<init>,114,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,iFileDir = null;
+11,org.joda.time.tz.ZoneInfoProvider,<init>,115,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,iResourcePath = resourcePath;
+11,org.joda.time.tz.ZoneInfoProvider,<init>,117,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (loader == null && !favorSystemLoader) {
+11,org.joda.time.tz.ZoneInfoProvider,<init>,118,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,loader = getClass().getClassLoader();
+11,org.joda.time.tz.ZoneInfoProvider,<init>,121,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,iLoader = loader;
+11,org.joda.time.tz.ZoneInfoProvider,<init>,123,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"iZoneInfoMap = loadZoneInfoMap(openResource(""ZoneInfoMap""));"
+11,org.joda.time.tz.ZoneInfoProvider,<init>,124,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}
+11,org.joda.time.tz.ZoneInfoProvider,getAvailableIDs,174,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return new TreeSet<String>(iZoneInfoMap.keySet());
+11,org.joda.time.tz.ZoneInfoProvider,getZone,136,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (id == null) {
+11,org.joda.time.tz.ZoneInfoProvider,getZone,140,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,Object obj = iZoneInfoMap.get(id);
+11,org.joda.time.tz.ZoneInfoProvider,getZone,141,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (obj == null) {
+11,org.joda.time.tz.ZoneInfoProvider,getZone,145,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (id.equals(obj)) {
+11,org.joda.time.tz.ZoneInfoProvider,getZone,147,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return loadZoneData(id);
+11,org.joda.time.tz.ZoneInfoProvider,getZone,150,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (obj instanceof SoftReference<?>) {
+11,org.joda.time.tz.ZoneInfoProvider,getZone,152,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,SoftReference<DateTimeZone> ref = (SoftReference<DateTimeZone>) obj;
+11,org.joda.time.tz.ZoneInfoProvider,getZone,153,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,DateTimeZone tz = ref.get();
+11,org.joda.time.tz.ZoneInfoProvider,getZone,154,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (tz != null) {
+11,org.joda.time.tz.ZoneInfoProvider,getZone,155,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return tz;
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,224,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,InputStream in = null;
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,226,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,in = openResource(id);
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,227,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"DateTimeZone tz = DateTimeZoneBuilder.readFrom(in, id);"
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,228,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"iZoneInfoMap.put(id, new SoftReference<DateTimeZone>(tz));"
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,229,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return tz;
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,236,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (in != null) {
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,237,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,in.close();
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneData,240,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,252,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"Map<String, Object> map = new ConcurrentHashMap<String, Object>();"
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,253,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,DataInputStream din = new DataInputStream(in);
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,255,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"readZoneInfoMap(din, map);"
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,258,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,din.close();
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,260,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,262,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"map.put(""UTC"", new SoftReference<DateTimeZone>(DateTimeZone.UTC));"
+11,org.joda.time.tz.ZoneInfoProvider,loadZoneInfoMap,263,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return map;
+11,org.joda.time.tz.ZoneInfoProvider,openResource,196,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (iFileDir != null) {
+11,org.joda.time.tz.ZoneInfoProvider,openResource,199,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,String path = iResourcePath.concat(name);
+11,org.joda.time.tz.ZoneInfoProvider,openResource,200,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (iLoader != null) {
+11,org.joda.time.tz.ZoneInfoProvider,openResource,201,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,in = iLoader.getResourceAsStream(path);
+11,org.joda.time.tz.ZoneInfoProvider,openResource,205,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,if (in == null) {
+11,org.joda.time.tz.ZoneInfoProvider,openResource,214,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,return in;
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,274,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,int size = din.readUnsignedShort();
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,275,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,String[] pool = new String[size];
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,276,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,for (int i=0; i<size; i++) {
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,277,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,pool[i] = din.readUTF().intern();
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,281,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,size = din.readUnsignedShort();
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,282,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,for (int i=0; i<size; i++) {
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,284,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,"zimap.put(pool[din.readUnsignedShort()], pool[din.readUnsignedShort()]);"
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,287,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}
+11,org.joda.time.tz.ZoneInfoProvider,readZoneInfoMap,289,/JodaTime/src/main/java/org/joda/time/tz/ZoneInfoProvider.java,}

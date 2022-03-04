@@ -1,0 +1,4 @@
+package,class,method,parameter,line,bug
+com.alibaba.fastjson.util,TypeUtils,castToSqlDate,java.lang.Object,531,88
+com.alibaba.fastjson.util,TypeUtils,castToSqlDate,java.lang.Object,534,88
+com.alibaba.fastjson.util,TypeUtils,castToSqlDate,java.lang.Object,535,88

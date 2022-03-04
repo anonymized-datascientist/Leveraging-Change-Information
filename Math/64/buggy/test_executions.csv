@@ -1,0 +1,9 @@
+test,test_class,test_method
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackLinearRank1,org.apache.commons.math.optimization.general.MinpackTest,testMinpackLinearRank1
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackBrownDennis,org.apache.commons.math.optimization.general.MinpackTest,testMinpackBrownDennis
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackRosenbrok,org.apache.commons.math.optimization.general.MinpackTest,testMinpackRosenbrok
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackBox3Dimensional,org.apache.commons.math.optimization.general.MinpackTest,testMinpackBox3Dimensional
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackHelicalValley,org.apache.commons.math.optimization.general.MinpackTest,testMinpackHelicalValley
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackMeyer,org.apache.commons.math.optimization.general.MinpackTest,testMinpackMeyer
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackLinearFullRank,org.apache.commons.math.optimization.general.MinpackTest,testMinpackLinearFullRank
+org.apache.commons.math.optimization.general.MinpackTest::testMinpackOsborne1,org.apache.commons.math.optimization.general.MinpackTest,testMinpackOsborne1

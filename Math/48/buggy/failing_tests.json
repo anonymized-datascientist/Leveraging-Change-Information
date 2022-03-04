@@ -1,0 +1,9 @@
+{
+    "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest": [
+        "testIssue631"
+    ],
+    "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest": [
+        "testAckley",
+        "testDiffPow"
+    ]
+}

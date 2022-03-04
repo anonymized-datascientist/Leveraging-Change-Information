@@ -1,0 +1,10 @@
+{
+    "org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests": [
+        "testDrawWithNullInfo",
+        "testEquals",
+        "testHashcode",
+        "testCloning",
+        "testSerialization",
+        "test1562759"
+    ]
+}

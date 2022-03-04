@@ -1,0 +1,9 @@
+package,class,method,parameter,line,bug
+com.alibaba.fastjson.parser,ParserConfig,getGlobalInstance,,166,88
+com.alibaba.fastjson.util,TypeUtils,castToJavaBean,"java.lang.Object,java.lang.Class",1009,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1014,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1033,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1037,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1041,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1042,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1043,88

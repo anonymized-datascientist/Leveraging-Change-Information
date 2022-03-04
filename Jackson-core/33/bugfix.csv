@@ -1,0 +1,2 @@
+class,method,line,bug
+src/main/java/com/fasterxml/jackson/core/json/UTF8StreamJsonParser.java,findName,2168,Jackson-core_33

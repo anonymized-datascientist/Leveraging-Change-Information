@@ -1,0 +1,12 @@
+bug,class,method,line
+65,org.apache.commons.lang.time.DateUtils,<clinit>,44
+65,org.apache.commons.lang.time.DateUtils,<clinit>,72
+65,org.apache.commons.lang.time.DateUtils,isSameDay,165
+65,org.apache.commons.lang.time.DateUtils,isSameDay,168
+65,org.apache.commons.lang.time.DateUtils,isSameDay,141
+65,org.apache.commons.lang.time.DateUtils,isSameDay,142
+65,org.apache.commons.lang.time.DateUtils,isSameDay,144
+65,org.apache.commons.lang.time.DateUtils,isSameDay,145
+65,org.apache.commons.lang.time.DateUtils,isSameDay,146
+65,org.apache.commons.lang.time.DateUtils,isSameDay,147
+65,org.apache.commons.lang.time.DateUtils,isSameDay,148

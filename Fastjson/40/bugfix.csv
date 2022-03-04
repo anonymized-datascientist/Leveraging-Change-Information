@@ -1,0 +1,6 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/parser/deserializer/ASMDeserializerFactory.java,_deserialze,747,Fastjson_37
+src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java,parseField,1102,Fastjson_37
+src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java,parseField,1106,Fastjson_37
+src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java,parseField,1107,Fastjson_37
+src/test/java/com/alibaba/json/bvt/issue_2300/Issue2387.java,test_for_issue,12,Fastjson_37

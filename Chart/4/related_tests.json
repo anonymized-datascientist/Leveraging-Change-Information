@@ -1,0 +1,30 @@
+{
+    "org.jfree.chart.plot.junit.XYPlotTests": [
+        "testDrawRangeGridlines",
+        "testEquals",
+        "testCloning",
+        "testCloning2",
+        "testCloning3",
+        "testCloning_QuadrantOrigin",
+        "testCloning_QuadrantPaint",
+        "testCloneIndependence",
+        "testSetNullRenderer",
+        "testSerialization1",
+        "testSerialization2",
+        "testSerialization3",
+        "testSerialization4",
+        "testSerialization5",
+        "testGetRendererForDataset",
+        "testGetLegendItems",
+        "testSetRenderer",
+        "testRemoveAnnotation",
+        "testAddDomainMarker",
+        "testAddRangeMarker",
+        "test1654215",
+        "testDrawSeriesWithZeroItems",
+        "testRemoveDomainMarker",
+        "testRemoveRangeMarker",
+        "testGetDomainAxisForDataset",
+        "testGetRangeAxisForDataset"
+    ]
+}

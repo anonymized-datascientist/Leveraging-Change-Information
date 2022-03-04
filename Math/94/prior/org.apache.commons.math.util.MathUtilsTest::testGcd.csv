@@ -1,0 +1,16 @@
+bug,class,method,line
+94,org.apache.commons.math.util.MathUtils,gcd,546
+94,org.apache.commons.math.util.MathUtils,gcd,547
+94,org.apache.commons.math.util.MathUtils,gcd,548
+94,org.apache.commons.math.util.MathUtils,gcd,549
+94,org.apache.commons.math.util.MathUtils,gcd,550
+94,org.apache.commons.math.util.MathUtils,gcd,551
+94,org.apache.commons.math.util.MathUtils,gcd,552
+94,org.apache.commons.math.util.MathUtils,gcd,553
+94,org.apache.commons.math.util.MathUtils,gcd,555
+94,org.apache.commons.math.util.MathUtils,gcd,556
+94,org.apache.commons.math.util.MathUtils,gcd,557
+94,org.apache.commons.math.util.MathUtils,gcd,558
+94,org.apache.commons.math.util.MathUtils,gcd,559
+94,org.apache.commons.math.util.MathUtils,gcd,561
+94,org.apache.commons.math.util.MathUtils,gcd,563

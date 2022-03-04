@@ -1,0 +1,6 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,toBoolean,244
+51,org.apache.commons.lang.BooleanUtils,toBoolean,245
+51,org.apache.commons.lang.BooleanUtils,toBoolean,246
+51,org.apache.commons.lang.BooleanUtils,toBoolean,247
+51,org.apache.commons.lang.BooleanUtils,toBoolean,250

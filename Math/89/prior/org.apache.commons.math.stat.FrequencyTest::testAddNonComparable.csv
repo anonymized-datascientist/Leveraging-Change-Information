@@ -1,0 +1,17 @@
+bug,class,method,line
+89,org.apache.commons.math.stat.Frequency,<init>,57
+89,org.apache.commons.math.stat.Frequency,<init>,58
+89,org.apache.commons.math.stat.Frequency,<init>,59
+89,org.apache.commons.math.stat.Frequency,addValue,130
+89,org.apache.commons.math.stat.Frequency,addValue,131
+89,org.apache.commons.math.stat.Frequency,addValue,107
+89,org.apache.commons.math.stat.Frequency,addValue,108
+89,org.apache.commons.math.stat.Frequency,addValue,112
+89,org.apache.commons.math.stat.Frequency,addValue,113
+89,org.apache.commons.math.stat.Frequency,addValue,114
+89,org.apache.commons.math.stat.Frequency,addValue,118
+89,org.apache.commons.math.stat.Frequency,addValue,120
+89,org.apache.commons.math.stat.Frequency,addValue,121
+89,org.apache.commons.math.stat.Frequency,addValue,122
+89,org.apache.commons.math.stat.Frequency,clear,162
+89,org.apache.commons.math.stat.Frequency,clear,163

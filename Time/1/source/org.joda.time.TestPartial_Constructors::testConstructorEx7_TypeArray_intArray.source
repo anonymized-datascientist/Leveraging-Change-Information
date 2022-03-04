@@ -1,0 +1,48 @@
+/**
+ * Test constructor
+ */
+public void testConstructorEx7_TypeArray_intArray() throws Throwable {
+    int[] values = new int[] { 1, 1, 1 };
+    DateTimeFieldType[] types = new DateTimeFieldType[] { DateTimeFieldType.dayOfMonth(), DateTimeFieldType.year(), DateTimeFieldType.monthOfYear() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+    types = new DateTimeFieldType[] { DateTimeFieldType.year(), DateTimeFieldType.dayOfMonth(), DateTimeFieldType.monthOfYear() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+    types = new DateTimeFieldType[] { DateTimeFieldType.year(), DateTimeFieldType.era(), DateTimeFieldType.monthOfYear() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+    types = new DateTimeFieldType[] { DateTimeFieldType.year(), DateTimeFieldType.dayOfMonth(), DateTimeFieldType.era() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+    types = new DateTimeFieldType[] { DateTimeFieldType.year(), DateTimeFieldType.dayOfMonth(), DateTimeFieldType.dayOfYear() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+    types = new DateTimeFieldType[] { DateTimeFieldType.yearOfEra(), DateTimeFieldType.year(), DateTimeFieldType.dayOfYear() };
+    try {
+        new Partial(types, values);
+        fail();
+    } catch (IllegalArgumentException ex) {
+        assertMessageContains(ex, "must be in order", "largest-smallest");
+    }
+}

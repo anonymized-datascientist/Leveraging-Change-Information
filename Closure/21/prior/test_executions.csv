@@ -1,0 +1,7 @@
+test,test_class,test_method
+com.google.javascript.jscomp.CheckSideEffectsTest::test,com.google.javascript.jscomp.CheckSideEffectsTest,test
+com.google.javascript.jscomp.CheckSideEffectsTest::testUselessCodeInFor,com.google.javascript.jscomp.CheckSideEffectsTest,testUselessCodeInFor
+com.google.javascript.jscomp.CheckSideEffectsTest::testTypeAnnotations,com.google.javascript.jscomp.CheckSideEffectsTest,testTypeAnnotations
+com.google.javascript.jscomp.CheckSideEffectsTest::testJSDocComments,com.google.javascript.jscomp.CheckSideEffectsTest,testJSDocComments
+com.google.javascript.jscomp.CheckSideEffectsTest::testIssue80,com.google.javascript.jscomp.CheckSideEffectsTest,testIssue80
+com.google.javascript.jscomp.CheckSideEffectsTest::testIsue504,com.google.javascript.jscomp.CheckSideEffectsTest,testIsue504

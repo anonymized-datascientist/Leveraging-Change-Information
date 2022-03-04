@@ -1,0 +1,7 @@
+project,bug,top_hits,top_index
+Lang,4,"['LookupTranslator#translate', 'LookupTranslator#LookupTranslator']","[1, 2]"
+Lang,6,['CharSequenceTranslator#translate'],[22]
+Lang,13,"['SerializationUtils#resolveClass', 'SerializationUtils#ClassLoaderAwareObjectInputStream']","[1, 4]"
+Lang,46,"['StringEscapeUtils#escapeJava', 'StringEscapeUtils#escapeJavaStyleString']","[2, 1]"
+Lang,51,['BooleanUtils#toBoolean'],[1]
+Lang,53,['DateUtils#modify'],[1]

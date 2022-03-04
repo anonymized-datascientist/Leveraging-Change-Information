@@ -1,0 +1,4 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,toIntegerObject,487
+51,org.apache.commons.lang.BooleanUtils,toIntegerObject,488
+51,org.apache.commons.lang.BooleanUtils,toIntegerObject,490

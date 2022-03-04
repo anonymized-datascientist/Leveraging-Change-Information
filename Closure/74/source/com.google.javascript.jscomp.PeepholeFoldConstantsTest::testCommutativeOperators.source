@@ -1,0 +1,15 @@
+public void testCommutativeOperators() {
+    List<String> operators = ImmutableList.of("==", "!=", "===", "!==", "*", "|", "&", "^");
+    for (int iOperandA = 0; iOperandA < LITERAL_OPERANDS.size(); iOperandA++) {
+        for (int iOperandB = iOperandA; iOperandB < LITERAL_OPERANDS.size(); iOperandB++) {
+            for (int iOp = 0; iOp < operators.size(); iOp++) {
+                String a = LITERAL_OPERANDS.get(iOperandA);
+                String b = LITERAL_OPERANDS.get(iOperandB);
+                String op = operators.get(iOp);
+                // Test commutativity.
+                // TODO(nicksantos): Eventually, all cases should be collapsed.
+                assertSameResultsOrUncollapsed(join(a, op, b), join(b, op, a));
+            }
+        }
+    }
+}

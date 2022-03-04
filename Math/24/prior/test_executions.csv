@@ -1,0 +1,8 @@
+test,test_class,test_method
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testSinMin,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testSinMin
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testSinMinWithValueChecker,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testSinMinWithValueChecker
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testBoundaries,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testBoundaries
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testQuinticMin,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testQuinticMin
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testQuinticMinStatistics,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testQuinticMinStatistics
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testQuinticMax,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testQuinticMax
+org.apache.commons.math3.optimization.univariate.BrentOptimizerTest::testMinEndpoints,org.apache.commons.math3.optimization.univariate.BrentOptimizerTest,testMinEndpoints

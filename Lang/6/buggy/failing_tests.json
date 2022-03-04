@@ -1,0 +1,8 @@
+{
+    "org.apache.commons.lang3.StringUtilsTest": [
+        "testEscapeSurrogatePairs"
+    ],
+    "org.apache.commons.lang3.builder.ToStringBuilderTest": [
+        "testReflectionHierarchyArrayList"
+    ]
+}

@@ -1,0 +1,13 @@
+bug,class,method,line
+94,org.apache.commons.math.util.MathUtils,factorial,423
+94,org.apache.commons.math.util.MathUtils,factorial,424
+94,org.apache.commons.math.util.MathUtils,factorial,425
+94,org.apache.commons.math.util.MathUtils,factorialDouble,453
+94,org.apache.commons.math.util.MathUtils,factorialDouble,454
+94,org.apache.commons.math.util.MathUtils,factorialDouble,456
+94,org.apache.commons.math.util.MathUtils,factorialLog,472
+94,org.apache.commons.math.util.MathUtils,factorialLog,473
+94,org.apache.commons.math.util.MathUtils,factorialLog,475
+94,org.apache.commons.math.util.MathUtils,factorialLog,476
+94,org.apache.commons.math.util.MathUtils,factorialLog,477
+94,org.apache.commons.math.util.MathUtils,factorialLog,479

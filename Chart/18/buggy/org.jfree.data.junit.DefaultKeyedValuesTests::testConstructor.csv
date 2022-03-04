@@ -1,0 +1,7 @@
+bug,class,method,line
+18,org.jfree.data.DefaultKeyedValues,<init>,93
+18,org.jfree.data.DefaultKeyedValues,<init>,94
+18,org.jfree.data.DefaultKeyedValues,<init>,95
+18,org.jfree.data.DefaultKeyedValues,<init>,96
+18,org.jfree.data.DefaultKeyedValues,<init>,97
+18,org.jfree.data.DefaultKeyedValues,getItemCount,105

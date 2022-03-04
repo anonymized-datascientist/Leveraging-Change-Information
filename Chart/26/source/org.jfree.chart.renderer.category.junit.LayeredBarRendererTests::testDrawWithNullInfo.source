@@ -1,0 +1,20 @@
+/**
+ * Draws the chart with a <code>null</code> info object to make sure that
+ * no exceptions are thrown (particularly by code in the renderer).
+ */
+public void testDrawWithNullInfo() {
+    boolean success = false;
+    try {
+        DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        dataset.addValue(1.0, "S1", "C1");
+        CategoryPlot plot = new CategoryPlot(dataset, new CategoryAxis("Category"), new NumberAxis("Value"), new LayeredBarRenderer());
+        JFreeChart chart = new JFreeChart(plot);
+        /* BufferedImage image = */
+        chart.createBufferedImage(300, 200, null);
+        success = true;
+    } catch (NullPointerException e) {
+        e.printStackTrace();
+        success = false;
+    }
+    assertTrue(success);
+}

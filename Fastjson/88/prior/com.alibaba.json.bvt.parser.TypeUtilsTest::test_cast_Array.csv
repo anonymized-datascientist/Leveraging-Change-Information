@@ -1,0 +1,12 @@
+package,class,method,parameter,line,bug
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1014,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1033,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1037,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1041,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1053,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1054,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1055,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1056,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1057,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1058,88
+com.alibaba.fastjson.util,TypeUtils,cast,"java.lang.Object,java.lang.Class,com.alibaba.fastjson.parser.ParserConfig",1063,88

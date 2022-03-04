@@ -1,0 +1,23 @@
+{
+    "com.google.javascript.jscomp.CodePrinterTest": [
+        "testZero",
+        "testPrint",
+        "testPrintInOperatorInForLoop",
+        "testLiteralProperty",
+        "testAmbiguousElseClauses",
+        "testLineBreak",
+        "testPrettyPrinter",
+        "testTypeAnnotations",
+        "testTypeAnnotationsAssign",
+        "testTypeAnnotationsNamespace",
+        "testTypeAnnotationsMemberSubclass",
+        "testTypeAnnotationsInterface",
+        "testTypeAnnotationsMember",
+        "testTypeAnnotationsImplements",
+        "testSubtraction",
+        "testLineLength",
+        "testParsePrintParse",
+        "testDoLoopIECompatiblity",
+        "testFunctionSafariCompatiblity"
+    ]
+}

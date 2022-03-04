@@ -1,0 +1,89 @@
+project,bug,top_hits,top_index
+Fastjson,1,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,2,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,3,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,4,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,5,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,6,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,7,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,8,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,9,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,10,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,11,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,12,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,13,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,14,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,15,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,16,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,17,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,18,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,19,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,20,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,21,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,22,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,23,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,24,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,25,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,26,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,27,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,28,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,29,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,30,['JavaBeanDeserializer#deserialze'],[1]
+Fastjson,31,['JSON#toJSONString'],[1]
+Fastjson,32,['JavaBeanDeserializer#createInstance'],[45]
+Fastjson,33,['JavaBeanDeserializer#createInstance'],[45]
+Fastjson,34,"['DefaultJSONParser#parseArray', 'JavaBeanDeserializer#createInstance']","[252, 45]"
+Fastjson,35,['JavaBeanDeserializer#createInstance'],[45]
+Fastjson,36,['JavaBeanDeserializer#createInstance'],[45]
+Fastjson,37,"['JavaBeanDeserializer#parseField', 'ASMDeserializerFactory#_deserialze']","[354, 187]"
+Fastjson,38,"['JavaBeanDeserializer#parseField', 'ASMDeserializerFactory#_deserialze']","[354, 187]"
+Fastjson,39,"['JavaBeanDeserializer#parseField', 'ASMDeserializerFactory#_deserialze']","[354, 187]"
+Fastjson,40,"['JavaBeanDeserializer#parseField', 'ASMDeserializerFactory#_deserialze']","[354, 187]"
+Fastjson,41,"['JavaBeanDeserializer#parseField', 'ASMDeserializerFactory#_deserialze']","[354, 187]"
+Fastjson,42,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,43,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,44,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,45,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,46,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,47,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,48,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,49,['ParserConfig#getFieldFromCache'],[123]
+Fastjson,50,"['JSONPath#getPropertyValue', 'JSONPath#eval', 'JSONPath#JSONPath', 'JSONPath#compile']","[95, 291, 309, 257]"
+Fastjson,51,"['JSONPath#getPropertyValue', 'JSONPath#eval', 'JSONPath#JSONPath', 'JSONPath#compile']","[95, 291, 309, 257]"
+Fastjson,52,"['JSONPath#getPropertyValue', 'JSONPath#eval', 'JSONPath#JSONPath', 'JSONPath#compile']","[95, 291, 309, 257]"
+Fastjson,53,['SerializeConfig#getEnumValueField'],[93]
+Fastjson,54,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,55,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,56,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,57,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,58,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,59,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,60,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,61,"['JavaBeanDeserializer#parseField', 'JavaBeanDeserializer#isSetFlag', 'JavaBeanDeserializer#getFieldDeserializer', 'JavaBeanDeserializer#deserialze', 'JavaBeanDeserializer#scanEnum', 'JavaBeanDeserializer#createInstance', 'JavaBeanDeserializer#JavaBeanDeserializer']","[359, 317, 178, 4, 167, 291, 292]"
+Fastjson,62,['TypeUtils#castToBigInteger'],[44]
+Fastjson,63,['TypeUtils#castToBigInteger'],[44]
+Fastjson,64,['TypeUtils#castToBigInteger'],[44]
+Fastjson,65,['TypeUtils#castToBigInteger'],[44]
+Fastjson,66,"['DefaultJSONParser#parseObject', 'MapDeserializer#deserialze']","[97, 273]"
+Fastjson,67,['JSONPath#extract'],[192]
+Fastjson,68,['JSONPath#extract'],[192]
+Fastjson,69,['TypeUtils#getCollectionItemType'],[199]
+Fastjson,70,['TypeUtils#makeParameterizedType'],[305]
+Fastjson,71,['JSON#toJSON'],[159]
+Fastjson,72,['JSON#toJSON'],[159]
+Fastjson,73,['JSON#toJSON'],[159]
+Fastjson,74,"['JSONScanner#scanFieldString', 'ParserConfig#createJavaBeanDeserializer']","[295, 226]"
+Fastjson,75,"['JSONScanner#scanFieldString', 'ParserConfig#createJavaBeanDeserializer']","[295, 226]"
+Fastjson,76,['JavaBeanDeserializer#createInstance'],[121]
+Fastjson,77,['JavaBeanDeserializer#createInstance'],[121]
+Fastjson,78,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,79,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,80,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,81,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,82,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,83,"['JSONPath#extract', 'JSONScanner#skipString', 'JSONScanner#seekObjectToField', 'JSONScanner#skipObject']","[15, 17, 3, 20]"
+Fastjson,84,[],[]
+Fastjson,85,"['Jdk8DateCodec#parseLocalDate', 'JodaCodec#parseLocalDate', 'JodaCodec#deserialze', 'Jdk8DateCodec#deserialze']","[96, 17, 97, 241]"
+Fastjson,86,"['Jdk8DateCodec#parseLocalDate', 'JodaCodec#parseLocalDate', 'JodaCodec#deserialze', 'Jdk8DateCodec#deserialze']","[96, 17, 97, 241]"
+Fastjson,87,"['Jdk8DateCodec#parseLocalDate', 'JodaCodec#parseLocalDate', 'JodaCodec#deserialze', 'Jdk8DateCodec#deserialze']","[96, 17, 97, 241]"
+Fastjson,88,"['SerializeConfig#getObjectWriter', 'ByteVector#putUTF8', 'JavaBeanDeserializer#deserialze', 'ParserConfig#checkAutoType']","[118, 68, 144, 126]"

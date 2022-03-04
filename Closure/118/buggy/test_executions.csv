@@ -1,0 +1,9 @@
+test,test_class,test_method
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType1,com.google.javascript.jscomp.DisambiguatePropertiesTest,testOneType1
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType2,com.google.javascript.jscomp.DisambiguatePropertiesTest,testOneType2
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testOneType3,com.google.javascript.jscomp.DisambiguatePropertiesTest,testOneType3
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testPrototypeAndInstance,com.google.javascript.jscomp.DisambiguatePropertiesTest,testPrototypeAndInstance
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes1,com.google.javascript.jscomp.DisambiguatePropertiesTest,testTwoTypes1
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes2,com.google.javascript.jscomp.DisambiguatePropertiesTest,testTwoTypes2
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoTypes3,com.google.javascript.jscomp.DisambiguatePropertiesTest,testTwoTypes3
+com.google.javascript.jscomp.DisambiguatePropertiesTest::testTwoFields,com.google.javascript.jscomp.DisambiguatePropertiesTest,testTwoFields

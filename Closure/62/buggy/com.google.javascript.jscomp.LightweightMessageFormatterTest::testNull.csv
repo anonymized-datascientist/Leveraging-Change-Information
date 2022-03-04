@@ -1,0 +1,16 @@
+bug,class,method,line
+62,com.google.javascript.jscomp.CheckLevel,<clinit>,24
+62,com.google.javascript.jscomp.CheckLevel,<clinit>,25
+62,com.google.javascript.jscomp.CheckLevel,<clinit>,26
+62,com.google.javascript.jscomp.CheckLevel,<clinit>,27
+62,com.google.javascript.jscomp.DiagnosticType,<init>,97
+62,com.google.javascript.jscomp.DiagnosticType,<init>,98
+62,com.google.javascript.jscomp.DiagnosticType,<init>,99
+62,com.google.javascript.jscomp.DiagnosticType,<init>,100
+62,com.google.javascript.jscomp.DiagnosticType,<init>,102
+62,com.google.javascript.jscomp.DiagnosticType,<init>,103
+62,com.google.javascript.jscomp.DiagnosticType,error,54
+62,com.google.javascript.jscomp.DiagnosticType,make,90
+62,com.google.javascript.jscomp.LightweightMessageFormatter$LineNumberingFormatter,<init>,118
+62,com.google.javascript.jscomp.LightweightMessageFormatter$LineNumberingFormatter,formatRegion,124
+62,com.google.javascript.jscomp.LightweightMessageFormatter$LineNumberingFormatter,formatRegion,125

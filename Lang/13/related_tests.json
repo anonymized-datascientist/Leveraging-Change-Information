@@ -1,0 +1,28 @@
+{
+    "org.apache.commons.lang3.SerializationUtilsTest": [
+        "testPrimitiveTypeClassSerialization",
+        "testException",
+        "testDeserializeBytesBadStream",
+        "testDeserializeStreamBadStream",
+        "testSerializeBytesUnserializable",
+        "testSerializeStreamNullNull",
+        "testSerializeStreamNullObj",
+        "testClone",
+        "testSerializeBytesNull",
+        "testSerializeStreamObjNull",
+        "testSerializeIOException",
+        "testDeserializeBytes",
+        "testCloneNull",
+        "testSerializeStream",
+        "testDeserializeStream",
+        "testCloneUnserializable",
+        "testSerializeStreamUnserializable",
+        "testDeserializeStreamOfNull",
+        "testDeserializeStreamClassNotFound",
+        "testDeserializeBytesOfNull",
+        "testSerializeBytes",
+        "testDeserializeBytesNull",
+        "testConstructor",
+        "testDeserializeStreamNull"
+    ]
+}

@@ -1,0 +1,6 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java,getEnumValueField,856,Fastjson_53
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java,getEnumValueField,857,Fastjson_53
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java,getEnumValueField,858,Fastjson_53
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java,getEnumValueField,859,Fastjson_53
+src/main/java/com/alibaba/fastjson/serializer/SerializeConfig.java,getEnumValueField,860,Fastjson_53

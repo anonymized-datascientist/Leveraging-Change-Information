@@ -1,0 +1,8 @@
+{
+    "org.apache.commons.lang3.SerializationUtilsTest": [
+        "testPrimitiveTypeClassSerialization"
+    ],
+    "org.apache.commons.lang3.builder.ToStringBuilderTest": [
+        "testReflectionHierarchyArrayList"
+    ]
+}

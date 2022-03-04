@@ -1,0 +1,6 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java,isFirst,410,Fastjson_1
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java,isFirst,411,Fastjson_1
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java,isFirst,412,Fastjson_1
+src/main/java/com/alibaba/fastjson/parser/JSONLexerBase.java,,413,Fastjson_1
+src/main/java/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java,deserialze,401,Fastjson_1

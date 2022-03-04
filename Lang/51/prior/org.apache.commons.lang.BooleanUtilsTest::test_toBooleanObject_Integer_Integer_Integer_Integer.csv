@@ -1,0 +1,15 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,336
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,337
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,338
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,339
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,340
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,341
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,342
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,344
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,345
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,346
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,347
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,348
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,349
+51,org.apache.commons.lang.BooleanUtils,toBooleanObject,352

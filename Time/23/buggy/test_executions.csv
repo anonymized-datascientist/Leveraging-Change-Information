@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.joda.time.TestDateTimeZone::testDefault,org.joda.time.TestDateTimeZone,testDefault
+org.joda.time.TestDateTimeZone::testDefaultSecurity,org.joda.time.TestDateTimeZone,testDefaultSecurity
+org.joda.time.TestDateTimeZone::testGetInstance_String,org.joda.time.TestDateTimeZone,testGetInstance_String
+org.joda.time.TestDateTimeZone::testGetInstance_int,org.joda.time.TestDateTimeZone,testGetInstance_int
+org.joda.time.TestDateTimeZone::testGetInstance_int_int,org.joda.time.TestDateTimeZone,testGetInstance_int_int
+org.joda.time.TestDateTimeZone::testGetInstance_TimeZone,org.joda.time.TestDateTimeZone,testGetInstance_TimeZone
+org.joda.time.TestDateTimeZone::testGetAvailableIDs,org.joda.time.TestDateTimeZone,testGetAvailableIDs
+org.joda.time.TestDateTimeZone::testProvider,org.joda.time.TestDateTimeZone,testProvider
+org.joda.time.TestDateTimeZone::testProviderSecurity,org.joda.time.TestDateTimeZone,testProviderSecurity

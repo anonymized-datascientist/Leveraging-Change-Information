@@ -1,0 +1,16 @@
+bug,class,method,line
+53,org.apache.commons.lang.time.DateUtils,<clinit>,44
+53,org.apache.commons.lang.time.DateUtils,<clinit>,72
+53,org.apache.commons.lang.time.DateUtils,parseDate,252
+53,org.apache.commons.lang.time.DateUtils,parseDate,253
+53,org.apache.commons.lang.time.DateUtils,parseDate,256
+53,org.apache.commons.lang.time.DateUtils,parseDate,257
+53,org.apache.commons.lang.time.DateUtils,parseDate,258
+53,org.apache.commons.lang.time.DateUtils,parseDate,259
+53,org.apache.commons.lang.time.DateUtils,parseDate,260
+53,org.apache.commons.lang.time.DateUtils,parseDate,262
+53,org.apache.commons.lang.time.DateUtils,parseDate,264
+53,org.apache.commons.lang.time.DateUtils,parseDate,265
+53,org.apache.commons.lang.time.DateUtils,parseDate,266
+53,org.apache.commons.lang.time.DateUtils,parseDate,267
+53,org.apache.commons.lang.time.DateUtils,parseDate,270

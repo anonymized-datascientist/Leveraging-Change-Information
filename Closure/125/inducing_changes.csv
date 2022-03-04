@@ -1,0 +1,5 @@
+file,method,line
+src/com/google/javascript/jscomp/FunctionTypeBuilder.java,,61
+src/com/google/javascript/jscomp/JSSourceFile.java,,34
+src/com/google/javascript/jscomp/function_info.proto,,2
+src/com/google/javascript/jscomp/instrumentation_template.proto,,2

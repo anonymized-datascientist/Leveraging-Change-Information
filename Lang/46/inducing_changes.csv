@@ -1,0 +1,7 @@
+file,method,line
+src/java/org/apache/commons/lang/StringEscapeUtils.java,escapeJavaStyleString,236
+src/java/org/apache/commons/lang/StringEscapeUtils.java,escapeJavaStyleString,237
+src/java/org/apache/commons/lang/StringEscapeUtils.java,escapeJavaStyleString,238
+src/java/org/apache/commons/lang/StringEscapeUtils.java,escapeJavaStyleString,239
+src/test/org/apache/commons/lang/StringEscapeUtilsTest.java,testEscapeJavaScript,187
+src/test/org/apache/commons/lang/StringEscapeUtilsTest.java,testEscapeJavaScript,188

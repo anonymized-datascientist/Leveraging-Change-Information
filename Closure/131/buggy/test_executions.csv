@@ -1,0 +1,2 @@
+test,test_class,test_method
+com.google.javascript.jscomp.ConvertToDottedPropertiesTest::testConvert,com.google.javascript.jscomp.ConvertToDottedPropertiesTest,testConvert

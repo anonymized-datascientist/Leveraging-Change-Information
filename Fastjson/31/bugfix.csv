@@ -1,0 +1,5 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/JSON.java,toJSONString,690,Fastjson_31
+src/main/java/com/alibaba/fastjson/JSON.java,toJSONString,691,Fastjson_31
+src/main/java/com/alibaba/fastjson/JSON.java,toJSONString,692,Fastjson_31
+src/main/java/com/alibaba/fastjson/JSON.java,toJSONString,693,Fastjson_31

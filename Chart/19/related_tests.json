@@ -1,0 +1,19 @@
+{
+    "org.jfree.chart.plot.junit.CategoryPlotTests": [
+        "testGetDomainAxisIndex",
+        "testGetRangeAxisIndex",
+        "testAxisRange",
+        "testEquals",
+        "testCloning",
+        "testSerialization",
+        "testSerialization2",
+        "testSerialization3",
+        "testSerialization4",
+        "testSerialization5",
+        "testSetRenderer",
+        "test1169972",
+        "testAddDomainMarker",
+        "testAddRangeMarker",
+        "test1654215"
+    ]
+}

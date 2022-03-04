@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.math.util.MathUtilsTest::testAddAndCheck,org.apache.commons.math.util.MathUtilsTest,testAddAndCheck
+org.apache.commons.math.util.MathUtilsTest::testMulAndCheck,org.apache.commons.math.util.MathUtilsTest,testMulAndCheck
+org.apache.commons.math.util.MathUtilsTest::testSubAndCheck,org.apache.commons.math.util.MathUtilsTest,testSubAndCheck
+org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficient,org.apache.commons.math.util.MathUtilsTest,testBinomialCoefficient
+org.apache.commons.math.util.MathUtilsTest::test0Choose0,org.apache.commons.math.util.MathUtilsTest,test0Choose0
+org.apache.commons.math.util.MathUtilsTest::testBinomialCoefficientFail,org.apache.commons.math.util.MathUtilsTest,testBinomialCoefficientFail
+org.apache.commons.math.util.MathUtilsTest::testFactorial,org.apache.commons.math.util.MathUtilsTest,testFactorial
+org.apache.commons.math.util.MathUtilsTest::testFactorialFail,org.apache.commons.math.util.MathUtilsTest,testFactorialFail
+org.apache.commons.math.util.MathUtilsTest::testSignDouble,org.apache.commons.math.util.MathUtilsTest,testSignDouble

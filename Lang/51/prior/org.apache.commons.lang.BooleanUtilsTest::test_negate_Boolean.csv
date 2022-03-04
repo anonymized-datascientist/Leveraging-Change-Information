@@ -1,0 +1,4 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,negate,100
+51,org.apache.commons.lang.BooleanUtils,negate,101
+51,org.apache.commons.lang.BooleanUtils,negate,103

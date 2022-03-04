@@ -1,0 +1,46 @@
+public void testIsBooleanResult() {
+    assertFalse(NodeUtil.isBooleanResult(getNode("1")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("true")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("+true")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("+1")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("-1")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("-Infinity")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("Infinity")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("NaN")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("undefined")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("void 0")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a << b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a >> b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a >>> b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a == b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a != b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a === b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a !== b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a < b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a > b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a <= b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a >= b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a in b")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a instanceof b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("'a'")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("'a'+b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a+'b'")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a+b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a()")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("''.a")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a.b")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a.b()")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a().b()")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("new a()")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("delete a")));
+    // Definitely not boolean
+    assertFalse(NodeUtil.isBooleanResult(getNode("([true,false])")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("({a:true})")));
+    // These are boolean but aren't handled yet, "false" here means "unknown".
+    assertTrue(NodeUtil.isBooleanResult(getNode("true && false")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("true || false")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a ? true : false")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a,true")));
+    assertTrue(NodeUtil.isBooleanResult(getNode("a=true")));
+    assertFalse(NodeUtil.isBooleanResult(getNode("a=1")));
+}

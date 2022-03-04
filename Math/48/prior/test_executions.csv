@@ -1,0 +1,9 @@
+test,test_class,test_method
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionRightSide,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testSolutionRightSide
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionAboveSide,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testSolutionAboveSide
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionBelowSide,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testSolutionBelowSide
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSolutionLeftSide,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testSolutionLeftSide
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testBadEndpoints,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testBadEndpoints
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testRootEndpoints,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testRootEndpoints
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testQuinticZero,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testQuinticZero
+org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest::testSinZero,org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest,testSinZero

@@ -1,0 +1,103 @@
+diff --git a/default.properties b/default.properties
+index 8c2250d2..a1ec045a 100644
+--- a/default.properties
++++ b/default.properties
+@@ -51,10 +51,10 @@ build.home = target
+ conf.home = src/conf
+ 
+ # The base directory for component sources
+-source.home = src/main/java
++source.home = src/java
+ 
+ # The base directory for unit test sources
+-test.home = src/test/java
++test.home = src/test
+ 
+ # Should Java compilations set the 'debug' compiler option?
+ compile.debug = true
+diff --git a/defects4j.build.properties b/defects4j.build.properties
+index a528101e..48b07cd5 100644
+--- a/defects4j.build.properties
++++ b/defects4j.build.properties
+@@ -2,7 +2,7 @@
+ d4j.bug.id=4
+ d4j.classes.modified=org.apache.commons.lang3.text.translate.LookupTranslator
+ d4j.classes.relevant=org.apache.commons.lang3.text.translate.AggregateTranslator,org.apache.commons.lang3.text.translate.CharSequenceTranslator,org.apache.commons.lang3.text.translate.LookupTranslator
+-d4j.dir.src.classes=src/main/java
+-d4j.dir.src.tests=src/test/java
++d4j.dir.src.classes=src/java
++d4j.dir.src.tests=src/test
+ d4j.project.id=Lang
+ d4j.tests.trigger=org.apache.commons.lang3.text.translate.LookupTranslatorTest::testLang882
+diff --git a/src/java/org/apache/commons/lang/exception/ExceptionUtils.java b/src/java/org/apache/commons/lang/exception/ExceptionUtils.java
+index 46390ff3..e6c2e8ae 100644
+--- a/src/java/org/apache/commons/lang/exception/ExceptionUtils.java
++++ b/src/java/org/apache/commons/lang/exception/ExceptionUtils.java
+@@ -28,8 +28,8 @@ import java.util.Arrays;
+ import java.util.List;
+ import java.util.StringTokenizer;
+ 
+-import net.jcip.annotations.GuardedBy;
+-import net.jcip.annotations.ThreadSafe;
++// import net.jcip.annotations.GuardedBy;
++// import net.jcip.annotations.ThreadSafe;
+ 
+ import org.apache.commons.lang.ArrayUtils;
+ import org.apache.commons.lang.ClassUtils;
+@@ -49,7 +49,7 @@ import org.apache.commons.lang.SystemUtils;
+  * @since 1.0
+  * @version $Id$
+  */
+-@ThreadSafe
++// @ThreadSafe
+ public class ExceptionUtils {
+     
+     /**
+@@ -66,7 +66,7 @@ public class ExceptionUtils {
+     /**
+      * <p>The names of methods commonly used to access a wrapped exception.</p>
+      */
+-    @GuardedBy("CAUSE_METHOD_NAMES_LOCK")
++    // @GuardedBy("CAUSE_METHOD_NAMES_LOCK")
+     private static String[] CAUSE_METHOD_NAMES = {
+         "getCause",
+         "getNextException",
+diff --git a/src/test/org/apache/commons/lang/text/translate/LookupTranslatorTest.java b/src/test/org/apache/commons/lang/text/translate/LookupTranslatorTest.java
+index 9c2fc6bf..90975a5b 100644
+--- a/src/test/org/apache/commons/lang/text/translate/LookupTranslatorTest.java
++++ b/src/test/org/apache/commons/lang/text/translate/LookupTranslatorTest.java
+@@ -14,11 +14,9 @@
+  * See the License for the specific language governing permissions and
+  * limitations under the License.
+  */
+-
+ package org.apache.commons.lang.text.translate;
+ 
+ import junit.framework.TestCase;
+-
+ import java.io.StringWriter;
+ import java.io.IOException;
+ 
+@@ -27,6 +25,16 @@ import java.io.IOException;
+  */
+ public class LookupTranslatorTest extends TestCase {
+ 
++// Tests: https://issues.apache.org/jira/browse/LANG-882
++
++public void testLang882() throws IOException {
++    final LookupTranslator lt = new LookupTranslator(new CharSequence[][] { { new StringBuffer("one"), new StringBuffer("two") } });
++    final StringWriter out = new StringWriter();
++    final int result = lt.translate(new StringBuffer("one"), 0, out);
++    assertEquals("Incorrect codepoint consumption", 3, result);
++    assertEquals("Incorrect value", "two", out.toString());
++}
++
+     public void testBasicLookup() throws IOException {
+         String input = "one";
+         LookupTranslator lt = new LookupTranslator(new CharSequence[][] { { "one", "two" } });
+@@ -35,5 +43,4 @@ public class LookupTranslatorTest extends TestCase {
+         assertEquals("Incorrect codepoint consumption", 3, result);
+         assertEquals("Incorrect value", "two", out.toString());
+     }
+-
+ }

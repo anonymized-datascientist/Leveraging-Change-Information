@@ -1,0 +1,10 @@
+test,test_class,test_method
+com.google.javascript.rhino.jstype.FunctionTypeTest::testDefaultReturnType,com.google.javascript.rhino.jstype.FunctionTypeTest,testDefaultReturnType
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfOfReturnTypes,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfOfReturnTypes
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfOfReturnTypesWithDifferentParams,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfOfReturnTypesWithDifferentParams
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfWithDifferentParams,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfWithDifferentParams
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfWithDifferentThisTypes,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfWithDifferentThisTypes
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfWithDifferentThisTypes2,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfWithDifferentThisTypes2
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSupAndInfOfReturnTypesWithNumOfParams,com.google.javascript.rhino.jstype.FunctionTypeTest,testSupAndInfOfReturnTypesWithNumOfParams
+com.google.javascript.rhino.jstype.FunctionTypeTest::testSubtypeWithInterfaceThisType,com.google.javascript.rhino.jstype.FunctionTypeTest,testSubtypeWithInterfaceThisType
+com.google.javascript.rhino.jstype.FunctionTypeTest::assertGreatestSubtype,com.google.javascript.rhino.jstype.FunctionTypeTest,assertGreatestSubtype

@@ -1,0 +1,16 @@
+file,method,line
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,_createParser,1199
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,_createParser,1246
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,45
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,188
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,189
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,190
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,191
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,192
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,193
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,194
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,195
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,196
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,197
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,1199
+src/main/java/com/fasterxml/jackson/core/JsonFactory.java,,1246

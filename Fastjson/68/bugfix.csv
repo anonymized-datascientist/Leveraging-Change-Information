@@ -1,0 +1,5 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/JSONPath.java,extract,103,Fastjson_67
+src/main/java/com/alibaba/fastjson/JSONPath.java,extract,104,Fastjson_67
+src/main/java/com/alibaba/fastjson/JSONPath.java,extract,126,Fastjson_67
+src/main/java/com/alibaba/fastjson/JSONPath.java,extract,127,Fastjson_67

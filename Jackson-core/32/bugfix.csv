@@ -1,0 +1,2 @@
+class,method,line,bug
+src/main/java/com/fasterxml/jackson/core/json/ReaderBasedJsonParser.java,_parseNumber2,1050,Jackson-core_32

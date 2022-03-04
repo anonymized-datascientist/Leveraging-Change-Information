@@ -1,0 +1,45 @@
+diff --git a/test/com/google/javascript/jscomp/TypeInferenceTest.java b/test/com/google/javascript/jscomp/TypeInferenceTest.java
+index 3761bf49..8de05626 100644
+--- a/test/com/google/javascript/jscomp/TypeInferenceTest.java
++++ b/test/com/google/javascript/jscomp/TypeInferenceTest.java
+@@ -59,6 +59,7 @@ public class TypeInferenceTest extends TestCase {
+   private JSTypeRegistry registry;
+   private Map<String,JSType> assumptions;
+   private FlowScope returnScope;
++  private JSType assumedThisType;
+   private static final Map<String, AssertionFunctionSpec>
+       ASSERTION_FUNCTION_MAP = Maps.newHashMap();
+   static {
+@@ -80,6 +81,10 @@ public class TypeInferenceTest extends TestCase {
+     returnScope = null;
+   }
+ 
++  private void assumingThisType(JSType type) {
++    assumedThisType = type;
++  }
++
+   private void assuming(String name, JSType type) {
+     assumptions.put(name, type);
+   }
+@@ -90,7 +95,11 @@ public class TypeInferenceTest extends TestCase {
+ 
+   private void inFunction(String js) {
+     // Parse the body of the function.
+-    Node root = compiler.parseTestCode("(function() {" + js + "});");
++    String thisBlock = assumedThisType == null
++        ? ""
++        : "/** @this {" + assumedThisType + "} */";
++    Node root = compiler.parseTestCode(
++        "(" + thisBlock + " function() {" + js + "});");
+     assertEquals("parsing error: " +
+         Joiner.on(", ").join(compiler.getErrors()),
+         0, compiler.getErrorCount());
+@@ -101,7 +110,7 @@ public class TypeInferenceTest extends TestCase {
+     Scope assumedScope = scopeCreator.createScope(
+         n, scopeCreator.createScope(root, null));
+     for (Map.Entry<String,JSType> entry : assumptions.entrySet()) {
+-      assumedScope.declare(entry.getKey(), null, entry.getValue(), null);
++      assumedScope.declare(entry.getKey(), null, entry.getValue(), null, false);
+     }
+     // Create the control graph.
+     ControlFlowAnalysis cfa = new ControlFlowAnalysis(compiler, false, false);

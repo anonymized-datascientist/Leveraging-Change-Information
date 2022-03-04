@@ -1,0 +1,10 @@
+test,test_class,test_method
+com.google.javascript.jscomp.InlineVariablesTest::testInlineGlobal,com.google.javascript.jscomp.InlineVariablesTest,testInlineGlobal
+com.google.javascript.jscomp.InlineVariablesTest::testNoInlineExportedName,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineExportedName
+com.google.javascript.jscomp.InlineVariablesTest::testNoInlineExportedName2,com.google.javascript.jscomp.InlineVariablesTest,testNoInlineExportedName2
+com.google.javascript.jscomp.InlineVariablesTest::testDoNotInlineIncrement,com.google.javascript.jscomp.InlineVariablesTest,testDoNotInlineIncrement
+com.google.javascript.jscomp.InlineVariablesTest::testDoNotInlineDecrement,com.google.javascript.jscomp.InlineVariablesTest,testDoNotInlineDecrement
+com.google.javascript.jscomp.InlineVariablesTest::testDoNotInlineIntoLhsOfAssign,com.google.javascript.jscomp.InlineVariablesTest,testDoNotInlineIntoLhsOfAssign
+com.google.javascript.jscomp.InlineVariablesTest::testInlineIntoRhsOfAssign,com.google.javascript.jscomp.InlineVariablesTest,testInlineIntoRhsOfAssign
+com.google.javascript.jscomp.InlineVariablesTest::testInlineInFunction,com.google.javascript.jscomp.InlineVariablesTest,testInlineInFunction
+com.google.javascript.jscomp.InlineVariablesTest::testInlineInFunction2,com.google.javascript.jscomp.InlineVariablesTest,testInlineInFunction2

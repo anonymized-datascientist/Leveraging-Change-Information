@@ -1,0 +1,18 @@
+{
+    "org.apache.commons.lang.StringEscapeUtilsTest": [
+        "testEscapeJavaWithSlash",
+        "testUnescapeHtml",
+        "testUnescapeJava",
+        "testStandaloneAmphersand",
+        "testEscapeHtml",
+        "testEscapeJava",
+        "testLang313",
+        "testUnescapeHexCharsHtml",
+        "testEscapeJavaScript",
+        "testEscapeHtmlVersions",
+        "testUnescapeUnknownEntity",
+        "testEscapeSql",
+        "testEscapeXml",
+        "testConstructor"
+    ]
+}

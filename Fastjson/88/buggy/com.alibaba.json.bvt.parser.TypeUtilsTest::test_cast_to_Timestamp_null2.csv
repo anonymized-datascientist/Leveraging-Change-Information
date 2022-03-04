@@ -1,0 +1,3 @@
+package,class,method,parameter,line,bug
+com.alibaba.fastjson.util,TypeUtils,castToTimestamp,java.lang.Object,628,88
+com.alibaba.fastjson.util,TypeUtils,castToTimestamp,java.lang.Object,629,88

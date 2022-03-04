@@ -1,0 +1,14 @@
+file,method,line
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToTimestamp,710
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToTimestamp,711
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,,710
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,,711
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,test_cast_to_Timestamp_1970_01_01_00_00_00,248
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,test_cast_to_Timestamp_1970_01_01_00_00_00,249
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,test_cast_to_Timestamp_1970_01_01_00_00_00,250
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,6
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,247
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,248
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,249
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,250
+src/test/java/com/alibaba/json/bvt/parser/TypeUtilsTest.java,,251

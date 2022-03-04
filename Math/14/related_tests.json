@@ -1,0 +1,13 @@
+{
+    "org.apache.commons.math3.fitting.PolynomialFitterTest": [
+        "testLargeSample",
+        "testFit",
+        "testMath798WithToleranceTooLowButNoException",
+        "testMath798WithToleranceTooLow",
+        "testMath798",
+        "testSmallError",
+        "testRedundantSolvable",
+        "testNoError",
+        "testRedundantUnsolvable"
+    ]
+}

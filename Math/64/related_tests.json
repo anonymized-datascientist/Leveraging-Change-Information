@@ -1,0 +1,22 @@
+{
+    "org.apache.commons.math.optimization.general.MinpackTest": [
+        "testMinpackFreudensteinRoth",
+        "testMinpackJennrichSampson",
+        "testMinpackLinearRank1",
+        "testMinpackBrownDennis",
+        "testMinpackRosenbrok",
+        "testMinpackBox3Dimensional",
+        "testMinpackHelicalValley",
+        "testMinpackMeyer",
+        "testMinpackLinearFullRank",
+        "testMinpackOsborne1",
+        "testMinpackOsborne2",
+        "testMinpackWatson",
+        "testMinpackKowalikOsborne",
+        "testMinpackPowellSingular",
+        "testMinpackChebyquad",
+        "testMinpackLinearRank1ZeroColsAndRows",
+        "testMinpackBard",
+        "testMinpackBrownAlmostLinear"
+    ]
+}

@@ -1,0 +1,2 @@
+class,method,line,bug
+src/main/java/org/jfree/data/general/DefaultPieDataset.java,setValue,212,Jfreechart_1

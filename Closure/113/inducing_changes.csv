@@ -1,0 +1,3 @@
+file,method,line
+src/com/google/javascript/jscomp/ProcessClosurePrimitives.java,processRequireCall,325
+src/com/google/javascript/jscomp/ProcessClosurePrimitives.java,processRequireCall,329

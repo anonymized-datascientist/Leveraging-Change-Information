@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.lang.time.DateUtilsTest::testConstructor,org.apache.commons.lang.time.DateUtilsTest,testConstructor
+org.apache.commons.lang.time.DateUtilsTest::testIsSameDay_Date,org.apache.commons.lang.time.DateUtilsTest,testIsSameDay_Date
+org.apache.commons.lang.time.DateUtilsTest::testIsSameDay_Cal,org.apache.commons.lang.time.DateUtilsTest,testIsSameDay_Cal
+org.apache.commons.lang.time.DateUtilsTest::testIsSameInstant_Date,org.apache.commons.lang.time.DateUtilsTest,testIsSameInstant_Date
+org.apache.commons.lang.time.DateUtilsTest::testIsSameInstant_Cal,org.apache.commons.lang.time.DateUtilsTest,testIsSameInstant_Cal
+org.apache.commons.lang.time.DateUtilsTest::testIsSameLocalTime_Cal,org.apache.commons.lang.time.DateUtilsTest,testIsSameLocalTime_Cal
+org.apache.commons.lang.time.DateUtilsTest::testParseDate,org.apache.commons.lang.time.DateUtilsTest,testParseDate
+org.apache.commons.lang.time.DateUtilsTest::testRound,org.apache.commons.lang.time.DateUtilsTest,testRound
+org.apache.commons.lang.time.DateUtilsTest::testTruncate,org.apache.commons.lang.time.DateUtilsTest,testTruncate

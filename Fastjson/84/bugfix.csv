@@ -1,0 +1,2 @@
+class,method,line,bug
+src/test/java/com/alibaba/json/bvt/path/JSONPath_max.java,test_max_2,21,Fastjson_84

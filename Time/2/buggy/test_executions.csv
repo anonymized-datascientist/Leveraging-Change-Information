@@ -1,0 +1,11 @@
+test,test_class,test_method
+org.joda.time.TestPartial_Basics::testEqualsHashCode,org.joda.time.TestPartial_Basics,testEqualsHashCode
+org.joda.time.TestPartial_Basics::testCompareTo,org.joda.time.TestPartial_Basics,testCompareTo
+org.joda.time.TestPartial_Basics::testIsEqual_TOD,org.joda.time.TestPartial_Basics,testIsEqual_TOD
+org.joda.time.TestPartial_Basics::testIsBefore_TOD,org.joda.time.TestPartial_Basics,testIsBefore_TOD
+org.joda.time.TestPartial_Basics::testIsAfter_TOD,org.joda.time.TestPartial_Basics,testIsAfter_TOD
+org.joda.time.TestPartial_Basics::testWithChronologyRetainFields_Chrono,org.joda.time.TestPartial_Basics,testWithChronologyRetainFields_Chrono
+org.joda.time.TestPartial_Basics::testWithChronologyRetainFields_sameChrono,org.joda.time.TestPartial_Basics,testWithChronologyRetainFields_sameChrono
+org.joda.time.TestPartial_Basics::testWithChronologyRetainFields_nullChrono,org.joda.time.TestPartial_Basics,testWithChronologyRetainFields_nullChrono
+org.joda.time.TestPartial_Basics::testWith1,org.joda.time.TestPartial_Basics,testWith1
+org.joda.time.TestPartial_Basics::testWith2,org.joda.time.TestPartial_Basics,testWith2

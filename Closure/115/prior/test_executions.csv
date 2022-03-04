@@ -1,0 +1,16 @@
+test,test_class,test_method
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction1,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction1
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction2,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction2
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction3,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction3
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction4,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction4
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineEmptyFunction5,com.google.javascript.jscomp.InlineFunctionsTest,testInlineEmptyFunction5
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions1,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions1
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions2,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions2
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions3,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions3
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions4,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions4
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions5,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions5
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions7,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions7
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions8,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions8
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions9,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions9
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions10,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions10
+com.google.javascript.jscomp.InlineFunctionsTest::testInlineFunctions11,com.google.javascript.jscomp.InlineFunctionsTest,testInlineFunctions11

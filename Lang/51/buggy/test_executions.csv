@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.lang.BooleanUtilsTest::testConstructor,org.apache.commons.lang.BooleanUtilsTest,testConstructor
+org.apache.commons.lang.BooleanUtilsTest::test_negate_Boolean,org.apache.commons.lang.BooleanUtilsTest,test_negate_Boolean
+org.apache.commons.lang.BooleanUtilsTest::test_toBooleanObject_boolean,org.apache.commons.lang.BooleanUtilsTest,test_toBooleanObject_boolean
+org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_Boolean,org.apache.commons.lang.BooleanUtilsTest,test_toBoolean_Boolean
+org.apache.commons.lang.BooleanUtilsTest::test_toBooleanDefaultIfNull_Boolean_boolean,org.apache.commons.lang.BooleanUtilsTest,test_toBooleanDefaultIfNull_Boolean_boolean
+org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_int,org.apache.commons.lang.BooleanUtilsTest,test_toBoolean_int
+org.apache.commons.lang.BooleanUtilsTest::test_toBooleanObject_int,org.apache.commons.lang.BooleanUtilsTest,test_toBooleanObject_int
+org.apache.commons.lang.BooleanUtilsTest::test_toBooleanObject_Integer,org.apache.commons.lang.BooleanUtilsTest,test_toBooleanObject_Integer
+org.apache.commons.lang.BooleanUtilsTest::test_toBoolean_int_int_int,org.apache.commons.lang.BooleanUtilsTest,test_toBoolean_int_int_int

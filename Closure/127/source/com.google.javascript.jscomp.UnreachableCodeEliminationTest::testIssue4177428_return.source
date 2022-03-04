@@ -1,0 +1,5 @@
+public void testIssue4177428_return() {
+    test("f = function() {\n" + "  var action;\n" + "  a: {\n" + "    var proto = null;\n" + "    try {\n" + "      proto = new Proto\n" + "    } finally {\n" + "      action = proto;\n" + // Keep this...
+    "      return\n" + "    }\n" + "  }\n" + // and remove this.
+    "  alert(action)\n" + "};", "f = function() {\n" + "  var action;\n" + "  a: {\n" + "    var proto = null;\n" + "    try {\n" + "      proto = new Proto\n" + "    } finally {\n" + "      action = proto;\n" + "      return\n" + "    }\n" + "  }\n" + "};");
+}

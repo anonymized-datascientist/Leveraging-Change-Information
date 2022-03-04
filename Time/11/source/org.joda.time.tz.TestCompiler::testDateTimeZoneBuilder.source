@@ -1,0 +1,15 @@
+// -----------------------------------------------------------------------
+public void testDateTimeZoneBuilder() throws Exception {
+    // test multithreading, issue #18
+    getTestDataTimeZoneBuilder().toDateTimeZone("TestDTZ1", true);
+    final DateTimeZone[] zone = new DateTimeZone[1];
+    Thread t = new Thread(new Runnable() {
+
+        public void run() {
+            zone[0] = getTestDataTimeZoneBuilder().toDateTimeZone("TestDTZ2", true);
+        }
+    });
+    t.start();
+    t.join();
+    assertNotNull(zone[0]);
+}

@@ -1,0 +1,24 @@
+{
+    "org.jfree.data.xy.junit.XYSeriesTests": [
+        "testBug1955483",
+        "testEquals",
+        "testHashCode",
+        "testCloning",
+        "testCloning2",
+        "testCloning3",
+        "testSerialization",
+        "testIndexOf",
+        "testIndexOf2",
+        "testRemove",
+        "testAdditionOfDuplicateXValues",
+        "testUpdate",
+        "testUpdate2",
+        "testAddOrUpdate",
+        "testAddOrUpdate2",
+        "testAdd",
+        "testSetMaximumItemCount",
+        "testSetMaximumItemCount2",
+        "testToArray",
+        "testToArrayExample"
+    ]
+}

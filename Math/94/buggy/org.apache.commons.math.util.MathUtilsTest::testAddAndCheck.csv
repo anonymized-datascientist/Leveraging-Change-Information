@@ -1,0 +1,5 @@
+bug,class,method,line
+94,org.apache.commons.math.util.MathUtils,addAndCheck,619
+94,org.apache.commons.math.util.MathUtils,addAndCheck,620
+94,org.apache.commons.math.util.MathUtils,addAndCheck,622
+94,org.apache.commons.math.util.MathUtils,addAndCheck,624

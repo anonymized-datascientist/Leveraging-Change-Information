@@ -1,0 +1,36 @@
+diff --git a/source/org/jfree/chart/plot/CategoryPlot.java b/source/org/jfree/chart/plot/CategoryPlot.java
+index 7fccc02..ef32287 100644
+--- a/source/org/jfree/chart/plot/CategoryPlot.java
++++ b/source/org/jfree/chart/plot/CategoryPlot.java
+@@ -514,6 +514,31 @@ public class CategoryPlot extends Plot
+         this.annotations = new java.util.ArrayList();
+ 
+     }
++
++    /**
++     * Returns the index of the specified axis, or <code>-1</code> if the axis
++     * is not assigned to the plot.
++     *
++     * @param axis  the axis (<code>null</code> not permitted).
++     *
++     * @return The axis index.
++     * 
++     * @see #getRangeAxis(int)
++     * @see #getDomainAxisIndex(CategoryAxis)
++     * 
++     * @since 1.0.7
++     */
++    public int getRangeAxisIndex(ValueAxis axis) {
++        int result = this.rangeAxes.indexOf(axis);
++        if (result < 0) { // try the parent plot
++            Plot parent = getParent();
++            if (parent instanceof CategoryPlot) {
++                CategoryPlot p = (CategoryPlot) parent;
++                result = p.getRangeAxisIndex(axis);
++            }
++        }
++        return result;
++    }
+     
+     /**
+      * Returns a string describing the type of plot.

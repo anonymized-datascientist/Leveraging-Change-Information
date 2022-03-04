@@ -1,0 +1,10 @@
+test,test_class,test_method
+com.google.javascript.jscomp.CollapsePropertiesTest::testCollapse,com.google.javascript.jscomp.CollapsePropertiesTest,testCollapse
+com.google.javascript.jscomp.CollapsePropertiesTest::testMultiLevelCollapse,com.google.javascript.jscomp.CollapsePropertiesTest,testMultiLevelCollapse
+com.google.javascript.jscomp.CollapsePropertiesTest::testDecrement,com.google.javascript.jscomp.CollapsePropertiesTest,testDecrement
+com.google.javascript.jscomp.CollapsePropertiesTest::testIncrement,com.google.javascript.jscomp.CollapsePropertiesTest,testIncrement
+com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitDeclaration,com.google.javascript.jscomp.CollapsePropertiesTest,testObjLitDeclaration
+com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitDeclarationWithGet1,com.google.javascript.jscomp.CollapsePropertiesTest,testObjLitDeclarationWithGet1
+com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitDeclarationWithGet2,com.google.javascript.jscomp.CollapsePropertiesTest,testObjLitDeclarationWithGet2
+com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitDeclarationWithGet3,com.google.javascript.jscomp.CollapsePropertiesTest,testObjLitDeclarationWithGet3
+com.google.javascript.jscomp.CollapsePropertiesTest::testObjLitDeclarationWithSet1,com.google.javascript.jscomp.CollapsePropertiesTest,testObjLitDeclarationWithSet1

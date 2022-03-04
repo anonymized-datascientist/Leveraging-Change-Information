@@ -1,0 +1,20 @@
+/**
+ * Some tests for the removeValue() method.
+ */
+public void testRemoveValue() {
+    DefaultKeyedValues data = new DefaultKeyedValues();
+    data.addValue("A", new Double(1.0));
+    data.addValue("B", null);
+    data.addValue("C", new Double(3.0));
+    data.addValue("D", new Double(2.0));
+    assertEquals(1, data.getIndex("B"));
+    data.removeValue("B");
+    assertEquals(-1, data.getIndex("B"));
+    boolean pass = false;
+    try {
+        data.removeValue("XXX");
+    } catch (UnknownKeyException e) {
+        pass = true;
+    }
+    assertTrue(pass);
+}

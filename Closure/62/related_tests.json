@@ -1,0 +1,16 @@
+{
+    "com.google.javascript.jscomp.LightweightMessageFormatterTest": [
+        "testFormatErrorSpaceEndOfLine2",
+        "testFormatErrorSpaceEndOfLine1",
+        "testNull",
+        "testOneLineRegion",
+        "testTwoLineRegion",
+        "testThreeLineRegionAcrossNumberRange",
+        "testThreeLineRegionEmptyLine",
+        "testOnlyOneEmptyLine",
+        "testTwoEmptyLines",
+        "testThreeLineRemoveLastEmptyLine",
+        "testFormatErrorSpaces",
+        "testFormatErrorTabs"
+    ]
+}

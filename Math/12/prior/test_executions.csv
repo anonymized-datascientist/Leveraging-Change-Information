@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.math3.distribution.NormalDistributionTest::testQuantiles,org.apache.commons.math3.distribution.NormalDistributionTest,testQuantiles
+org.apache.commons.math3.distribution.NormalDistributionTest::testInverseCumulativeProbabilityExtremes,org.apache.commons.math3.distribution.NormalDistributionTest,testInverseCumulativeProbabilityExtremes
+org.apache.commons.math3.distribution.NormalDistributionTest::testGetMean,org.apache.commons.math3.distribution.NormalDistributionTest,testGetMean
+org.apache.commons.math3.distribution.NormalDistributionTest::testGetStandardDeviation,org.apache.commons.math3.distribution.NormalDistributionTest,testGetStandardDeviation
+org.apache.commons.math3.distribution.NormalDistributionTest::testPreconditions,org.apache.commons.math3.distribution.NormalDistributionTest,testPreconditions
+org.apache.commons.math3.distribution.NormalDistributionTest::testDensity,org.apache.commons.math3.distribution.NormalDistributionTest,testDensity
+org.apache.commons.math3.distribution.NormalDistributionTest::testExtremeValues,org.apache.commons.math3.distribution.NormalDistributionTest,testExtremeValues
+org.apache.commons.math3.distribution.NormalDistributionTest::testMath280,org.apache.commons.math3.distribution.NormalDistributionTest,testMath280
+org.apache.commons.math3.distribution.NormalDistributionTest::testMoments,org.apache.commons.math3.distribution.NormalDistributionTest,testMoments

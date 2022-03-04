@@ -1,0 +1,9 @@
+test,test_class,test_method
+org.apache.commons.math3.fitting.PolynomialFitterTest::testFit,org.apache.commons.math3.fitting.PolynomialFitterTest,testFit
+org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798WithToleranceTooLowButNoException,org.apache.commons.math3.fitting.PolynomialFitterTest,testMath798WithToleranceTooLowButNoException
+org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798WithToleranceTooLow,org.apache.commons.math3.fitting.PolynomialFitterTest,testMath798WithToleranceTooLow
+org.apache.commons.math3.fitting.PolynomialFitterTest::testMath798,org.apache.commons.math3.fitting.PolynomialFitterTest,testMath798
+org.apache.commons.math3.fitting.PolynomialFitterTest::testSmallError,org.apache.commons.math3.fitting.PolynomialFitterTest,testSmallError
+org.apache.commons.math3.fitting.PolynomialFitterTest::testRedundantSolvable,org.apache.commons.math3.fitting.PolynomialFitterTest,testRedundantSolvable
+org.apache.commons.math3.fitting.PolynomialFitterTest::testNoError,org.apache.commons.math3.fitting.PolynomialFitterTest,testNoError
+org.apache.commons.math3.fitting.PolynomialFitterTest::testRedundantUnsolvable,org.apache.commons.math3.fitting.PolynomialFitterTest,testRedundantUnsolvable

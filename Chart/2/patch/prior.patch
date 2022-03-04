@@ -1,0 +1,114 @@
+diff --git a/source/org/jfree/data/general/DatasetUtilities.java b/source/org/jfree/data/general/DatasetUtilities.java
+index e342ba0..2d399d8 100644
+--- a/source/org/jfree/data/general/DatasetUtilities.java
++++ b/source/org/jfree/data/general/DatasetUtilities.java
+@@ -141,6 +141,95 @@ public final class DatasetUtilities {
+         // now try to instantiate this ;-)
+     }
+ 
++        /**
++     * Iterates over the data item of the xy dataset to find
++     * the range bounds.
++     *
++     * @param dataset  the dataset (<code>null</code> not permitted).
++     *
++     * @return The range (possibly <code>null</code>).
++     *
++     * @since 1.0.10
++     */
++    public static Range iterateRangeBounds(XYDataset dataset) {
++        return iterateRangeBounds(dataset, true);
++    }
++
++    /**
++     * Iterates over the data items of the xy dataset to find
++     * the range bounds.
++     *
++     * @param dataset  the dataset (<code>null</code> not permitted).
++     * @param includeInterval  a flag that determines, for an
++     *          {@link IntervalXYDataset}, whether the y-interval or just the
++     *          y-value is used to determine the overall range.
++     *
++     * @return The range (possibly <code>null</code>).
++     *
++     * @since 1.0.10
++     */
++    public static Range iterateRangeBounds(XYDataset dataset,
++            boolean includeInterval) {
++        double minimum = Double.POSITIVE_INFINITY;
++        double maximum = Double.NEGATIVE_INFINITY;
++        int seriesCount = dataset.getSeriesCount();
++
++        // handle three cases by dataset type
++        if (includeInterval && dataset instanceof IntervalXYDataset) {
++            // handle special case of IntervalXYDataset
++            IntervalXYDataset ixyd = (IntervalXYDataset) dataset;
++            for (int series = 0; series < seriesCount; series++) {
++                int itemCount = dataset.getItemCount(series);
++                for (int item = 0; item < itemCount; item++) {
++                    double lvalue = ixyd.getStartYValue(series, item);
++                    double uvalue = ixyd.getEndYValue(series, item);
++                    if (!Double.isNaN(lvalue)) {
++                        minimum = Math.min(minimum, lvalue);
++                    }
++                    if (!Double.isNaN(uvalue)) {
++                        maximum = Math.max(maximum, uvalue);
++                    }
++                }
++            }
++        }
++        else if (includeInterval && dataset instanceof OHLCDataset) {
++            // handle special case of OHLCDataset
++            OHLCDataset ohlc = (OHLCDataset) dataset;
++            for (int series = 0; series < seriesCount; series++) {
++                int itemCount = dataset.getItemCount(series);
++                for (int item = 0; item < itemCount; item++) {
++                    double lvalue = ohlc.getLowValue(series, item);
++                    double uvalue = ohlc.getHighValue(series, item);
++                    if (!Double.isNaN(lvalue)) {
++                        minimum = Math.min(minimum, lvalue);
++                    }
++                    if (!Double.isNaN(uvalue)) {
++                        maximum = Math.max(maximum, uvalue);
++                    }
++                }
++            }
++        }
++        else {
++            // standard case - plain XYDataset
++            for (int series = 0; series < seriesCount; series++) {
++                int itemCount = dataset.getItemCount(series);
++                for (int item = 0; item < itemCount; item++) {
++                    double value = dataset.getYValue(series, item);
++                    if (!Double.isNaN(value)) {
++                        minimum = Math.min(minimum, value);
++                        maximum = Math.max(maximum, value);
++                    }
++                }
++            }
++        }
++        if (minimum == Double.POSITIVE_INFINITY) {
++            return null;
++        }
++        else {
++            return new Range(minimum, maximum);
++        }
++    }
++
+     /**
+      * Calculates the total of all the values in a {@link PieDataset}.  If 
+      * the dataset contains negative or <code>null</code> values, they are 
+diff --git a/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java b/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+index 618e96f..5ce492b 100644
+--- a/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
++++ b/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+@@ -62,6 +62,9 @@ import org.jfree.data.xy.XYDataset;
+ import org.jfree.data.xy.XYSeries;
+ import org.jfree.data.xy.XYSeriesCollection;
+ 
++import org.jfree.data.xy.XYIntervalSeries;
++import org.jfree.data.xy.XYIntervalSeriesCollection;
++
+ /**
+  * Tests for the {@link DatasetUtilities} class.
+  */

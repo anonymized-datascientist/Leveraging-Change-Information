@@ -1,0 +1,262 @@
+diff --git a/experimental/org/jfree/experimental/chart/demo/LogAxisDemo1.java b/experimental/org/jfree/experimental/chart/demo/LogAxisDemo1.java
+index ac7fdd2..9122c4f 100644
+--- a/experimental/org/jfree/experimental/chart/demo/LogAxisDemo1.java
++++ b/experimental/org/jfree/experimental/chart/demo/LogAxisDemo1.java
+@@ -1,102 +1,102 @@
+-/* -----------------
+- * LogAxisDemo1.java
+- * -----------------
+- * (C) Copyright 2006, 2007, by Object Refinery Limited.
+- */
++// /* -----------------
++//  * LogAxisDemo1.java
++//  * -----------------
++//  * (C) Copyright 2006, 2007, by Object Refinery Limited.
++//  */
+ 
+-package org.jfree.experimental.chart.demo;
++// package org.jfree.experimental.chart.demo;
+ 
+-import javax.swing.JPanel;
++// import javax.swing.JPanel;
+ 
+-import org.jfree.chart.ChartFactory;
+-import org.jfree.chart.ChartPanel;
+-import org.jfree.chart.JFreeChart;
+-import org.jfree.chart.plot.PlotOrientation;
+-import org.jfree.chart.plot.XYPlot;
+-import org.jfree.chart.util.ApplicationFrame;
+-import org.jfree.chart.util.RefineryUtilities;
+-import org.jfree.data.xy.XYDataset;
+-import org.jfree.data.xy.XYSeries;
+-import org.jfree.data.xy.XYSeriesCollection;
+-import org.jfree.experimental.chart.axis.LogAxis;
++// import org.jfree.chart.ChartFactory;
++// import org.jfree.chart.ChartPanel;
++// import org.jfree.chart.JFreeChart;
++// import org.jfree.chart.plot.PlotOrientation;
++// import org.jfree.chart.plot.XYPlot;
++// import org.jfree.chart.util.ApplicationFrame;
++// import org.jfree.chart.util.RefineryUtilities;
++// import org.jfree.data.xy.XYDataset;
++// import org.jfree.data.xy.XYSeries;
++// import org.jfree.data.xy.XYSeriesCollection;
++// import org.jfree.experimental.chart.axis.LogAxis;
+ 
+-/**
+- * A simple demo showing the use of the {@link LogAxis} class.
+- */
+-public class LogAxisDemo1 extends ApplicationFrame {
++// /**
++//  * A simple demo showing the use of the {@link LogAxis} class.
++//  */
++// public class LogAxisDemo1 extends ApplicationFrame {
+ 
+-    /**
+-     * Creates a new instance of the demo.
+-     *
+-     * @param title  the frame title.
+-     */
+-    public LogAxisDemo1(String title) {
+-        super(title);
+-        JPanel chartPanel = createDemoPanel();
+-        chartPanel.setPreferredSize(new java.awt.Dimension(500, 270));
+-        setContentPane(chartPanel);
+-    }
++//     /**
++//      * Creates a new instance of the demo.
++//      *
++//      * @param title  the frame title.
++//      */
++//     public LogAxisDemo1(String title) {
++//         super(title);
++//         JPanel chartPanel = createDemoPanel();
++//         chartPanel.setPreferredSize(new java.awt.Dimension(500, 270));
++//         setContentPane(chartPanel);
++//     }
+     
+-    private static JFreeChart createChart(XYDataset dataset) {
+-        JFreeChart chart = ChartFactory.createScatterPlot(
+-            "Log Axis Demo 1",
+-            "X", 
+-            "Y", 
+-            dataset,
+-            PlotOrientation.VERTICAL,
+-            true,
+-            true,
+-            false
+-        );
+-        XYPlot plot = (XYPlot) chart.getPlot();
+-        LogAxis xAxis = new LogAxis("X");
+-        LogAxis yAxis = new LogAxis("Y");
+-        plot.setDomainAxis(xAxis);
+-        plot.setRangeAxis(yAxis);
+-        return chart;
+-    }
++//     private static JFreeChart createChart(XYDataset dataset) {
++//         JFreeChart chart = ChartFactory.createScatterPlot(
++//             "Log Axis Demo 1",
++//             "X", 
++//             "Y", 
++//             dataset,
++//             PlotOrientation.VERTICAL,
++//             true,
++//             true,
++//             false
++//         );
++//         XYPlot plot = (XYPlot) chart.getPlot();
++//         LogAxis xAxis = new LogAxis("X");
++//         LogAxis yAxis = new LogAxis("Y");
++//         plot.setDomainAxis(xAxis);
++//         plot.setRangeAxis(yAxis);
++//         return chart;
++//     }
+     
+-    /**
+-     * Creates a sample dataset.
+-     * 
+-     * @return A sample dataset.
+-     */
+-    private static XYDataset createDataset() {
+-        XYSeries series = new XYSeries("Random Data");
+-        series.add(1.0, 500.2);
+-        series.add(5.0, 694.1);
+-        series.add(4.0, 100.0);
+-        series.add(12.5, 734.4);
+-        series.add(17.3, 453.2);
+-        series.add(21.2, 500.2);
+-        series.add(21.9, 9005.5);
+-        series.add(25.6, 734.4);
+-        series.add(3000.0, 453.2);
+-        return new XYSeriesCollection(series);       
+-    }
++//     /**
++//      * Creates a sample dataset.
++//      * 
++//      * @return A sample dataset.
++//      */
++//     private static XYDataset createDataset() {
++//         XYSeries series = new XYSeries("Random Data");
++//         series.add(1.0, 500.2);
++//         series.add(5.0, 694.1);
++//         series.add(4.0, 100.0);
++//         series.add(12.5, 734.4);
++//         series.add(17.3, 453.2);
++//         series.add(21.2, 500.2);
++//         series.add(21.9, 9005.5);
++//         series.add(25.6, 734.4);
++//         series.add(3000.0, 453.2);
++//         return new XYSeriesCollection(series);       
++//     }
+ 
+-    /**
+-     * Creates a panel for the demo (used by SuperDemo.java).
+-     * 
+-     * @return A panel.
+-     */
+-    public static JPanel createDemoPanel() {
+-        JFreeChart chart = createChart(createDataset());
+-        return new ChartPanel(chart);
+-    }
++//     /**
++//      * Creates a panel for the demo (used by SuperDemo.java).
++//      * 
++//      * @return A panel.
++//      */
++//     public static JPanel createDemoPanel() {
++//         JFreeChart chart = createChart(createDataset());
++//         return new ChartPanel(chart);
++//     }
+     
+-    /**
+-     * Starting point for the demonstration application.
+-     *
+-     * @param args  ignored.
+-     */
+-    public static void main(String[] args) {
++//     /**
++//      * Starting point for the demonstration application.
++//      *
++//      * @param args  ignored.
++//      */
++//     public static void main(String[] args) {
+ 
+-        LogAxisDemo1 demo = new LogAxisDemo1("Log Axis Demo 1");
+-        demo.pack();
+-        RefineryUtilities.centerFrameOnScreen(demo);
+-        demo.setVisible(true);
++//         LogAxisDemo1 demo = new LogAxisDemo1("Log Axis Demo 1");
++//         demo.pack();
++//         RefineryUtilities.centerFrameOnScreen(demo);
++//         demo.setVisible(true);
+ 
+-    }
++//     }
+ 
+-}
++// }
+diff --git a/source/org/jfree/data/time/Week.java b/source/org/jfree/data/time/Week.java
+index a3d4824..ab30cf9 100644
+--- a/source/org/jfree/data/time/Week.java
++++ b/source/org/jfree/data/time/Week.java
+@@ -74,6 +74,7 @@ import java.io.Serializable;
+ import java.util.Calendar;
+ import java.util.Date;
+ import java.util.TimeZone;
++import java.util.Locale;
+ 
+ /**
+  * A calendar week.  All years are considered to have 53 weeks, numbered from 1 
+@@ -200,6 +201,52 @@ public class Week extends RegularTimePeriod implements Serializable {
+ 
+     }
+ 
++    /**
++     * Creates a time period for the week in which the specified date/time
++     * falls, calculated relative to the specified time zone.
++     *
++     * @param time  the date/time (<code>null</code> not permitted).
++     * @param zone  the time zone (<code>null</code> not permitted).
++     * @param locale  the locale (<code>null</code> not permitted).
++     *
++     * @since 1.0.7
++     */
++    public Week(Date time, TimeZone zone, Locale locale) {
++        if (time == null) {
++            throw new IllegalArgumentException("Null 'time' argument.");
++        }
++        if (zone == null) {
++            throw new IllegalArgumentException("Null 'zone' argument.");
++        }
++        if (locale == null) {
++            throw new IllegalArgumentException("Null 'locale' argument.");
++        }
++        Calendar calendar = Calendar.getInstance(zone, locale);
++        calendar.setTime(time);
++
++        // sometimes the last few days of the year are considered to fall in
++        // the *first* week of the following year.  Refer to the Javadocs for
++        // GregorianCalendar.
++        int tempWeek = calendar.get(Calendar.WEEK_OF_YEAR);
++        if (tempWeek == 1
++                && calendar.get(Calendar.MONTH) == Calendar.DECEMBER) {
++            this.week = 1;
++            this.year = (short) (calendar.get(Calendar.YEAR) + 1);
++        }
++        else {
++            this.week = (byte) Math.min(tempWeek, LAST_WEEK_IN_YEAR);
++            int yyyy = calendar.get(Calendar.YEAR);
++            // alternatively, sometimes the first few days of the year are
++            // considered to fall in the *last* week of the previous year...
++            if (calendar.get(Calendar.MONTH) == Calendar.JANUARY
++                    && this.week >= 52) {
++                yyyy--;
++            }
++            this.year = (short) yyyy;
++        }
++        peg(calendar);
++    }
++
+     /**
+      * Returns the year in which the week falls.
+      *

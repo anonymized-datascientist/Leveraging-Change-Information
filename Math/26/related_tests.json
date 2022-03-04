@@ -1,0 +1,25 @@
+{
+    "org.apache.commons.math.fraction.FractionTest": [
+        "testIntegerOverflow",
+        "testConstructor",
+        "testGoldenRatio",
+        "testDoubleConstructor",
+        "testDigitLimitConstructor",
+        "testEpsilonLimitConstructor",
+        "testCompareTo",
+        "testDoubleValue",
+        "testFloatValue",
+        "testIntValue",
+        "testLongValue",
+        "testConstructorDouble",
+        "testAbs",
+        "testReciprocal",
+        "testNegate",
+        "testAdd",
+        "testDivide",
+        "testMultiply",
+        "testSubtract",
+        "testEqualsAndHashCode",
+        "testGetReducedFraction"
+    ]
+}

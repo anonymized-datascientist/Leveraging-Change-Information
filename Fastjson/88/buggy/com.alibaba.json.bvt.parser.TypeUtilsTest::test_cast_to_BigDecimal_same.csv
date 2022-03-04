@@ -1,0 +1,4 @@
+package,class,method,parameter,line,bug
+com.alibaba.fastjson.util,TypeUtils,castToBigDecimal,java.lang.Object,314,88
+com.alibaba.fastjson.util,TypeUtils,castToBigDecimal,java.lang.Object,317,88
+com.alibaba.fastjson.util,TypeUtils,castToBigDecimal,java.lang.Object,318,88

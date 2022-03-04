@@ -1,0 +1,4 @@
+file,method,line
+src/com/google/javascript/jscomp/InlineVariables.java,inlineNonConstants,302
+src/com/google/javascript/jscomp/InlineVariables.java,inlineNonConstants,303
+src/com/google/javascript/jscomp/ReferenceCollectingCallback.java,isAssignedOnceInLifetime,426

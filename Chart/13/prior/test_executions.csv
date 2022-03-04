@@ -1,0 +1,5 @@
+test,test_class,test_method
+org.jfree.chart.block.junit.BorderArrangementTests::testEquals,org.jfree.chart.block.junit.BorderArrangementTests,testEquals
+org.jfree.chart.block.junit.BorderArrangementTests::testCloning,org.jfree.chart.block.junit.BorderArrangementTests,testCloning
+org.jfree.chart.block.junit.BorderArrangementTests::testSerialization,org.jfree.chart.block.junit.BorderArrangementTests,testSerialization
+org.jfree.chart.block.junit.BorderArrangementTests::testSizing,org.jfree.chart.block.junit.BorderArrangementTests,testSizing

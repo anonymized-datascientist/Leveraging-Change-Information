@@ -1,0 +1,13 @@
+diff --git a/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java b/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
+index 2bb3df5bf..3e0cc6161 100644
+--- a/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
++++ b/src/test/org/apache/commons/math/distribution/NormalDistributionTest.java
+@@ -34,7 +34,7 @@ public class NormalDistributionTest extends ContinuousDistributionAbstractTest
+     }
+     
+     public static void main(String[] args) {
+-        junit.swingui.TestRunner.run(NormalDistributionTest.class);
++        // junit.swingui.TestRunner.run(NormalDistributionTest.class);
+     }
+     
+     //-------------- Implementations for abstract methods -----------------------

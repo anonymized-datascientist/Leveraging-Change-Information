@@ -1,0 +1,19 @@
+project,bug,top_hits,top_index
+Chart,19,"['CategoryPlot#getRangeAxisIndex', 'CategoryPlot#getDomainAxisIndex']","[16, 15]"
+Chart,2,"['DatasetUtilities#iterateRangeBounds', 'DatasetUtilities#iterateDomainBounds']","[1, 2]"
+Chart,1,['AbstractCategoryItemRenderer#getLegendItems'],[1]
+Chart,4,['XYPlot#getDataRange'],[1]
+Chart,5,['XYSeries#addOrUpdate'],[1]
+Chart,8,['Week#Week'],[1]
+Chart,13,['BorderArrangement#arrangeFF'],[2]
+Chart,18,"['DefaultKeyedValues2D#removeColumn', 'DefaultKeyedValues#removeValue']","[9, 1]"
+Chart,26,['Axis#drawLabel'],[1]
+Jfreechart,8,['DefaultPieDataset#setValue'],[1]
+Jfreechart,10,['DefaultPieDataset#setValue'],[1]
+Jfreechart,13,['DefaultPieDataset#setValue'],[1]
+Jfreechart,14,['DefaultPieDataset#setValue'],[1]
+Jfreechart,16,['DefaultPieDataset#setValue'],[1]
+Jfreechart,20,['DefaultPieDataset#setValue'],[1]
+Jfreechart,24,['DefaultPieDataset#setValue'],[1]
+Jfreechart,28,['DefaultPieDataset#setValue'],[1]
+Jfreechart,29,['Week#Week'],[2]

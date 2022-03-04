@@ -1,0 +1,17 @@
+test,test_class,test_method
+org.jfree.data.junit.DefaultKeyedValuesTests::testConstructor,org.jfree.data.junit.DefaultKeyedValuesTests,testConstructor
+org.jfree.data.junit.DefaultKeyedValuesTests::testGetItemCount,org.jfree.data.junit.DefaultKeyedValuesTests,testGetItemCount
+org.jfree.data.junit.DefaultKeyedValuesTests::testGetKeys,org.jfree.data.junit.DefaultKeyedValuesTests,testGetKeys
+org.jfree.data.junit.DefaultKeyedValuesTests::testClear,org.jfree.data.junit.DefaultKeyedValuesTests,testClear
+org.jfree.data.junit.DefaultKeyedValuesTests::testGetValue,org.jfree.data.junit.DefaultKeyedValuesTests,testGetValue
+org.jfree.data.junit.DefaultKeyedValuesTests::testGetKey,org.jfree.data.junit.DefaultKeyedValuesTests,testGetKey
+org.jfree.data.junit.DefaultKeyedValuesTests::testGetIndex,org.jfree.data.junit.DefaultKeyedValuesTests,testGetIndex
+org.jfree.data.junit.DefaultKeyedValuesTests::testAddValue,org.jfree.data.junit.DefaultKeyedValuesTests,testAddValue
+org.jfree.data.junit.DefaultKeyedValuesTests::testInsertValue,org.jfree.data.junit.DefaultKeyedValuesTests,testInsertValue
+org.jfree.data.junit.DefaultKeyedValuesTests::testCloning,org.jfree.data.junit.DefaultKeyedValuesTests,testCloning
+org.jfree.data.junit.DefaultKeyedValuesTests::testInsertAndRetrieve,org.jfree.data.junit.DefaultKeyedValuesTests,testInsertAndRetrieve
+org.jfree.data.junit.DefaultKeyedValuesTests::testSortByKeyAscending,org.jfree.data.junit.DefaultKeyedValuesTests,testSortByKeyAscending
+org.jfree.data.junit.DefaultKeyedValuesTests::testSortByKeyDescending,org.jfree.data.junit.DefaultKeyedValuesTests,testSortByKeyDescending
+org.jfree.data.junit.DefaultKeyedValuesTests::testSortByValueAscending,org.jfree.data.junit.DefaultKeyedValuesTests,testSortByValueAscending
+org.jfree.data.junit.DefaultKeyedValuesTests::testSortByValueDescending,org.jfree.data.junit.DefaultKeyedValuesTests,testSortByValueDescending
+org.jfree.data.junit.DefaultKeyedValuesTests::testSerialization,org.jfree.data.junit.DefaultKeyedValuesTests,testSerialization

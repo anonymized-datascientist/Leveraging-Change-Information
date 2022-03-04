@@ -1,0 +1,10 @@
+test,test_class,test_method
+org.apache.commons.lang.StringEscapeUtilsTest::testUnescapeHtml,org.apache.commons.lang.StringEscapeUtilsTest,testUnescapeHtml
+org.apache.commons.lang.StringEscapeUtilsTest::testUnescapeJava,org.apache.commons.lang.StringEscapeUtilsTest,testUnescapeJava
+org.apache.commons.lang.StringEscapeUtilsTest::testStandaloneAmphersand,org.apache.commons.lang.StringEscapeUtilsTest,testStandaloneAmphersand
+org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtml,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeHtml
+org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJava,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJava
+org.apache.commons.lang.StringEscapeUtilsTest::testLang313,org.apache.commons.lang.StringEscapeUtilsTest,testLang313
+org.apache.commons.lang.StringEscapeUtilsTest::testUnescapeHexCharsHtml,org.apache.commons.lang.StringEscapeUtilsTest,testUnescapeHexCharsHtml
+org.apache.commons.lang.StringEscapeUtilsTest::testEscapeJavaScript,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeJavaScript
+org.apache.commons.lang.StringEscapeUtilsTest::testEscapeHtmlVersions,org.apache.commons.lang.StringEscapeUtilsTest,testEscapeHtmlVersions

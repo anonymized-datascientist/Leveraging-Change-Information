@@ -1,0 +1,187 @@
+diff --git a/build.xml b/build.xml
+index 9fa2d164..1a04fb48 100644
+--- a/build.xml
++++ b/build.xml
+@@ -42,11 +42,11 @@
+   <property name="jodaconvert.jar"         value="${lib}/joda-convert-1.1.jar"/>
+ 
+   <!-- The directory of source files -->
+-  <property name="source"                  value="src"/>
+-  <property name="source.home"             value="${source}/main/java"/>
++  <property name="source"                  value="JodaTime/src"/>
++  <property name="source.home"             value="${source}/java"/>
+   <property name="source.tz"               value="${source.home}/org/joda/time/tz/src"/>
+   <property name="conf.home"               value="${source}/conf"/>
+-  <property name="test.home"               value="${source}/test/java"/>
++  <property name="test.home"               value="${source}/test"/>
+ 
+   <!-- The base directory for example sources -->
+   <property name="example.home"            value="src/example"/>
+diff --git a/default.properties b/default.properties
+index 8c2250d2..1799c1cd 100644
+--- a/default.properties
++++ b/default.properties
+@@ -48,13 +48,13 @@ final.name = ${component.name}-${component.version}
+ build.home = target
+ 
+ # The base directory for component configuration files
+-conf.home = src/conf
++conf.home = JodaTime/src/conf
+ 
+ # The base directory for component sources
+-source.home = src/main/java
++source.home = JodaTime/src/main/java
+ 
+ # The base directory for unit test sources
+-test.home = src/test/java
++test.home = JodaTime/src/test/java
+ 
+ # Should Java compilations set the 'debug' compiler option?
+ compile.debug = true
+diff --git a/defects4j.build.properties b/defects4j.build.properties
+index 8f33486a..aa8f4a90 100644
+--- a/defects4j.build.properties
++++ b/defects4j.build.properties
+@@ -2,7 +2,7 @@
+ d4j.bug.id=23
+ d4j.classes.modified=org.joda.time.DateTimeZone
+ d4j.classes.relevant=org.joda.time.chrono.AssembledChronology,org.joda.time.chrono.BaseChronology,org.joda.time.chrono.ISOChronology,org.joda.time.Chronology,org.joda.time.DateTimeZone,org.joda.time.JodaTimePermission,org.joda.time.ReadableInstant,org.joda.time.tz.CachedDateTimeZone,org.joda.time.tz.DateTimeZoneBuilder,org.joda.time.tz.DefaultNameProvider,org.joda.time.tz.FixedDateTimeZone,org.joda.time.tz.NameProvider,org.joda.time.tz.Provider,org.joda.time.tz.ZoneInfoProvider
+-d4j.dir.src.classes=src/main/java
+-d4j.dir.src.tests=src/test/java
++d4j.dir.src.classes=JodaTime/src/main/java
++d4j.dir.src.tests=JodaTime/src/test/java
+ d4j.project.id=Time
+ d4j.tests.trigger=org.joda.time.TestDateTimeZone::testForID_String_old
+diff --git a/maven-build.xml b/maven-build.xml
+index 29c5fdf1..eacf1bcd 100644
+--- a/maven-build.xml
++++ b/maven-build.xml
+@@ -27,13 +27,13 @@
+   <property name="maven.build.finalName" value="joda-time-2.3-SNAPSHOT"/>
+   <property name="maven.build.dir" value="target"/>
+   <property name="maven.build.outputDir" value="${maven.build.dir}/classes"/>
+-  <property name="maven.build.srcDir.0" value="src/main/java"/>
+-  <property name="maven.build.resourceDir.0" value="src/main/resources"/>
++  <property name="maven.build.srcDir.0" value="JodaTime/src/main/java"/>
++  <property name="maven.build.resourceDir.0" value="JodaTime/src/main/resources"/>
+   <property name="maven.build.resourceDir.1" value="."/>
+-  <property name="maven.build.resourceDir.2" value="src/main/java"/>
++  <property name="maven.build.resourceDir.2" value="JodaTime/src/main/java"/>
+   <property name="maven.build.testOutputDir" value="${maven.build.dir}/test-classes"/>
+-  <property name="maven.build.testDir.0" value="src/test/java"/>
+-  <property name="maven.build.testResourceDir.0" value="src/test/resources"/>
++  <property name="maven.build.testDir.0" value="JodaTime/src/test/java"/>
++  <property name="maven.build.testResourceDir.0" value="JodaTime/src/test/resources"/>
+   <property name="maven.test.reports" value="${maven.build.dir}/test-reports"/>
+   <property name="maven.reporting.outputDirectory" value="${maven.build.dir}/site"/>
+ 
+@@ -229,7 +229,7 @@
+     <jar jarfile="${maven.build.dir}/${maven.build.finalName}.jar" 
+          compress="true" 
+          index="false" 
+-         manifest="src/conf/MANIFEST.MF" 
++         manifest="JodaTime/src/conf/MANIFEST.MF" 
+          basedir="${maven.build.outputDir}" 
+          excludes="**/package.html"/>
+   </target>
+diff --git a/JodaTime/src/java/org/joda/time/DateTimeZone.java b/JodaTime/src/java/org/joda/time/DateTimeZone.java
+index 16c82b30..c33547b6 100644
+--- a/JodaTime/src/java/org/joda/time/DateTimeZone.java
++++ b/JodaTime/src/java/org/joda/time/DateTimeZone.java
+@@ -26,6 +26,7 @@ import java.util.HashMap;
+ import java.util.Locale;
+ import java.util.Map;
+ import java.util.Set;
++import java.util.TimeZone;
+ 
+ import org.joda.time.chrono.BaseChronology;
+ import org.joda.time.chrono.ISOChronology;
+@@ -928,4 +929,58 @@ public abstract class DateTimeZone implements Serializable {
+             return getInstance(iID);
+         }
+     }
++
++    /**
++     * Gets a time zone instance for a JDK TimeZone.
++     * <p>
++     * DateTimeZone only accepts a subset of the IDs from TimeZone. The
++     * excluded IDs are the short three letter form (except UTC). This 
++     * method will attempt to convert between time zones created using the
++     * short IDs and the full version.
++     * <p>
++     * This method is not designed to parse time zones with rules created by
++     * applications using <code>SimpleTimeZone</code> directly.
++     * 
++     * @param zone  the zone to convert, null means default
++     * @return the DateTimeZone object for the zone
++     * @throws IllegalArgumentException if the zone is not recognised
++     */
++    public static DateTimeZone forTimeZone(TimeZone zone) {
++        if (zone == null) {
++            return getDefault();
++        }
++        final String id = zone.getID();
++        if (id.equals("UTC")) {
++            return DateTimeZone.UTC;
++        }
++
++        // Convert from old alias before consulting provider since they may differ.
++        DateTimeZone dtz = null;
++        String convId = getConvertedId(id);
++        if (convId != null) {
++            dtz = cProvider.getZone(convId);
++        }
++        if (dtz == null) {
++            dtz = cProvider.getZone(id);
++        }
++        if (dtz != null) {
++            return dtz;
++        }
++
++        // Support GMT+/-hh:mm formats
++        if (convId == null) {
++            convId = zone.getDisplayName();
++            if (convId.startsWith("GMT+") || convId.startsWith("GMT-")) {
++                convId = convId.substring(3);
++                int offset = parseOffset(convId);
++                if (offset == 0L) {
++                    return DateTimeZone.UTC;
++                } else {
++                    convId = printOffset(offset);
++                    return fixedOffsetZone(convId, offset);
++                }
++            }
++        }
++        throw new IllegalArgumentException("The datetime zone id '" + id + "' is not recognised");
++    }
+ }
+diff --git a/JodaTime/src/test/org/joda/time/TestDateTimeZone.java b/JodaTime/src/test/org/joda/time/TestDateTimeZone.java
+index 711de47a..99ed6afe 100644
+--- a/JodaTime/src/test/org/joda/time/TestDateTimeZone.java
++++ b/JodaTime/src/test/org/joda/time/TestDateTimeZone.java
+@@ -39,6 +39,8 @@ import org.joda.time.tz.NameProvider;
+ import org.joda.time.tz.Provider;
+ import org.joda.time.tz.UTCProvider;
+ import org.joda.time.tz.ZoneInfoProvider;
++import java.util.Map;
++import java.util.LinkedHashMap;
+ 
+ /**
+  * This class is a JUnit test for DateTimeZone.
+diff --git a/JodaTime/src/test/org/joda/time/convert/MockUnknownCalendar.java b/JodaTime/src/test/org/joda/time/convert/MockUnknownCalendar.java
+index cae24335..b6056050 100644
+--- a/JodaTime/src/test/org/joda/time/convert/MockUnknownCalendar.java
++++ b/JodaTime/src/test/org/joda/time/convert/MockUnknownCalendar.java
+@@ -62,8 +62,8 @@ class MockUnknownCalendar extends Calendar {
+     public int getLeastMaximum(int field) {
+         return 0;
+     }
+-    public int compareTo(Object arg0) {
+-        return 0;
+-    }
++    // public int compareTo(Object arg0) {
++    //     return 0;
++    // }
+     
+ }
+ 

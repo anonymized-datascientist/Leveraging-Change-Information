@@ -1,0 +1,32 @@
+{
+    "org.apache.commons.lang.EntitiesPerformanceTest": [
+        "testEscapePrimitive",
+        "testEscapeBinary",
+        "testEscapeLookup",
+        "testUnescapeHash",
+        "testUnescapeTree",
+        "testUnescapeBinary",
+        "testEscapeHash",
+        "testEscapeTree",
+        "testLookupBinary"
+    ],
+    "org.apache.commons.lang.LocaleUtilsTest": [
+        "testCountriesByLanguage",
+        "testLanguagesByCountry"
+    ],
+    "org.apache.commons.lang.builder.ToStringBuilderTest": [
+        "testReflectionHierarchyArrayList"
+    ],
+    "org.apache.commons.lang.enum.EnumTest": [
+        "testColorEnumEqualsWithDifferentClassLoaders"
+    ],
+    "org.apache.commons.lang.enums.EnumTest": [
+        "testColorEnumEqualsWithDifferentClassLoaders"
+    ],
+    "org.apache.commons.lang.time.DateUtilsTest": [
+        "testRoundLang346"
+    ],
+    "org.apache.commons.lang.time.FastDateFormatTest": [
+        "testFormat"
+    ]
+}

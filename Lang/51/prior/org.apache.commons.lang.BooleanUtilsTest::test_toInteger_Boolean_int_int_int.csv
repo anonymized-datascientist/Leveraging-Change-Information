@@ -1,0 +1,4 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,toInteger,443
+51,org.apache.commons.lang.BooleanUtils,toInteger,444
+51,org.apache.commons.lang.BooleanUtils,toInteger,446

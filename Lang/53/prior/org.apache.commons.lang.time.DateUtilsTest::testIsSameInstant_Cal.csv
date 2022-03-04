@@ -1,0 +1,6 @@
+bug,class,method,line
+53,org.apache.commons.lang.time.DateUtils,<clinit>,44
+53,org.apache.commons.lang.time.DateUtils,<clinit>,72
+53,org.apache.commons.lang.time.DateUtils,isSameInstant,204
+53,org.apache.commons.lang.time.DateUtils,isSameInstant,205
+53,org.apache.commons.lang.time.DateUtils,isSameInstant,207

@@ -1,0 +1,17 @@
+{
+    "org.apache.commons.lang.time.DateUtilsTest": [
+        "testTruncateLang59",
+        "testConstructor",
+        "testIsSameDay_Date",
+        "testIsSameDay_Cal",
+        "testIsSameInstant_Date",
+        "testIsSameInstant_Cal",
+        "testIsSameLocalTime_Cal",
+        "testParseDate",
+        "testRound",
+        "testTruncate",
+        "testIteratorEx",
+        "testWeekIterator",
+        "testMonthIterator"
+    ]
+}

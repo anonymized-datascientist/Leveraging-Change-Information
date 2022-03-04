@@ -1,0 +1,12 @@
+{
+    "org.apache.commons.math.distribution.HypergeometricDistributionTest": [
+        "testMath1021"
+    ],
+    "org.apache.commons.math.optimization.direct.BOBYQAOptimizerTest": [
+        "testAckley",
+        "testDiffPow"
+    ],
+    "org.apache.commons.math.util.FastMathTest": [
+        "checkMissingFastMathClasses"
+    ]
+}

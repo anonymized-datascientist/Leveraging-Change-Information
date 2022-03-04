@@ -1,0 +1,5 @@
+public void testIssue4177428c() {
+    testSame("f = function() {\n" + "  var action;\n" + "  a: {\n" + "    var proto = null;\n" + "    try {\n" + "    } finally {\n" + "    try {\n" + "      proto = new Proto\n" + "    } finally {\n" + "      action = proto;\n" + // Keep this...
+    "      break a\n" + "    }\n" + "    }\n" + "  }\n" + // and this.
+    "  alert(action)\n" + "};");
+}

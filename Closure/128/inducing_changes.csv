@@ -1,0 +1,16 @@
+file,method,line
+src/com/google/javascript/jscomp/CodeGenerator.java,isSimpleNumber,745
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1257
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1258
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1259
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1260
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1261
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1262
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1263
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1264
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1265
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1266
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1267
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1268
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1269
+test/com/google/javascript/jscomp/CodePrinterTest.java,testNumericKeys,1270

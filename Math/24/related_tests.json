@@ -1,0 +1,12 @@
+{
+    "org.apache.commons.math3.optimization.univariate.BrentOptimizerTest": [
+        "testMath855",
+        "testSinMin",
+        "testSinMinWithValueChecker",
+        "testBoundaries",
+        "testQuinticMin",
+        "testQuinticMinStatistics",
+        "testQuinticMax",
+        "testMinEndpoints"
+    ]
+}

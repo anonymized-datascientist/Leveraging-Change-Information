@@ -1,0 +1,7 @@
+public void testWith_baseAndArgHaveNoRange() {
+    Partial test = new Partial(DateTimeFieldType.year(), 1);
+    Partial result = test.with(DateTimeFieldType.era(), 1);
+    assertEquals(2, result.size());
+    assertEquals(0, result.indexOf(DateTimeFieldType.era()));
+    assertEquals(1, result.indexOf(DateTimeFieldType.year()));
+}

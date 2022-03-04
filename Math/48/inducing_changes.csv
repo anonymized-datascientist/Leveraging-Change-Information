@@ -1,0 +1,4 @@
+file,method,line
+src/main/java/org/apache/commons/math/analysis/solvers/BaseSecantSolver.java,doSolve,186
+src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java,,21
+src/test/java/org/apache/commons/math/analysis/solvers/RegulaFalsiSolverTest.java,,44

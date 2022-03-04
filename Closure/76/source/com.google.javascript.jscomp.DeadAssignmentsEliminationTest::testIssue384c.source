@@ -1,0 +1,3 @@
+public void testIssue384c() {
+    inFunction(" var a, b;\n" + " (a ? f(b = true) : f(b = false)) && (a = b);\n" + " return a;");
+}

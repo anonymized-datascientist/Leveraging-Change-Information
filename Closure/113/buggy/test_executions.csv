@@ -1,0 +1,10 @@
+test,test_class,test_method
+com.google.javascript.jscomp.VarCheckTest::testBreak,com.google.javascript.jscomp.VarCheckTest,testBreak
+com.google.javascript.jscomp.VarCheckTest::testContinue,com.google.javascript.jscomp.VarCheckTest,testContinue
+com.google.javascript.jscomp.VarCheckTest::testReferencedVarNotDefined,com.google.javascript.jscomp.VarCheckTest,testReferencedVarNotDefined
+com.google.javascript.jscomp.VarCheckTest::testReferencedVarDefined1,com.google.javascript.jscomp.VarCheckTest,testReferencedVarDefined1
+com.google.javascript.jscomp.VarCheckTest::testReferencedVarDefined2,com.google.javascript.jscomp.VarCheckTest,testReferencedVarDefined2
+com.google.javascript.jscomp.VarCheckTest::testReferencedVarsExternallyDefined,com.google.javascript.jscomp.VarCheckTest,testReferencedVarsExternallyDefined
+com.google.javascript.jscomp.VarCheckTest::testMultiplyDeclaredVars1,com.google.javascript.jscomp.VarCheckTest,testMultiplyDeclaredVars1
+com.google.javascript.jscomp.VarCheckTest::testMultiplyDeclaredVars2,com.google.javascript.jscomp.VarCheckTest,testMultiplyDeclaredVars2
+com.google.javascript.jscomp.VarCheckTest::testMultiplyDeclaredVars3,com.google.javascript.jscomp.VarCheckTest,testMultiplyDeclaredVars3

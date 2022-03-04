@@ -1,0 +1,13 @@
+project,bug,top_hits,top_index
+Jackson-core,13,[],[]
+Jackson-core,14,[],[]
+Jackson-core,15,[],[]
+Jackson-core,16,['NonBlockingJsonParser#_finishNumberLeadingNegZeroes'],[11]
+Jackson-core,24,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,25,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,26,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,27,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,28,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,29,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#createInitial', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[29, 28, 27, 26, 25]"
+Jackson-core,32,[],[]
+Jackson-core,33,[],[]

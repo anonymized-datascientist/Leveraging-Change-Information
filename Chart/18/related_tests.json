@@ -1,0 +1,22 @@
+{
+    "org.jfree.data.junit.DefaultKeyedValuesTests": [
+        "testGetIndex2",
+        "testRemoveValue",
+        "testConstructor",
+        "testGetItemCount",
+        "testGetKeys",
+        "testClear",
+        "testGetValue",
+        "testGetKey",
+        "testGetIndex",
+        "testAddValue",
+        "testInsertValue",
+        "testCloning",
+        "testInsertAndRetrieve",
+        "testSortByKeyAscending",
+        "testSortByKeyDescending",
+        "testSortByValueAscending",
+        "testSortByValueDescending",
+        "testSerialization"
+    ]
+}

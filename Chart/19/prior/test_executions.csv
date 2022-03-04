@@ -1,0 +1,14 @@
+test,test_class,test_method
+org.jfree.chart.plot.junit.CategoryPlotTests::testAxisRange,org.jfree.chart.plot.junit.CategoryPlotTests,testAxisRange
+org.jfree.chart.plot.junit.CategoryPlotTests::testEquals,org.jfree.chart.plot.junit.CategoryPlotTests,testEquals
+org.jfree.chart.plot.junit.CategoryPlotTests::testCloning,org.jfree.chart.plot.junit.CategoryPlotTests,testCloning
+org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization,org.jfree.chart.plot.junit.CategoryPlotTests,testSerialization
+org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization2,org.jfree.chart.plot.junit.CategoryPlotTests,testSerialization2
+org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization3,org.jfree.chart.plot.junit.CategoryPlotTests,testSerialization3
+org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization4,org.jfree.chart.plot.junit.CategoryPlotTests,testSerialization4
+org.jfree.chart.plot.junit.CategoryPlotTests::testSerialization5,org.jfree.chart.plot.junit.CategoryPlotTests,testSerialization5
+org.jfree.chart.plot.junit.CategoryPlotTests::testSetRenderer,org.jfree.chart.plot.junit.CategoryPlotTests,testSetRenderer
+org.jfree.chart.plot.junit.CategoryPlotTests::test1169972,org.jfree.chart.plot.junit.CategoryPlotTests,test1169972
+org.jfree.chart.plot.junit.CategoryPlotTests::testAddDomainMarker,org.jfree.chart.plot.junit.CategoryPlotTests,testAddDomainMarker
+org.jfree.chart.plot.junit.CategoryPlotTests::testAddRangeMarker,org.jfree.chart.plot.junit.CategoryPlotTests,testAddRangeMarker
+org.jfree.chart.plot.junit.CategoryPlotTests::test1654215,org.jfree.chart.plot.junit.CategoryPlotTests,test1654215

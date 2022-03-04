@@ -1,0 +1,3 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,<init>,80
+51,org.apache.commons.lang.BooleanUtils,<init>,81

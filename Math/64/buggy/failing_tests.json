@@ -1,0 +1,9 @@
+{
+    "org.apache.commons.math.ode.jacobians.FirstOrderIntegratorWithJacobiansTest": [
+        "testInternalDifferentiation"
+    ],
+    "org.apache.commons.math.optimization.general.MinpackTest": [
+        "testMinpackJennrichSampson",
+        "testMinpackFreudensteinRoth"
+    ]
+}

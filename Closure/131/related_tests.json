@@ -1,0 +1,7 @@
+{
+    "com.google.javascript.jscomp.ConvertToDottedPropertiesTest": [
+        "testDoNotConvert",
+        "testQuotedProps",
+        "testConvert"
+    ]
+}

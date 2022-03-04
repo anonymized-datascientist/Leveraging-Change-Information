@@ -1,0 +1,14 @@
+bug,class,method,line
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,161
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,162
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,163
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,164
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,165
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,166
+2,org.jfree.chart.util.ArrayUtilities,hasDuplicateItems,172
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,424
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,427
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,430
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,433
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,438
+2,org.jfree.data.general.DatasetUtilities,createCategoryDataset,439

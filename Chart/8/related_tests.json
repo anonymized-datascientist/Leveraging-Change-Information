@@ -1,0 +1,27 @@
+{
+    "org.jfree.data.time.junit.WeekTests": [
+        "testConstructor",
+        "testEquals",
+        "testW1Y1900Previous",
+        "testW1Y1900Next",
+        "testW52Y9999Previous",
+        "testW52Y9999Next",
+        "testSerialization",
+        "testHashcode",
+        "testNotCloneable",
+        "testWeek12005",
+        "testWeek532005",
+        "testBug1448828",
+        "testBug1498805",
+        "testGetFirstMillisecond",
+        "testGetFirstMillisecondWithTimeZone",
+        "testGetFirstMillisecondWithCalendar",
+        "testGetLastMillisecond",
+        "testGetLastMillisecondWithTimeZone",
+        "testGetLastMillisecondWithCalendar",
+        "testGetSerialIndex",
+        "testNext",
+        "testGetStart",
+        "testGetEnd"
+    ]
+}

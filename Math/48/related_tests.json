@@ -1,0 +1,13 @@
+{
+    "org.apache.commons.math.analysis.solvers.RegulaFalsiSolverTest": [
+        "testIssue631",
+        "testSolutionRightSide",
+        "testSolutionAboveSide",
+        "testSolutionBelowSide",
+        "testSolutionLeftSide",
+        "testBadEndpoints",
+        "testRootEndpoints",
+        "testQuinticZero",
+        "testSinZero"
+    ]
+}

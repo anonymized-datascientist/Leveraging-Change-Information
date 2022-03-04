@@ -1,0 +1,15 @@
+test,test_class,test_method
+org.joda.time.format.TestDateTimeFormatter::testParseInto_monthDay_withDefaultYear_feb29,org.joda.time.format.TestDateTimeFormatter,testParseInto_monthDay_withDefaultYear_feb29
+org.joda.time.format.TestDateTimeFormatter::testPrint_simple,org.joda.time.format.TestDateTimeFormatter,testPrint_simple
+org.joda.time.format.TestDateTimeFormatter::testPrint_locale,org.joda.time.format.TestDateTimeFormatter,testPrint_locale
+org.joda.time.format.TestDateTimeFormatter::testPrint_zone,org.joda.time.format.TestDateTimeFormatter,testPrint_zone
+org.joda.time.format.TestDateTimeFormatter::testPrint_chrono,org.joda.time.format.TestDateTimeFormatter,testPrint_chrono
+org.joda.time.format.TestDateTimeFormatter::testPrint_bufferMethods,org.joda.time.format.TestDateTimeFormatter,testPrint_bufferMethods
+org.joda.time.format.TestDateTimeFormatter::testPrint_writerMethods,org.joda.time.format.TestDateTimeFormatter,testPrint_writerMethods
+org.joda.time.format.TestDateTimeFormatter::testPrint_chrono_and_zone,org.joda.time.format.TestDateTimeFormatter,testPrint_chrono_and_zone
+org.joda.time.format.TestDateTimeFormatter::testWithGetLocale,org.joda.time.format.TestDateTimeFormatter,testWithGetLocale
+org.joda.time.format.TestDateTimeFormatter::testWithGetZone,org.joda.time.format.TestDateTimeFormatter,testWithGetZone
+org.joda.time.format.TestDateTimeFormatter::testWithGetChronology,org.joda.time.format.TestDateTimeFormatter,testWithGetChronology
+org.joda.time.format.TestDateTimeFormatter::testWithGetPivotYear,org.joda.time.format.TestDateTimeFormatter,testWithGetPivotYear
+org.joda.time.format.TestDateTimeFormatter::testWithGetOffsetParsedMethods,org.joda.time.format.TestDateTimeFormatter,testWithGetOffsetParsedMethods
+org.joda.time.format.TestDateTimeFormatter::testPrinterParserMethods,org.joda.time.format.TestDateTimeFormatter,testPrinterParserMethods

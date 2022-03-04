@@ -1,0 +1,13 @@
+{
+    "org.apache.commons.math.distribution.NormalDistributionTest": [
+        "testExtremeValues",
+        "makeCumulativeTestPoints",
+        "makeCumulativeTestValues",
+        "testQuantiles",
+        "testInverseCumulativeProbabilityExtremes",
+        "testGetMean",
+        "testSetMean",
+        "testGetStandardDeviation",
+        "testSetStandardDeviation"
+    ]
+}

@@ -1,0 +1,4 @@
+bug,class,method,line
+51,org.apache.commons.lang.BooleanUtils,toBooleanDefaultIfNull,160
+51,org.apache.commons.lang.BooleanUtils,toBooleanDefaultIfNull,161
+51,org.apache.commons.lang.BooleanUtils,toBooleanDefaultIfNull,163

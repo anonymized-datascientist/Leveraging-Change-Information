@@ -1,0 +1,5 @@
+public void testBackwardsTypedefUse8() throws Exception {
+    // Tehnically, this isn't quite right, because the JS runtime
+    // will coerce null -> the global object. But we'll punt on that for now.
+    testTypes("/** @param {!Array} x */ function g(x) {}" + "/** @this {goog.MyTypedef} */ function f() { g(this); }" + "var goog = {};" + "/** @typedef {(Array|null|undefined)} */ goog.MyTypedef;");
+}

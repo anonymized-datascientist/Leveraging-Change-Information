@@ -1,0 +1,4 @@
+public void testIssue504() {
+    args.add("--compilation_level=ADVANCED_OPTIMIZATIONS");
+    test("void function() { alert('hi'); }();", "alert('hi');", CheckSideEffects.USELESS_CODE_ERROR);
+}

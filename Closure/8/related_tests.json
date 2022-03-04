@@ -1,0 +1,9 @@
+{
+    "com.google.javascript.jscomp.CollapseVariableDeclarationsTest": [
+        "testIssue820",
+        "testCollapsing",
+        "testIfElseVarDeclarations",
+        "testAggressiveRedeclaration",
+        "testAggressiveRedeclarationInFor"
+    ]
+}

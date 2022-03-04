@@ -1,0 +1,11 @@
+file,method,line
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,223
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,224
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,225
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,226
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,227
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,228
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,229
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,230
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,231
+src/main/java/org/apache/commons/math3/optimization/univariate/BrentOptimizer.java,doOptimize,232

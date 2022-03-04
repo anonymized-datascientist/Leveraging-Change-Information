@@ -1,0 +1,13 @@
+project,bug,top_hits,top_index
+Jackson-core,13,['NonBlockingJsonParser#_startFieldName'],[31]
+Jackson-core,14,['NonBlockingJsonParser#_startFieldName'],[3]
+Jackson-core,15,['NonBlockingJsonParser#_startFieldName'],[24]
+Jackson-core,16,"['NonBlockingJsonParser#getNonBlockingInputFeeder', 'NonBlockingJsonParser#NonBlockingJsonParser', 'NonBlockingJsonParser#feedInput', 'NonBlockingJsonParser#needMoreInput']","[61, 70, 47, 59]"
+Jackson-core,24,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#calcHash', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[4, 2, 43, 44, 46]"
+Jackson-core,25,[],[]
+Jackson-core,26,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#calcHash', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[16, 15, 62, 8, 6]"
+Jackson-core,27,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#calcHash', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[20, 14, 11, 12, 15]"
+Jackson-core,28,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#calcHash', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[7, 5, 16, 4, 54]"
+Jackson-core,29,"['ByteQuadsCanonicalizer#_verifyRehashAndSharing', 'ByteQuadsCanonicalizer#addName', 'ByteQuadsCanonicalizer#calcHash', 'ByteQuadsCanonicalizer#findName', 'ByteQuadsCanonicalizer#_findOffsetForAdd']","[27, 6, 10, 5, 22]"
+Jackson-core,32,['ReaderBasedJsonParser#_parseNumber2'],[13]
+Jackson-core,33,['UTF8StreamJsonParser#findName'],[21]

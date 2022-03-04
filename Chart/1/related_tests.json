@@ -1,0 +1,14 @@
+{
+    "org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests": [
+        "test2947660",
+        "testEquals",
+        "testCloning1",
+        "testCloning2",
+        "testCloning_LegendItemLabelGenerator",
+        "testCloning_LegendItemToolTipGenerator",
+        "testCloning_LegendItemURLGenerator",
+        "testGetSeriesItemLabelGenerator",
+        "testGetSeriesURLGenerator",
+        "testFindRangeBounds"
+    ]
+}

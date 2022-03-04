@@ -1,0 +1,18 @@
+{
+    "org.apache.commons.math.optimization.linear.SimplexSolverTest": [
+        "testMath713NegativeVariable",
+        "testMath272",
+        "testMath286",
+        "testSimplexSolver",
+        "testSingleVariableAndConstraint",
+        "testModelWithNoArtificialVars",
+        "testMinimization",
+        "testSolutionWithNegativeDecisionVariable",
+        "testInfeasibleSolution",
+        "testUnboundedSolution",
+        "testRestrictVariablesToNonNegative",
+        "testEpsilon",
+        "testTrivialModel",
+        "testLargeModel"
+    ]
+}

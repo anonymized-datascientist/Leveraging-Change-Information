@@ -1,0 +1,6 @@
+project,bug,top_hits,top_index
+Time,1,"['UnsupportedDurationField#compareTo', 'Partial#Partial']","[2, 1]"
+Time,2,"['UnsupportedDurationField#compareTo', 'Partial#Partial', 'Partial#with']","[2, 1, 4]"
+Time,7,['DateTimeFormatter#parseInto'],[4]
+Time,11,[],[]
+Time,16,['DateTimeFormatter#parseInto'],[1]

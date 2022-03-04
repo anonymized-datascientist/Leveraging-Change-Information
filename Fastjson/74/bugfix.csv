@@ -1,0 +1,7 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java,scanFieldString,1020,Fastjson_74
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java,scanFieldString,1021,Fastjson_74
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java,scanFieldString,1022,Fastjson_74
+src/main/java/com/alibaba/fastjson/parser/JSONScanner.java,scanFieldString,1023,Fastjson_74
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,createJavaBeanDeserializer,956,Fastjson_74
+src/main/java/com/alibaba/fastjson/parser/ParserConfig.java,createJavaBeanDeserializer,957,Fastjson_74

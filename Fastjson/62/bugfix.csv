@@ -1,0 +1,7 @@
+class,method,line,bug
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,359,Fastjson_62
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,360,Fastjson_62
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,363,Fastjson_62
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,365,Fastjson_62
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,366,Fastjson_62
+src/main/java/com/alibaba/fastjson/util/TypeUtils.java,castToBigInteger,369,Fastjson_62

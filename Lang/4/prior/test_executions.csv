@@ -1,0 +1,2 @@
+test,test_class,test_method
+org.apache.commons.lang.text.translate.LookupTranslatorTest::testBasicLookup,org.apache.commons.lang.text.translate.LookupTranslatorTest,testBasicLookup

@@ -1,0 +1,5 @@
+bug,class,method,line
+89,org.apache.commons.math.stat.Frequency,<init>,57
+89,org.apache.commons.math.stat.Frequency,<init>,58
+89,org.apache.commons.math.stat.Frequency,<init>,59
+89,org.apache.commons.math.stat.Frequency,addValue,110

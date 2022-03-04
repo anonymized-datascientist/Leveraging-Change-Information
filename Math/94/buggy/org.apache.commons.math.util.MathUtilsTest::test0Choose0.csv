@@ -1,0 +1,10 @@
+bug,class,method,line
+94,org.apache.commons.math.util.MathUtils,binomialCoefficient,304
+94,org.apache.commons.math.util.MathUtils,binomialCoefficient,308
+94,org.apache.commons.math.util.MathUtils,binomialCoefficient,312
+94,org.apache.commons.math.util.MathUtils,binomialCoefficient,313
+94,org.apache.commons.math.util.MathUtils,binomialCoefficientDouble,349
+94,org.apache.commons.math.util.MathUtils,binomialCoefficientLog,370
+94,org.apache.commons.math.util.MathUtils,binomialCoefficientLog,374
+94,org.apache.commons.math.util.MathUtils,binomialCoefficientLog,378
+94,org.apache.commons.math.util.MathUtils,binomialCoefficientLog,379

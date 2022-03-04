@@ -1,0 +1,11 @@
+test,test_class,test_method
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck9,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck9
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck10,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck10
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck11,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck11
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck12,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck12
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck13,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck13
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck14,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck14
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck15,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck15
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck16,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck16
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck17,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck17
+com.google.javascript.jscomp.TypeCheckTest::testTypeCheck18,com.google.javascript.jscomp.TypeCheckTest,testTypeCheck18

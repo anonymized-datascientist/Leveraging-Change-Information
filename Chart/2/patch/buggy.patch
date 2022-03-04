@@ -1,0 +1,39 @@
+diff --git a/source/org/jfree/data/general/DatasetUtilities.java b/source/org/jfree/data/general/DatasetUtilities.java
+index 16ca219..3c9215e 100644
+--- a/source/org/jfree/data/general/DatasetUtilities.java
++++ b/source/org/jfree/data/general/DatasetUtilities.java
+@@ -143,6 +143,20 @@ public final class DatasetUtilities {
+         // now try to instantiate this ;-)
+     }
+ 
++        /**
++     * Iterates over the data item of the xy dataset to find
++     * the range bounds.
++     *
++     * @param dataset  the dataset (<code>null</code> not permitted).
++     *
++     * @return The range (possibly <code>null</code>).
++     *
++     * @deprecated As of 1.0.10, use {@link #iterateRangeBounds(XYDataset)}.
++     */
++    public static Range iterateXYRangeBounds(XYDataset dataset) {
++        return iterateRangeBounds(dataset);
++    }
++
+     /**
+      * Calculates the total of all the values in a {@link PieDataset}.  If 
+      * the dataset contains negative or <code>null</code> values, they are 
+diff --git a/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java b/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+index 618e96f..5ce492b 100644
+--- a/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
++++ b/tests/org/jfree/data/general/junit/DatasetUtilitiesTests.java
+@@ -62,6 +62,9 @@ import org.jfree.data.xy.XYDataset;
+ import org.jfree.data.xy.XYSeries;
+ import org.jfree.data.xy.XYSeriesCollection;
+ 
++import org.jfree.data.xy.XYIntervalSeries;
++import org.jfree.data.xy.XYIntervalSeriesCollection;
++
+ /**
+  * Tests for the {@link DatasetUtilities} class.
+  */

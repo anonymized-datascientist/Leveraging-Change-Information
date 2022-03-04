@@ -1,0 +1,7 @@
+test,test_class,test_method
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testDrawWithNullInfo,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,testDrawWithNullInfo
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testEquals,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,testEquals
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testHashcode,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,testHashcode
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testCloning,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,testCloning
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::testSerialization,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,testSerialization
+org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests::test1562759,org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests,test1562759

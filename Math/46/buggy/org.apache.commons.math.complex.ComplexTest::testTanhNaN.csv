@@ -1,0 +1,16 @@
+bug,class,method,line
+46,org.apache.commons.math.complex.Complex,<clinit>,58
+46,org.apache.commons.math.complex.Complex,<clinit>,61
+46,org.apache.commons.math.complex.Complex,<clinit>,64
+46,org.apache.commons.math.complex.Complex,<clinit>,66
+46,org.apache.commons.math.complex.Complex,<clinit>,68
+46,org.apache.commons.math.complex.Complex,<init>,99
+46,org.apache.commons.math.complex.Complex,<init>,100
+46,org.apache.commons.math.complex.Complex,<init>,101
+46,org.apache.commons.math.complex.Complex,<init>,103
+46,org.apache.commons.math.complex.Complex,<init>,104
+46,org.apache.commons.math.complex.Complex,<init>,106
+46,org.apache.commons.math.complex.Complex,<init>,107
+46,org.apache.commons.math.complex.Complex,isNaN,377
+46,org.apache.commons.math.complex.Complex,tanh,1025
+46,org.apache.commons.math.complex.Complex,tanh,1026

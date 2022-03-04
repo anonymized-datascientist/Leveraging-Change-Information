@@ -1,0 +1,3 @@
+public void testIEString() {
+    testSame("!+'\\v1'");
+}

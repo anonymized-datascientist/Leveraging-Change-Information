@@ -1,0 +1,7 @@
+@Test
+public void testDivideZero() {
+    Complex x = new Complex(3.0, 4.0);
+    Complex z = x.divide(Complex.ZERO);
+    // Assert.assertEquals(z, Complex.INF); // See MATH-657
+    Assert.assertEquals(z, Complex.NaN);
+}

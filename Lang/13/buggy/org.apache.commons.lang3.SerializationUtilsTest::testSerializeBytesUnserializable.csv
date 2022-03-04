@@ -1,0 +1,15 @@
+bug,class,method,line
+13,org.apache.commons.lang3.SerializationException,<init>,63
+13,org.apache.commons.lang3.SerializationException,<init>,64
+13,org.apache.commons.lang3.SerializationUtils,serialize,158
+13,org.apache.commons.lang3.SerializationUtils,serialize,159
+13,org.apache.commons.lang3.SerializationUtils,serialize,127
+13,org.apache.commons.lang3.SerializationUtils,serialize,130
+13,org.apache.commons.lang3.SerializationUtils,serialize,133
+13,org.apache.commons.lang3.SerializationUtils,serialize,134
+13,org.apache.commons.lang3.SerializationUtils,serialize,136
+13,org.apache.commons.lang3.SerializationUtils,serialize,137
+13,org.apache.commons.lang3.SerializationUtils,serialize,139
+13,org.apache.commons.lang3.SerializationUtils,serialize,140
+13,org.apache.commons.lang3.SerializationUtils,serialize,141
+13,org.apache.commons.lang3.SerializationUtils,serialize,145

@@ -1,0 +1,8 @@
+bug,class,method,line
+13,org.apache.commons.lang3.SerializationUtils,deserialize,158
+13,org.apache.commons.lang3.SerializationUtils,deserialize,161
+13,org.apache.commons.lang3.SerializationUtils,deserialize,164
+13,org.apache.commons.lang3.SerializationUtils,deserialize,165
+13,org.apache.commons.lang3.SerializationUtils,deserialize,173
+13,org.apache.commons.lang3.SerializationUtils,deserialize,174
+13,org.apache.commons.lang3.SerializationUtils,deserialize,178

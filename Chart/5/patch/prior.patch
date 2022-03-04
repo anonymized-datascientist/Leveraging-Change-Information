@@ -1,0 +1,26 @@
+diff --git a/source/org/jfree/data/xy/XYSeries.java b/source/org/jfree/data/xy/XYSeries.java
+index 3f30c0d..947f533 100644
+--- a/source/org/jfree/data/xy/XYSeries.java
++++ b/source/org/jfree/data/xy/XYSeries.java
+@@ -162,6 +162,21 @@ public class XYSeries extends Series implements Cloneable, Serializable {
+     public boolean getAutoSort() {
+         return this.autoSort;
+     }
++    
++    /**
++     * Adds or updates an item in the series and sends a
++     * {@link SeriesChangeEvent} to all registered listeners.
++     *
++     * @param x  the x-value.
++     * @param y  the y-value.
++     *
++     * @return The item that was overwritten, if any.
++     *
++     * @since 1.0.10
++     */
++    public XYDataItem addOrUpdate(double x, double y) {
++        return addOrUpdate(new Double(x), new Double(y));
++    }
+ 
+     /**
+      * Returns a flag that controls whether duplicate x-values are allowed.

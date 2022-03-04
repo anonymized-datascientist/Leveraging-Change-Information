@@ -1,0 +1,10 @@
+bug,class,method,line
+4,org.apache.commons.lang.text.translate.CharSequenceTranslator,<init>,32
+4,org.apache.commons.lang.text.translate.LookupTranslator,<init>,35
+4,org.apache.commons.lang.text.translate.LookupTranslator,<init>,36
+4,org.apache.commons.lang.text.translate.LookupTranslator,<init>,37
+4,org.apache.commons.lang.text.translate.LookupTranslator,translate,43
+4,org.apache.commons.lang.text.translate.LookupTranslator,translate,44
+4,org.apache.commons.lang.text.translate.LookupTranslator,translate,45
+4,org.apache.commons.lang.text.translate.LookupTranslator,translate,46
+4,org.apache.commons.lang.text.translate.LookupTranslator,translate,47

@@ -1,0 +1,32 @@
+public void testInvertibleOperators() {
+    Map<String, String> inverses = ImmutableMap.<String, String>builder().put("==", "!=").put("===", "!==").put("<=", ">").put("<", ">=").put(">=", "<").put(">", "<=").put("!=", "==").put("!==", "===").build();
+    Set<String> comparators = ImmutableSet.of("<=", "<", ">=", ">");
+    Set<String> equalitors = ImmutableSet.of("==", "===");
+    Set<String> uncomparables = ImmutableSet.of("undefined", "void 0");
+    List<String> operators = ImmutableList.copyOf(inverses.values());
+    for (int iOperandA = 0; iOperandA < LITERAL_OPERANDS.size(); iOperandA++) {
+        for (int iOperandB = 0; iOperandB < LITERAL_OPERANDS.size(); iOperandB++) {
+            for (int iOp = 0; iOp < operators.size(); iOp++) {
+                String a = LITERAL_OPERANDS.get(iOperandA);
+                String b = LITERAL_OPERANDS.get(iOperandB);
+                String op = operators.get(iOp);
+                String inverse = inverses.get(op);
+                // Test invertability.
+                if (comparators.contains(op) && (uncomparables.contains(a) || uncomparables.contains(b))) {
+                    assertSameResults(join(a, op, b), "false");
+                    assertSameResults(join(a, inverse, b), "false");
+                } else if (a.equals(b) && equalitors.contains(op)) {
+                    if (a.equals("NaN") || a.equals("Infinity")) {
+                        foldSame(join(a, op, b));
+                        foldSame(join(a, inverse, b));
+                    } else {
+                        assertSameResults(join(a, op, b), "true");
+                        assertSameResults(join(a, inverse, b), "false");
+                    }
+                } else {
+                    assertNotSameResults(join(a, op, b), join(a, inverse, b));
+                }
+            }
+        }
+    }
+}

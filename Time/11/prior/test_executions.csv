@@ -1,0 +1,2 @@
+test,test_class,test_method
+org.joda.time.tz.TestCompiler::testCompile,org.joda.time.tz.TestCompiler,testCompile

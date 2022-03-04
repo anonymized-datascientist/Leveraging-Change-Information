@@ -1,0 +1,16 @@
+// Check what happens when non-Comparable objects are added
+public void testAddNonComparable() {
+    try {
+        // This was previously OK
+        f.addValue(new Object());
+        fail("Expected IllegalArgumentException");
+    } catch (IllegalArgumentException expected) {
+    }
+    f.clear();
+    f.addValue(1);
+    try {
+        f.addValue(new Object());
+        fail("Expected IllegalArgumentException");
+    } catch (IllegalArgumentException expected) {
+    }
+}

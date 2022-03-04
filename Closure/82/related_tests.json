@@ -1,0 +1,14 @@
+{
+    "com.google.javascript.rhino.jstype.FunctionTypeTest": [
+        "testEmptyFunctionTypes",
+        "testDefaultReturnType",
+        "testSupAndInfOfReturnTypes",
+        "testSupAndInfOfReturnTypesWithDifferentParams",
+        "testSupAndInfWithDifferentParams",
+        "testSupAndInfWithDifferentThisTypes",
+        "testSupAndInfWithDifferentThisTypes2",
+        "testSupAndInfOfReturnTypesWithNumOfParams",
+        "testSubtypeWithInterfaceThisType",
+        "assertGreatestSubtype"
+    ]
+}

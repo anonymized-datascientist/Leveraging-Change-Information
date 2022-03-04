@@ -1,0 +1,15 @@
+bug,class,method,line
+13,org.jfree.chart.block.BorderArrangement,<init>,84
+13,org.jfree.chart.block.BorderArrangement,<init>,85
+13,org.jfree.chart.block.BorderArrangement,equals,553
+13,org.jfree.chart.block.BorderArrangement,equals,556
+13,org.jfree.chart.block.BorderArrangement,equals,559
+13,org.jfree.chart.block.BorderArrangement,equals,560
+13,org.jfree.chart.block.BorderArrangement,equals,563
+13,org.jfree.chart.block.BorderArrangement,equals,566
+13,org.jfree.chart.block.BorderArrangement,equals,569
+13,org.jfree.chart.block.BorderArrangement,equals,572
+13,org.jfree.chart.block.BorderArrangement,equals,575
+13,org.jfree.chart.util.ObjectUtilities,<clinit>,80
+13,org.jfree.chart.util.ObjectUtilities,equal,125
+13,org.jfree.chart.util.ObjectUtilities,equal,126

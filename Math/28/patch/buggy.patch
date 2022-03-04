@@ -1,0 +1,31 @@
+diff --git a/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+index e07cfc5e5..a66629757 100644
+--- a/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
++++ b/src/main/java/org/apache/commons/math3/optimization/linear/SimplexTableau.java
+@@ -27,8 +27,6 @@ import java.util.HashSet;
+ import java.util.List;
+ import java.util.Set;
+ 
+-import odk.lang.FastMath;
+-
+ import org.apache.commons.math3.linear.Array2DRowRealMatrix;
+ import org.apache.commons.math3.linear.MatrixUtils;
+ import org.apache.commons.math3.linear.RealMatrix;
+@@ -458,14 +456,9 @@ class SimplexTableau implements Serializable {
+      */
+     protected void subtractRow(final int minuendRow, final int subtrahendRow,
+                                final double multiple) {
+-        for (int i = 0; i < getWidth(); i++) {
+-            double result = tableau.getEntry(minuendRow, i) - tableau.getEntry(subtrahendRow, i) * multiple;
+-            // cut-off values smaller than the CUTOFF_THRESHOLD, otherwise may lead to numerical instabilities
+-            if (FastMath.abs(result) < CUTOFF_THRESHOLD) {
+-                result = 0.0;
+-            }
+-            tableau.setEntry(minuendRow, i, result);
+-        }
++        tableau.setRowVector(minuendRow, tableau.getRowVector(minuendRow)
++            .subtract(tableau.getRowVector(subtrahendRow).mapMultiply(multiple)));
++
+     }
+ 
+     /**
