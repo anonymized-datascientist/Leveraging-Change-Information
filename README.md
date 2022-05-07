@@ -1,4 +1,4 @@
-ASE #396 How Useful is Code Change Information for Fault Localization in Continuous Integrating?
+ASE #396 How Useful is Code Change Information for Fault Localization in Continuous Integration?
 
 Leveraging-Change-Information is a fault dataset that contains 193 real world faults with the goal of studying fault localization in the CI context.
 
