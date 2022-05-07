@@ -1,1 +1,1 @@
-ASE #396 Leveraging Change Information to Improve Fault Localization in Continuous Integration
+ASE #396 How Useful is Code Change Information for Fault Localization in Continuous Integrating?
